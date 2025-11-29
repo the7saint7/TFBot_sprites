@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Sakajou
+name_color: '#817586'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

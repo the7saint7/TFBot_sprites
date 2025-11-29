@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Jenna
+name_color: '#7a434b'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

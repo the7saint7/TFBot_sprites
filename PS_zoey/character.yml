@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Zoey
+name_color: '#eccf9a'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

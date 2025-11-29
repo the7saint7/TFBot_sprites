@@ -1,0 +1,7 @@
+default_outfit: casual2
+name: Mori
+name_color: '#726177'
+poses:
+  a:
+    facing: right
+scale: 1.15

@@ -1,0 +1,11 @@
+default_outfit: uniform
+name: Eliza
+name_color: '#ffdea4'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 1.15

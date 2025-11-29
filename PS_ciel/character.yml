@@ -1,0 +1,11 @@
+default_outfit: maid
+name: Ciel
+name_color: '#623d3d'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 1.15

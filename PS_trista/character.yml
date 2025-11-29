@@ -1,0 +1,9 @@
+default_outfit: maid
+name: Trista
+name_color: '#d5a479'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

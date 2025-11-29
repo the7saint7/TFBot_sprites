@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Nelson
+name_color: '#91766e'
+poses:
+  a:
+    facing: right
+scale: 1.15

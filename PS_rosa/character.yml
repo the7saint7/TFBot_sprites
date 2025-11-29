@@ -1,0 +1,7 @@
+default_outfit: casual2
+name: Rosa
+name_color: '#ac837c'
+poses:
+  a:
+    facing: right
+scale: 1.15

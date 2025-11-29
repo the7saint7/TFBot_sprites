@@ -1,0 +1,7 @@
+default_outfit: casual2
+name: Tessa
+name_color: '#ecd194'
+poses:
+  a:
+    facing: right
+scale: 1.15

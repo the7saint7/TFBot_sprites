@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Tristen
+name_color: '#cfa985'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

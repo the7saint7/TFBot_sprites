@@ -1,0 +1,7 @@
+default_outfit: casual2
+name: Valerie
+name_color: '#a37da4'
+poses:
+  a:
+    facing: right
+scale: 1.15

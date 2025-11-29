@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Kenichi
+name_color: '#657296'
+poses:
+  a:
+    facing: right
+scale: 1.15

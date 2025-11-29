@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Mika
+name_color: '#3287cb'
+poses:
+  a:
+    facing: right
+scale: 1.15

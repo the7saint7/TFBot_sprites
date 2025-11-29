@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Arelia
+name_color: '#7c584c'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

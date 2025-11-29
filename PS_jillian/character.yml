@@ -1,0 +1,9 @@
+default_outfit: maid2
+name: Jillian
+name_color: '#babedb'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

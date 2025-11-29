@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Olivian
+name_color: '#c8ae98'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

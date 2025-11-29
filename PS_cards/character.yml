@@ -1,0 +1,25 @@
+default_outfit: base
+name: Cards
+name_color: '#c8d2ee'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+  d:
+    facing: right
+  e:
+    facing: right
+  f:
+    facing: right
+  g:
+    facing: right
+  h:
+    facing: right
+  i:
+    facing: right
+  j:
+    facing: right
+scale: 1.15

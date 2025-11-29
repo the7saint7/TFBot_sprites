@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Kayla
+name_color: '#fdb3c1'
+poses:
+  a:
+    facing: right
+scale: 1.15

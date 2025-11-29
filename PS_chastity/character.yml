@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Chastity
+name_color: '#c83245'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

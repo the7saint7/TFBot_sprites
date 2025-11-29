@@ -1,0 +1,9 @@
+default_outfit: casual2
+name: Reina
+name_color: '#ff9ab0'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

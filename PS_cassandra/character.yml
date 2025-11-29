@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Cassandra
+name_color: '#d4eaf7'
+poses:
+  a:
+    facing: right
+scale: 1.15

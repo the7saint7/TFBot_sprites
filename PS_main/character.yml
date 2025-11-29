@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Main
+name_color: '#505cf1'
+poses:
+  a:
+    facing: right
+scale: 1.15

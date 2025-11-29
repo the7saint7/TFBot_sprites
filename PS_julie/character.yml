@@ -1,0 +1,7 @@
+default_outfit: suit2
+name: Julie
+name_color: '#d37777'
+poses:
+  a:
+    facing: right
+scale: 1.15

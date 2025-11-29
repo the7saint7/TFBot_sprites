@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Will
+name_color: '#d5c9c2'
+poses:
+  a:
+    facing: right
+scale: 1.15

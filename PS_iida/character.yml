@@ -1,0 +1,9 @@
+default_outfit: casual2
+name: Iida
+name_color: '#bf7e74'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

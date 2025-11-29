@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Jaina
+name_color: '#defffb'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

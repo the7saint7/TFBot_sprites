@@ -1,0 +1,11 @@
+default_outfit: uniform
+name: Erin
+name_color: '#a188b6'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 1.15

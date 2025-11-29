@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Miya
+name_color: '#578de7'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

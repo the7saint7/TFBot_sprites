@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Donald
+name_color: '#525c60'
+poses:
+  a:
+    facing: right
+scale: 1.15

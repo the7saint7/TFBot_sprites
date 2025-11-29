@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Megan
+name_color: '#e5ddc7'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

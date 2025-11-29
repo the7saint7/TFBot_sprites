@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Waitress
+name_color: '#e65fac'
+poses:
+  a:
+    facing: right
+scale: 1.15

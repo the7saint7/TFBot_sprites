@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Hillary
+name_color: '#fdc363'
+poses:
+  a:
+    facing: right
+scale: 1.15

@@ -1,0 +1,11 @@
+default_outfit: labcoat
+name: Nurse
+name_color: '#a38e4a'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 1.15

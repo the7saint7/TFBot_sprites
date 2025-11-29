@@ -1,0 +1,11 @@
+default_outfit: uniform
+name: Karyn
+name_color: '#8bd4a8'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 1.15

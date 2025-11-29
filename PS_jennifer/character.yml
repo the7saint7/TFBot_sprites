@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Jennifer
+name_color: '#ab9ec7'
+poses:
+  a:
+    facing: right
+scale: 1.15

@@ -1,0 +1,8 @@
+default_outfit: casual
+name: Sadiya
+name_color: '#968775'
+overlay: mouth
+poses:
+  a:
+    facing: right
+scale: 1.15

@@ -1,0 +1,9 @@
+default_outfit: labcoat
+name: Candice
+name_color: '#c8d2ee'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Howard
+name_color: '#b8b1bd'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

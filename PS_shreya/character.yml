@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Shreya
+name_color: '#dad0c5'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

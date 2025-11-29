@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Dilbert
+name_color: '#a69b6d'
+poses:
+  a:
+    facing: right
+scale: 1.15

@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Melina
+name_color: '#567171'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Megumi
+name_color: '#5c90cc'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

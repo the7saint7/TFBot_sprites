@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Aprika
+name_color: '#c7d9f1'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

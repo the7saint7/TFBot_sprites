@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Betty
+name_color: '#745b9f'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

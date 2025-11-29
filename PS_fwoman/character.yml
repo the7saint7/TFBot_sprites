@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Fwoman
+name_color: '#578de7'
+poses:
+  a:
+    facing: right
+scale: 1.15

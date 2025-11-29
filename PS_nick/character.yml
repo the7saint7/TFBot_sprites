@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Nick
+name_color: '#595b60'
+poses:
+  a:
+    facing: right
+scale: 1.15

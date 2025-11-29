@@ -1,0 +1,9 @@
+default_outfit: maid
+name: Ruby
+name_color: '#ff9e5d'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

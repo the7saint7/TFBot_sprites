@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Scarlet
+name_color: '#be3166'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

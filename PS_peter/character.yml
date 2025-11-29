@@ -1,0 +1,7 @@
+default_outfit: casual
+name: Peter
+name_color: '#987747'
+poses:
+  a:
+    facing: right
+scale: 1.15

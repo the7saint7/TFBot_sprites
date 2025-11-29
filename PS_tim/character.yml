@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Tim
+name_color: '#798773'
+poses:
+  a:
+    facing: right
+scale: 1.15

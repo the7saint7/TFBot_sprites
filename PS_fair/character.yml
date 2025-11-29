@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Fair
+name_color: '#5e2a14'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

@@ -1,0 +1,11 @@
+default_outfit: uniform
+name: Vanessa
+name_color: '#fdafb1'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 1.15

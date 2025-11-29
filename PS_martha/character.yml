@@ -1,0 +1,11 @@
+default_outfit: casual
+name: Martha
+name_color: '#f5dcb3'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 1.15

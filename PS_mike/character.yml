@@ -1,0 +1,7 @@
+default_outfit: uniform
+name: Mike
+name_color: '#a86c62'
+poses:
+  a:
+    facing: right
+scale: 1.15

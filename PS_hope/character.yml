@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Hope
+name_color: '#a5dca4'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

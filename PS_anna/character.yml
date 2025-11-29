@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Anna
+name_color: '#e49fbc'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

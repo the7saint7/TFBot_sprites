@@ -1,0 +1,8 @@
+default_outfit: uniform
+name: Tracy
+name_color: '#f1d0a1'
+overlay: mouth
+poses:
+  a:
+    facing: right
+scale: 1.15

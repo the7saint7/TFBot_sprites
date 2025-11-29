@@ -1,0 +1,9 @@
+default_outfit: suit2
+name: Mother
+name_color: '#c9373f'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

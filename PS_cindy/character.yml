@@ -1,0 +1,9 @@
+default_outfit: casual
+name: Cindy
+name_color: '#4b779a'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15

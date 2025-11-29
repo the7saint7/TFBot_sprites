@@ -1,0 +1,9 @@
+default_outfit: uniform
+name: Nicole
+name_color: '#546e9e'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 1.15
