@@ -1,0 +1,10 @@
+display_name: "Katrina"
+name_color: "#d17554"
+voice: "girl"
+scale: 1.5
+poses:
+  a:
+    facing: "right"
+default_outfit: "monkey"
+game: "Made in Stable Diffusion by The7Saint7"
+

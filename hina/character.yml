@@ -1,0 +1,9 @@
+game: Missing-X-Link ~Ten no Yurikago, Togi no Hana~
+name: Hina
+name_color: '#769783'
+poses:
+  b:
+    facing: right
+  c:
+    facing: right
+scale: 0.38

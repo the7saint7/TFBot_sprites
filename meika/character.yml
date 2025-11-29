@@ -1,0 +1,14 @@
+default_outfit: casual
+display_name: Meika
+eye_line: 0.0
+game: Boku no Amayaka Seikatsu -Seishou-chou Kankouka, Mainichi Ecchi na Locodol Katsudou!-
+name_color: '#b9989b'
+poses:
+  a:
+    center_width: 184
+  b:
+    center_width: 184
+  c:
+    center_width: 184
+scale: 1.0
+voice: woman

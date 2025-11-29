@@ -1,0 +1,20 @@
+display_name: "Jacky Mallory"
+name_color: "#786f67"
+voice: "girl"
+scale: .75
+default_outfit: "suit"
+poses:
+  a:
+    facing: right
+    image_height: 900
+  b:
+    facing: right
+    image_height: 900
+  c:
+    facing: right
+    image_height: 900
+  d:
+    facing: right
+    image_height: 900
+game: "[GLASSES] Megasuki! ~Kanojo to Boku no Megane Jijou~ Toono Shiori Hen"
+

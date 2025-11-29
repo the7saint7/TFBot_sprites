@@ -1,0 +1,8 @@
+name: "Juri"
+name_color: "#676c86"
+voice: "girl"
+scale: .95
+poses:
+  a:
+    facing: "right"
+game: "Toriko no Kizuna ~Ubawareta Gakuen ni Hibiku Shojo no Aegi~"

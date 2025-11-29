@@ -1,0 +1,13 @@
+name_color: '#726b94'
+poses:
+  a:
+    facing: right
+    excludes:
+      choker:
+        - uniform
+  b:
+    excludes:
+      choker:
+        - uniform
+  c:
+    facing: right

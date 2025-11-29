@@ -1,0 +1,9 @@
+name_color: '#b1a9c6'
+poses:
+  a:
+    center_width: 155
+  b:
+    center_width: 270
+    facing: right
+scale: 1.1
+voice: johnGB

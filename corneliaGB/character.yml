@@ -1,0 +1,8 @@
+display_name: "Cornelia"
+name_color: '#fbca86'
+poses:
+  b:
+    facing: right
+scale: 0.9
+voice: male
+

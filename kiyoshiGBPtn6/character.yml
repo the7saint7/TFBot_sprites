@@ -1,0 +1,14 @@
+display_name: "Marin"
+name_color: "#8b7dba"
+voice: "girl"
+scale: .55
+default_outfit: "casual"
+poses:
+  a:
+    facing: "right"
+  b:
+    facing: "right"
+  c:
+    facing: "right"
+game: "Enkou Shoujo 2 ~JK Idol Marin no Baai~"
+

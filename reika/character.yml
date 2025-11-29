@@ -1,0 +1,10 @@
+display_name: "Reika"
+name_color: "#76bbe7"
+voice: "girl"
+scale: 0.85
+poses:
+  a:
+    facing: "left"
+default_outfit: "casual"
+game: "Heroine wa Tomodachi Desu ka? Koibito Desu ka? Soretomo"
+

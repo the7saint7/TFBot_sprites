@@ -1,0 +1,10 @@
+display_name: "Hinano"
+name_color: "#55565e"
+voice: "girl"
+scale: 0.9
+poses:
+  a:
+    facing: "right"
+default_outfit: "casual"
+game: "Heroine wa Tomodachi Desu ka? Koibito Desu ka? Soretomo"
+

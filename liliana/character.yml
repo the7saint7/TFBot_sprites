@@ -1,0 +1,14 @@
+display_name: "Liliana"
+name_color: "#748397"
+voice: "girl"
+scale: 0.80
+default_outfit: "casual"
+poses:
+  a:
+    facing: "right"
+    center_width: 180
+poses:
+  b:
+    center_width: 207
+game: "Stable Diffusion"
+

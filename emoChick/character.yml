@@ -1,0 +1,17 @@
+display_name: "Azuki"
+name_color: "#66a28b"
+voice: "girl"
+scale: .86
+default_outfit: "casual"
+poses:
+  a:
+    facing: "left"
+    image_height: 775
+  b:
+    facing: "left"
+    image_height: 775
+  c:
+    facing: "left"
+    image_height: 775
+game: "Hakuchuumu no Aojashin"
+

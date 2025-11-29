@@ -1,0 +1,10 @@
+display_name: "Joey"
+name_color: "#eed25d"
+voice: "male"
+scale: .70
+default_outfit: "uniform"
+poses:
+  a:
+    facing: right
+game: "Hanikami Clover"
+

@@ -1,0 +1,11 @@
+default_outfit: dress
+display_name: Hitomi
+game: Reika no Yakata _Saimin Yuugi e no Shoutaijou_
+name_color: '#555dbc'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 0.95
+voice: woman
