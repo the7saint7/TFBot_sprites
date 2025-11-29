@@ -25,8 +25,8 @@ def delete_path(path: Path, dry_run: bool) -> None:
         path.unlink(missing_ok=True)
 
 
-def keep_first_face(face_dir: Path, dry_run: bool) -> Tuple[int, int]:
-    files = sorted([p for p in face_dir.iterdir() if p.is_file()], key=lambda p: p.name.lower())
+def keep_first_file(paths: Iterable[Path], dry_run: bool) -> Tuple[int, int]:
+    files = sorted([p for p in paths if p.is_file()], key=lambda p: p.name.lower())
     if not files:
         return 0, 0
     kept = files[0]
@@ -37,6 +37,25 @@ def keep_first_face(face_dir: Path, dry_run: bool) -> Tuple[int, int]:
         action = "DRY-RUN keep" if dry_run else "Keeping"
         print(f"{action} {kept} and removed {len(removed)} others")
     return 1, len(removed)
+
+
+def clean_face_subfolders(face_dir: Path, dry_run: bool) -> Tuple[int, int]:
+    files_removed = 0
+    directories_pruned = 0
+    # Handle PNGs directly inside "face"
+    _, removed = keep_first_file(face_dir.iterdir(), dry_run)
+    files_removed += removed
+
+    # Now handle nested folders (like variants inside face/)
+    for child in face_dir.iterdir():
+        if child.is_dir():
+            _, removed_nested = keep_first_file(child.iterdir(), dry_run)
+            files_removed += removed_nested
+            # Remove the subfolder entirely if we deleted files inside it
+            if removed_nested > 0:
+                delete_path(child, dry_run)
+                directories_pruned += 1
+    return directories_pruned, files_removed
 
 
 def purge_extra_face_variants(faces_dir: Path, dry_run: bool) -> Tuple[int, int]:
@@ -51,8 +70,8 @@ def purge_extra_face_variants(faces_dir: Path, dry_run: bool) -> Tuple[int, int]
             pruned_dirs += 1
     if kept_face_dir is None:
         return pruned_dirs, 0
-    _, removed_files = keep_first_face(kept_face_dir, dry_run)
-    return pruned_dirs, removed_files
+    extra_dirs, removed_files = clean_face_subfolders(kept_face_dir, dry_run)
+    return pruned_dirs + extra_dirs, removed_files
 
 
 def run(characters_path: Path, dry_run: bool) -> None:
