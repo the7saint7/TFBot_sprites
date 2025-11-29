@@ -1,0 +1,8 @@
+default_outfit: casual
+display_name: Akari
+name_color: '#8e796c'
+eye_line: 0.0
+poses:
+  a:
+    facing: right
+scale: 0.91

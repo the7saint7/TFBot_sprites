@@ -1,0 +1,14 @@
+default_outfit: uniform
+display_name: Katsumi
+eye_line: 0.0
+name_color: '#a66778'
+poses:
+  a:
+    center_width: 204
+    image_height: 670
+  b:
+    center_width: 204
+    facing: right
+    image_height: 670
+scale: 0.97
+voice: woman

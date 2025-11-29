@@ -1,0 +1,8 @@
+default_outfit: uniform
+display_name: Abby Luten
+name_color: '#6e7771'
+poses:
+  a:
+    facing: right
+scale: 0.9
+

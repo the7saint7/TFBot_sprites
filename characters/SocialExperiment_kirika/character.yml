@@ -1,0 +1,11 @@
+default_outfit: casual
+display_name: Kirika
+eye_line: 0.0
+name_color: '#846a97'
+poses:
+  a:
+    center_width: 240
+  b:
+    center_width: 240
+scale: 0.88
+voice: woman

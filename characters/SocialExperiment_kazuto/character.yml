@@ -1,0 +1,10 @@
+default_outfit: necktie
+display_name: Kazuto
+eye_line: 0.0
+name_color: '#524c4c'
+poses:
+  a:
+    center_width: 165
+    facing: right
+scale: 1.0
+voice: deep

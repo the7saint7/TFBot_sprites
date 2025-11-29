@@ -1,0 +1,5 @@
+name_color: '#f0979d'
+poses:
+  a:
+    facing: right
+scale: 0.8

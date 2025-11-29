@@ -1,0 +1,11 @@
+{
+	"name_color": "#4faab3",
+	"voice": "woman",
+	"default_outfit": "suit",
+	"scale": 0.9,
+	"poses": {
+		"a": {
+			"facing": "right"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "display_name": "Noire",
+    "name_color": "#7e65a9",
+    "scale": 0.98,
+    "voice": "woman",
+    "default_outfit": "suit",
+    "eye_line": 0.0,
+	"poses": {
+        "a": {
+            "center_width": 185
+        },
+        "b": {
+            "center_width": 163
+        }
+	}
+}

@@ -1,0 +1,13 @@
+default_outfit: suit
+display_name: Risako
+eye_line: 0.0
+name_color: '#5b62af'
+poses:
+  a:
+    center_width: 240
+    facing: right
+  b:
+    center_width: 240
+    facing: right
+scale: 0.91
+voice: deep

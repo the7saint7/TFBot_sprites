@@ -1,0 +1,11 @@
+default_outfit: suit
+display_name: Noire
+eye_line: 0.0
+name_color: '#7e65a9'
+poses:
+  a:
+    center_width: 185
+  b:
+    center_width: 163
+scale: 0.98
+voice: woman

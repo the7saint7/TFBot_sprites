@@ -1,0 +1,7 @@
+display_name: Avae
+name_color: '#ba4cb0'
+poses:
+  a:
+    facing: right
+scale: 0.8
+voice: woman

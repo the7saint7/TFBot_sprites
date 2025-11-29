@@ -1,0 +1,10 @@
+default_outfit: uniform
+display_name: Marissa
+eye_line: 0.0
+name_color: '#eac7a7'
+poses:
+  a:
+    center_width: 240
+    facing: right
+scale: 1.0
+voice: woman

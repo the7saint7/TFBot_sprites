@@ -1,0 +1,10 @@
+eye_line: 0.15
+name: John
+name_color: '#7d7c83'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 0.95
+voice: john

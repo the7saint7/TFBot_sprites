@@ -1,0 +1,16 @@
+default_outfit: suit
+display_name: Kisaragi
+eye_line: 0.0
+name_color: '#3c4044'
+poses:
+  a:
+    center_width: 253
+    facing: right
+  b:
+    center_width: 253
+    facing: right
+  c:
+    center_width: 253
+    facing: right
+scale: 0.92
+voice: woman

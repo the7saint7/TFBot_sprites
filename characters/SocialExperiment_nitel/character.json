@@ -1,0 +1,11 @@
+{
+	"display_name": "Nitel",
+	"name_color": "#4e4cba",
+	"voice": "woman",
+	"scale": 0.8,
+	"poses": {
+		"a": {
+			"facing": "right"
+		}
+	}
+}
