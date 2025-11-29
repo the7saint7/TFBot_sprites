@@ -17,4 +17,6 @@ python tools/face_fixer.py             # actually delete redundant faces
 
 By default the script targets the repository’s `characters/` directory, but you can pass a custom path if needed. Always start with `--dry-run` to verify the changes before deleting files.
 
+### Social Experiment Sprites
+
 Social Experiment Sprites are named for their head_body, example SocialExperiment_abby_cornelia is Abbys head on Cornelias body, this was done so it could be tracked in cases of multipull HeadSwaps for a character or to assist in generating message text.
