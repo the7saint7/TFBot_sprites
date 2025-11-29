@@ -1,7 +1,0 @@
-default_outfit: casual
-name: Alma
-name_color: '#6b5c52'
-poses:
-  a:
-    facing: right
-scale: 1.15
