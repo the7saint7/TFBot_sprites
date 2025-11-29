@@ -1,0 +1,9 @@
+display_name: "John"
+default_outfit: "casual"
+name_color: '#7d7c83'
+scale: 0.6
+voice: johnGB
+poses:
+  a:
+    facing: right
+    image_height: 1100

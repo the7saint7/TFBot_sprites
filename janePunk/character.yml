@@ -1,0 +1,10 @@
+default_outfit: punk
+display_name: Jane
+name_color: '#7d7c83'
+scale: 0.78
+voice: girl
+poses:
+  a:
+    facing: left
+    image_height: 775
+game: "Made by The7Saint7 in Stable Diffusion."

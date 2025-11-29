@@ -1,0 +1,10 @@
+display_name: "Jori (Fusion)"
+default_outfit: "uniform"
+name_color: '#CCC6BB'
+scale: 0.9
+voice: johnGB
+poses:
+  a:
+    facing: left
+  b:
+    facing: left

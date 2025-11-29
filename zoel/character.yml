@@ -1,0 +1,7 @@
+display_name: "Zoel"
+name_color: '#D2DEB4'
+poses:
+  a:
+    facing: right
+scale: 0.48
+voice: woman

@@ -1,0 +1,7 @@
+display_name: "Riley/Gabriel"
+name_color: '#4d3859'
+scale: .45
+poses:
+  a:
+    facing: left
+voice: male

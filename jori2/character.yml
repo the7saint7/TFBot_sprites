@@ -1,0 +1,8 @@
+display_name: "John + Tori headswap (Fusion)"
+default_outfit: "uniform"
+name_color: '#ddd7c7'
+scale: 0.9
+voice: tomboy
+poses:
+  a:
+    facing: left

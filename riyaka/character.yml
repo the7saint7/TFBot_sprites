@@ -1,0 +1,7 @@
+display_name: "Riyaka"
+name_color: '#f8b5ae'
+poses:
+  a:
+    facing: left
+scale: 0.48
+voice: woman

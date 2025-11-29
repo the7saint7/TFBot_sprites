@@ -1,0 +1,9 @@
+eye_line: 0.08
+name_color: '#d17554'
+name: "Catrina"
+poses:
+  b:
+    facing: right
+    center_width: 200
+scale: 0.9
+voice: tomboy

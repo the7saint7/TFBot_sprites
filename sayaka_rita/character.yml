@@ -1,0 +1,7 @@
+display_name: "Ri-Sa"
+name_color: '#f8b5ae'
+poses:
+  a:
+    facing: left
+scale: 0.48
+voice: woman

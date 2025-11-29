@@ -1,0 +1,14 @@
+default_outfit: red
+display_name: Syn
+eye_line: 0.0
+name_color: '#df0101'
+poses:
+  a:
+    face: left
+    center_width: 370
+  b:
+    face: left
+    center_width: 370
+    image_width: 854
+scale: 0.9
+voice: girl

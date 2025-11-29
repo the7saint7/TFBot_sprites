@@ -1,0 +1,16 @@
+default_outfit: uniform
+display_name: Youko
+eye_line: 0.0
+name_color: '#c09979'
+poses:
+  a:
+    center_width: 290
+  kat_a:
+    center_width: 294
+    facing: "left"
+  kat_b:
+    center_width: 310
+    facing: "right"
+scale: 0.87
+voice: woman
+game: "Bitch na Ano Ko ni Seikatsu Shidou! JK Bitch★Hame Pako School Life"

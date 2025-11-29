@@ -1,0 +1,7 @@
+display_name: "Eric/Brad"
+name_color: '#f6d19b'
+poses:
+  a:
+    facing: left
+scale: 0.54
+voice: male

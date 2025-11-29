@@ -1,0 +1,7 @@
+display_name: "Katrina/Kyoko"
+name_color: '#aa5a52'
+poses:
+  a:
+    facing: right
+scale: 0.48
+voice: tomboy

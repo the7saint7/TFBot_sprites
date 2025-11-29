@@ -1,0 +1,7 @@
+display_name: "Flavia/Yui"
+name_color: '#f5ad68'
+poses:
+  a:
+    facing: left
+scale: 0.50
+voice: woman

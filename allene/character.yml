@@ -1,0 +1,7 @@
+display_name: "Allene"
+name_color: '#8789f2'
+poses:
+  a:
+    facing: right
+scale: 0.52
+voice: woman

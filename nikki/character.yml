@@ -1,0 +1,15 @@
+default_outfit: uniform
+display_name: Nikki
+name_color: '#673c78'
+scale: 0.76
+voice: girl
+poses:
+  a:
+    facing: left
+    image_height: 875
+    center_width: 267
+  b:
+    facing: left
+    image_height: 875
+    center_width: 275
+game: "Create by TheSaint with Stable Diffusion"

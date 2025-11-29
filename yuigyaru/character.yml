@@ -1,0 +1,7 @@
+display_name: "Yui"
+name_color: '#77569c'
+poses:
+  a:
+    facing: left
+    image_height: 800
+scale: 0.6
