@@ -482,6 +482,286 @@ TF_CHARACTERS = [
 
 
 
+##Social Experiment
+
+    {
+        "name": "Abby Luten (Social Experiment)",
+        "avatar_path": "avatars/SE_abby_cornelia",
+        "message": "",
+    },
+    {
+        "name": "Akari (Social Experiment)",
+        "avatar_path": "avatars/SE_akari",
+        "message": "",
+    },
+    {
+        "name": "Alex Hawkins (Social Experiment)",
+        "avatar_path": "avatars/SE_alex_bouncer",
+        "message": "",
+    },
+    {
+        "name": "Amy (Social Experiment)",
+        "avatar_path": "avatars/SE_amy_yuuna",
+        "message": "",
+    },
+    {
+        "name": "Avae (Social Experiment)",
+        "avatar_path": "avatars/SE_avae",
+        "message": "",
+    },
+    {
+        "name": "Brad Chambers (Social Experiment)",
+        "avatar_path": "avatars/SE_brad_kiyoshi",
+        "message": "",
+    },
+    {
+        "name": "Carrie (Social Experiment)",
+        "avatar_path": "avatars/SE_carrie_jack",
+        "message": "",
+    },
+    {
+        "name": "Carrie (Social Experiment)",
+        "avatar_path": "avatars/SE_carrieuniform",
+        "message": "",
+    },
+    {
+        "name": "Claus Hawkins (Social Experiment)",
+        "avatar_path": "avatars/SE_claus_michelle",
+        "message": "",
+    },
+    {
+        "name": "Connie Williams (Social Experiment)",
+        "avatar_path": "avatars/SE_connie_kyoko",
+        "message": "",
+    },
+    {
+        "name": "Cornelia Roberts (Social Experiment)",
+        "avatar_path": "avatars/SE_cornelia_abby",
+        "message": "",
+    },
+    {
+        "name": "Emily Brooks (Social Experiment)",
+        "avatar_path": "avatars/SE_emily_leona",
+        "message": "",
+    },
+    {
+        "name": "Eric Tyner (Social Experiment)",
+        "avatar_path": "avatars/SE_eric_maria",
+        "message": "",
+    },
+    {
+        "name": "Flavia Lucca (Social Experiment)",
+        "avatar_path": "avatars/SE_flavia_mel",
+        "message": "",
+    },
+    {
+        "name": "Holly Davis (Social Experiment)",
+        "avatar_path": "avatars/SE_holly_sandra",
+        "message": "",
+    },
+    {
+        "name": "Irene Virelles (Social Experiment)",
+        "avatar_path": "avatars/SE_irene_laura",
+        "message": "",
+    },
+    {
+        "name": "Isabelle (Social Experiment)",
+        "avatar_path": "avatars/SE_isabelle_maurice",
+        "message": "",
+    },
+    {
+        "name": "Jack Mallory (Social Experiment)",
+        "avatar_path": "avatars/SE_jack_carrie",
+        "message": "",
+    },
+    {
+        "name": "John Davis (Social Experiment)",
+        "avatar_path": "avatars/SE_john_katrina",
+        "message": "",
+    },
+    {
+        "name": "John Davis (Social Experiment)",
+        "avatar_path": "avatars/SE_johnGB1",
+        "message": "",
+    },
+    {
+        "name": "John Davis (Social Experiment)",
+        "avatar_path": "avatars/SE_johnGB2",
+        "message": "",
+    },
+    {
+        "name": "Katrina Morgan (Social Experiment)",
+        "avatar_path": "avatars/SE_katrina_john",
+        "message": "",
+    },
+    {
+        "name": "Katrina Morgan (Social Experiment)",
+        "avatar_path": "avatars/SE_katrinastalker",
+        "message": "",
+    },
+    {
+        "name": "Katsumi (Social Experiment)",
+        "avatar_path": "avatars/SE_katsumi",
+        "message": "",
+    },
+    {
+        "name": "Kazuto (Social Experiment)",
+        "avatar_path": "avatars/SE_kazuto",
+        "message": "",
+    },
+    {
+        "name": "Kirika (Social Experiment)",
+        "avatar_path": "avatars/SE_kirika",
+        "message": "",
+    },
+    {
+        "name": "Kisaragi (Social Experiment)",
+        "avatar_path": "avatars/SE_kisaragi",
+        "message": "",
+    },
+    {
+        "name": "Kiyoshi Honda (Social Experiment)",
+        "avatar_path": "avatars/SE_kiyoshi_brad",
+        "message": "",
+    },
+    {
+        "name": "Kyoko (Social Experiment)",
+        "avatar_path": "avatars/SE_kyoko_connie",
+        "message": "",
+    },
+    {
+        "name": "Laura Morgan (Social Experiment)",
+        "avatar_path": "avatars/SE_laura_irene",
+        "message": "",
+    },
+    {
+        "name": "Leona Winters (Social Experiment)",
+        "avatar_path": "avatars/SE_leona_emily",
+        "message": "",
+    },
+    {
+        "name": "Maria Grandales (Social Experiment)",
+        "avatar_path": "avatars/SE_maria_eric",
+        "message": "",
+    },
+    {
+        "name": "Marissa (Social Experiment)",
+        "avatar_path": "avatars/SE_marissa",
+        "message": "",
+    },
+    {
+        "name": "Maurice Honda (Social Experiment)",
+        "avatar_path": "avatars/SE_maurice_isabelle",
+        "message": "",
+    },
+    {
+        "name": "Mel (Social Experiment)",
+        "avatar_path": "avatars/SE_mel_flavia",
+        "message": "",
+    },
+    {
+        "name": "Michelle Bloom (Social Experiment)",
+        "avatar_path": "avatars/SE_michelle_claus",
+        "message": "",
+    },
+    {
+        "name": "Mina Hubbard (Social Experiment)",
+        "avatar_path": "avatars/SE_mina_sayaka",
+        "message": "",
+    },
+    {
+        "name": "Nitel (Social Experiment)",
+        "avatar_path": "avatars/SE_nitel",
+        "message": "",
+    },
+    {
+        "name": "Noire (Social Experiment)",
+        "avatar_path": "avatars/SE_noire",
+        "message": "",
+    },
+    {
+        "name": "Paige (Social Experiment)",
+        "avatar_path": "avatars/SE_paige",
+        "message": "",
+    },
+    {
+        "name": "Phila Hubbard (Social Experiment)",
+        "avatar_path": "avatars/SE_phila_rita",
+        "message": "",
+    },
+    {
+        "name": "Rachel Clark (Social Experiment)",
+        "avatar_path": "avatars/SE_rachel_vanessa",
+        "message": "",
+    },
+    {
+        "name": "Risako (Social Experiment)",
+        "avatar_path": "avatars/SE_risako",
+        "message": "",
+    },
+    {
+        "name": "Rita Piper (Social Experiment)",
+        "avatar_path": "avatars/SE_rita_phila",
+        "message": "",
+    },
+    {
+        "name": "Saeko (Social Experiment)",
+        "avatar_path": "avatars/SE_saeko",
+        "message": "",
+    },
+    {
+        "name": "Sandra Davis (Social Experiment)",
+        "avatar_path": "avatars/SE_sandra_holly",
+        "message": "",
+    },
+    {
+        "name": "Sayaka Sato (Social Experiment)",
+        "avatar_path": "avatars/SE_sayaka_bp",
+        "message": "",
+    },
+    {
+        "name": "Sayaka Sato (Social Experiment)",
+        "avatar_path": "avatars/SE_sayaka_mina",
+        "message": "",
+    },
+    {
+        "name": "Stephani (Social Experiment)",
+        "avatar_path": "avatars/SE_stephani",
+        "message": "",
+    },
+    {
+        "name": "Tori Vega (Social Experiment)",
+        "avatar_path": "avatars/SE_tori_zoey",
+        "message": "",
+    },
+    {
+        "name": "Valerie (Social Experiment)",
+        "avatar_path": "avatars/SE_valerie",
+        "message": "",
+    },
+    {
+        "name": "Vanessa Russell (Social Experiment)",
+        "avatar_path": "avatars/SE_vanessa_rachel",
+        "message": "",
+    },
+    {
+        "name": "Xell (Social Experiment)",
+        "avatar_path": "avatars/SE_xell",
+        "message": "",
+    },
+    {
+        "name": "Yuuna Yamashita (Social Experiment)",
+        "avatar_path": "avatars/SE_yuuna_amy",
+        "message": "",
+    },
+    {
+        "name": "Zoey (Social Experiment)",
+        "avatar_path": "avatars/SE_zoey_tori",
+        "message": "",
+    },
+
+
+
 ##Press-Switch
 
 
