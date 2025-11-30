@@ -1,0 +1,9 @@
+name_color: "#5f9b26"
+default_outfit: uniform
+display_name: "Zenno Rob Roy"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

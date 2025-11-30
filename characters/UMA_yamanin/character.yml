@@ -1,0 +1,9 @@
+name_color: "#5192c1"
+default_outfit: uniform
+display_name: "Yamanin Zephyr"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#6ac43c"
+default_outfit: uniform
+display_name: "Jungle Pocket"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

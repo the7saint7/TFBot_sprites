@@ -1,0 +1,9 @@
+name_color: "#dfc8e7"
+default_outfit: uniform
+display_name: "Mejiro McQueen"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

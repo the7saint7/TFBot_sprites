@@ -1,0 +1,9 @@
+name_color: "#215a95"
+default_outfit: uniform
+display_name: "Venus Paques"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

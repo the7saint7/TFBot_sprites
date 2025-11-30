@@ -1,0 +1,9 @@
+name_color: "#3dc3c2"
+default_outfit: uniform
+display_name: "Samson Big"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

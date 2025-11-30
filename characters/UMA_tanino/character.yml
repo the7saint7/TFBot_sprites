@@ -1,0 +1,9 @@
+name_color: "#dab610"
+default_outfit: uniform
+display_name: "Tanino Gimlet"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

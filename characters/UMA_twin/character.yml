@@ -1,0 +1,9 @@
+name_color: "#1985d2"
+default_outfit: uniform
+display_name: "Twin Turbo"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

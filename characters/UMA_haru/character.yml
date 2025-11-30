@@ -1,0 +1,9 @@
+name_color: "#fa7395"
+default_outfit: uniform
+display_name: "Haru Urara"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#fa83cb"
+default_outfit: uniform
+display_name: "Sakura Chitose O"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

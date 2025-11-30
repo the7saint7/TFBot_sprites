@@ -1,0 +1,9 @@
+name_color: "#0a3874"
+default_outfit: uniform
+display_name: "Cesario"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#e5bd00"
+default_outfit: uniform
+display_name: "Bubble Gum Fellow"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#8f4dac"
+default_outfit: uniform
+display_name: "Tsurumaru Tsuyoshi"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

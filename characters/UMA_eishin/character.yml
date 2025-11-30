@@ -1,0 +1,9 @@
+name_color: "#3d3b3a"
+default_outfit: uniform
+display_name: "Eishin Flash"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

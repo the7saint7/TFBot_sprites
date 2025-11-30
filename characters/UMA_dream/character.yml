@@ -1,0 +1,9 @@
+name_color: "#332d1f"
+default_outfit: uniform
+display_name: "Dream Journey"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

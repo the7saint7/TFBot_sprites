@@ -1,0 +1,9 @@
+name_color: "#f9879d"
+default_outfit: uniform
+display_name: "Sakura Chiyono O"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

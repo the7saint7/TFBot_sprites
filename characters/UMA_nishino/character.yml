@@ -1,0 +1,9 @@
+name_color: "#e26ecb"
+default_outfit: uniform
+display_name: "Nishino Flower"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

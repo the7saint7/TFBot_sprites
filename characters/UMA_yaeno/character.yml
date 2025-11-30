@@ -1,0 +1,9 @@
+name_color: "#da483a"
+default_outfit: uniform
+display_name: "Yaeno Muteki"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

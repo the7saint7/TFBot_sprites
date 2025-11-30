@@ -1,0 +1,9 @@
+name_color: "#f271c4"
+default_outfit: uniform
+display_name: "T.M. Opera O"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

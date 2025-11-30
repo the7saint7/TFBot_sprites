@@ -1,0 +1,9 @@
+name_color: "#208bcd"
+default_outfit: uniform
+display_name: "Hishi Akebono"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

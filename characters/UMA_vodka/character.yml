@@ -1,0 +1,9 @@
+name_color: "#d4c200"
+default_outfit: uniform
+display_name: "Vodka"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#cddee0"
+default_outfit: uniform
+display_name: "Hokko Tarumae"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

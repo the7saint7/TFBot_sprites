@@ -1,0 +1,9 @@
+name_color: "#f8a717"
+default_outfit: uniform
+display_name: "Matikanefukukitaru"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

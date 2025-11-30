@@ -1,0 +1,9 @@
+name_color: "#27c79c"
+default_outfit: uniform
+display_name: "Mejiro Palmer"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

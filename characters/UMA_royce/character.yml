@@ -1,0 +1,9 @@
+name_color: "#cc382e"
+default_outfit: uniform
+display_name: "Royce and Royce"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

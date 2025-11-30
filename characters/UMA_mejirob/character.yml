@@ -1,0 +1,9 @@
+name_color: "#9f5f54"
+default_outfit: uniform
+display_name: "Mejiro Bright"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

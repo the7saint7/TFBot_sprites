@@ -1,0 +1,9 @@
+name_color: "#3865a1"
+default_outfit: uniform
+display_name: "Admire Vega"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

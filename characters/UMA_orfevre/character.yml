@@ -1,0 +1,9 @@
+name_color: "#da7641"
+default_outfit: uniform
+display_name: "Orfevre"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

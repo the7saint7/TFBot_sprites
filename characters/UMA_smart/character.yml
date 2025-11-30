@@ -1,0 +1,9 @@
+name_color: "#f8587b"
+default_outfit: uniform
+display_name: "Smart Falcon"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#009cbd"
+default_outfit: uniform
+display_name: "Blast Onepiece"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

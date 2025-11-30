@@ -1,0 +1,9 @@
+name_color: "#4747cc"
+default_outfit: uniform
+display_name: "Verxina"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

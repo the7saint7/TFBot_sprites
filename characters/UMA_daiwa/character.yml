@@ -1,0 +1,9 @@
+name_color: "#e73472"
+default_outfit: uniform
+display_name: "Daiwa Scarlet"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

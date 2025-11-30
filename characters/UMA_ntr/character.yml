@@ -1,0 +1,9 @@
+name_color: "#ea5bc0"
+default_outfit: uniform
+display_name: "Narita Top Road"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

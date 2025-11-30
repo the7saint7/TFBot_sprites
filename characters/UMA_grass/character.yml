@@ -1,0 +1,9 @@
+name_color: "#3a34ac"
+default_outfit: uniform
+display_name: "Grass Wonder"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

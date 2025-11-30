@@ -1,0 +1,9 @@
+name_color: "#c70d37"
+default_outfit: uniform
+display_name: "Loves Only You"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

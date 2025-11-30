@@ -1,0 +1,9 @@
+name_color: "#1c7763"
+default_outfit: uniform
+display_name: "Symboli Rudolf"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

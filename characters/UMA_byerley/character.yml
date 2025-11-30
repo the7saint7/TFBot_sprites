@@ -1,0 +1,9 @@
+name_color: "#bba61d"
+default_outfit: uniform
+display_name: "Byerley Turk"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

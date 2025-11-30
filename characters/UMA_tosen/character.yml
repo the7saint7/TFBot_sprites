@@ -1,0 +1,9 @@
+name_color: "#1c57b9"
+default_outfit: uniform
+display_name: "Tosen Jordan"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

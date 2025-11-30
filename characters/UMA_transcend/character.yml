@@ -1,0 +1,9 @@
+name_color: "#f8475f"
+default_outfit: uniform
+display_name: "Transcend"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

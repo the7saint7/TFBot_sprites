@@ -1,0 +1,9 @@
+name_color: "#d0ba00"
+default_outfit: uniform
+display_name: "Daring Heart"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

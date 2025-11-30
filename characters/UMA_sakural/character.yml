@@ -1,0 +1,9 @@
+name_color: "#f0638a"
+default_outfit: uniform
+display_name: "Sakura Laurel"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

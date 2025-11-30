@@ -1,0 +1,9 @@
+name_color: "#8e8180"
+default_outfit: uniform
+display_name: "Curren Bouquetd'or"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

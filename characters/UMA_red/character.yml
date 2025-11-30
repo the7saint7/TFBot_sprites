@@ -1,0 +1,9 @@
+name_color: "#cb3a43"
+default_outfit: uniform
+display_name: "Red Desire"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#e97d97"
+default_outfit: uniform
+display_name: "Dantsu Flame"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

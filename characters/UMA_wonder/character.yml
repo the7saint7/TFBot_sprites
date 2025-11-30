@@ -1,0 +1,9 @@
+name_color: "#d8d2d9"
+default_outfit: uniform
+display_name: "Wonder Acute"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

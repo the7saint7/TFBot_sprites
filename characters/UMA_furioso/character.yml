@@ -1,0 +1,9 @@
+name_color: "#3f54bf"
+default_outfit: uniform
+display_name: "Furioso"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

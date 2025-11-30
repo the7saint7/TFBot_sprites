@@ -1,0 +1,9 @@
+name_color: "#494541"
+default_outfit: uniform
+display_name: "Manhattan Cafe"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

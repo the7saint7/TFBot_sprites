@@ -1,0 +1,9 @@
+name_color: "#f078c5"
+default_outfit: uniform
+display_name: "Ines Fujin"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

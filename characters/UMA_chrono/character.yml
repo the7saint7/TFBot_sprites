@@ -1,0 +1,9 @@
+name_color: "#464647"
+default_outfit: uniform
+display_name: "Chrono Genesis"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

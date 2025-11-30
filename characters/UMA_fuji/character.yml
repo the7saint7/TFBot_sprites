@@ -1,0 +1,9 @@
+name_color: "#444745"
+default_outfit: uniform
+display_name: "Fuji Kiseki"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

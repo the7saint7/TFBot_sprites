@@ -1,0 +1,9 @@
+name_color: "#f37f96"
+default_outfit: uniform
+display_name: "Agnes Digital"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

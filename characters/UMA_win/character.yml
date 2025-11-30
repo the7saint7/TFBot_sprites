@@ -1,0 +1,9 @@
+name_color: "#c1213c"
+default_outfit: uniform
+display_name: "Win Variation"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

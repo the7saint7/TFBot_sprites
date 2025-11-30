@@ -1,0 +1,9 @@
+name_color: "#73c032"
+default_outfit: uniform
+display_name: "Taiki Shuttle"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

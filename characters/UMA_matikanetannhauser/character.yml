@@ -1,0 +1,9 @@
+name_color: "#0f8dce"
+default_outfit: uniform
+display_name: "Matikanetannhauser"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

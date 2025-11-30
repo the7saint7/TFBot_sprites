@@ -1,0 +1,9 @@
+name_color: "#5bb1de"
+default_outfit: uniform
+display_name: "Saint Lite"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

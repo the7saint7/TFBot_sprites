@@ -1,0 +1,9 @@
+name_color: "#c23c94"
+default_outfit: uniform
+display_name: "Haiseiko"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

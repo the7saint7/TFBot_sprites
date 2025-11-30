@@ -1,0 +1,9 @@
+name_color: "#d93c45"
+default_outfit: uniform
+display_name: "Still in Love"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

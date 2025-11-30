@@ -1,0 +1,9 @@
+name_color: "#d93c49"
+default_outfit: uniform
+display_name: "Copano Rickey"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#ae419e"
+default_outfit: uniform
+display_name: "Inari One"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#cf2f2b"
+default_outfit: uniform
+display_name: "Gentildonna"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

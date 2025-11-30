@@ -1,0 +1,9 @@
+name_color: "#2185d0"
+default_outfit: uniform
+display_name: "Hishi Amazon"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

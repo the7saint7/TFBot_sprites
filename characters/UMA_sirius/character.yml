@@ -1,0 +1,9 @@
+name_color: "#248379"
+default_outfit: uniform
+display_name: "Sirius Symboli"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

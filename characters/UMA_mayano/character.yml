@@ -1,0 +1,9 @@
+name_color: "#f57d38"
+default_outfit: uniform
+display_name: "Mayano Top Gun"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

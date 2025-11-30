@@ -1,0 +1,9 @@
+name_color: "#926dda"
+default_outfit: uniform
+display_name: "Sweep Tosho"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#64c3c1"
+default_outfit: uniform
+display_name: "Admire Groove"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#c0af3b"
+default_outfit: uniform
+display_name: "Buena Vista"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

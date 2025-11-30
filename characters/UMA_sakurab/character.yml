@@ -1,0 +1,9 @@
+name_color: "#ee6fab"
+default_outfit: uniform
+display_name: "Sakura Bakushin O"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#ca3b61"
+default_outfit: uniform
+display_name: "North Flight"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

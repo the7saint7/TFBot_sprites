@@ -1,0 +1,9 @@
+name_color: "#12762f"
+default_outfit: uniform
+display_name: "Symboli Kris S"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

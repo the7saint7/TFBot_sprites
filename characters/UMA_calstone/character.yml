@@ -1,0 +1,9 @@
+name_color: "#f7eb49"
+default_outfit: uniform
+display_name: "Calstone Light O"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

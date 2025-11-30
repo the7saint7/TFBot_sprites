@@ -1,0 +1,9 @@
+name_color: "#21713a"
+default_outfit: uniform
+display_name: "Satono Crown"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

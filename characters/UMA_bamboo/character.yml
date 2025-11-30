@@ -1,0 +1,9 @@
+name_color: "#366965"
+default_outfit: uniform
+display_name: "Bamboo Memory"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

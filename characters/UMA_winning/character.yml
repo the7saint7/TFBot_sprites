@@ -1,0 +1,9 @@
+name_color: "#dd3d5b"
+default_outfit: uniform
+display_name: "Winning Ticket"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

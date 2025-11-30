@@ -1,0 +1,9 @@
+name_color: "#dd4e31"
+default_outfit: uniform
+display_name: "El Condor Pasa"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right

@@ -1,0 +1,9 @@
+name_color: "#fd637f"
+default_outfit: uniform
+display_name: "Fusaichi Pandora"
+scale: 0.9
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
