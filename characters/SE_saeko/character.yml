@@ -2,5 +2,10 @@ default_outfit: blouse
 display_name: Saeko
 eye_line: 0.0
 name_color: '#adb3ba'
+poses:
+  a:
+    facing: left
+  b:
+    facing: left
 scale: 0.92
 voice: deep

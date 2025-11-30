@@ -1,6 +1,6 @@
-eye_line: 0.16
+﻿eye_line: 0.16
 name_color: '#f3d2c1'
 poses:
   a:
-    facing: right
+    facing: left
 scale: 0.9

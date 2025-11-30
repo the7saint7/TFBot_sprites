@@ -3,5 +3,10 @@ mutations:
   - gym
   - school_swimsuit
 name_color: '#f5d4be'
+poses:
+  a:
+    facing: left
+  b:
+    facing: left
 scale: 1.1
 voice: tomboy

@@ -1,3 +1,6 @@
 name_color: '#7d7c83'
+poses:
+  a:
+    facing: left
 scale: 0.9
 voice: john

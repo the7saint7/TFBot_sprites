@@ -1,8 +1,10 @@
-default_outfit: casual
+﻿default_outfit: casual
 display_name: Connie Williams
 name_color: '#915f40'
 poses:
-  a:
+  b:
     facing: right
+  a:
+    facing: left
 scale: 0.9
 voice: woman

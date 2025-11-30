@@ -1,4 +1,7 @@
 eye_line: 0.18
 name_color: '#786f67'
+poses:
+  a:
+    facing: right
 scale: 1.1
 voice: deep

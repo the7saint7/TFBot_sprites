@@ -1,4 +1,4 @@
-eye_line: 0.1
+﻿eye_line: 0.1
 mutations:
   twintails:
   - casual
@@ -11,6 +11,8 @@ mutations:
   - cheer_inverted
 name_color: '#fbca86'
 poses:
+  a:
+    facing: right
   b:
     facing: right
 scale: 0.9

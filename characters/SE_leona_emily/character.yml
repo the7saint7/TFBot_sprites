@@ -2,5 +2,8 @@ default_outfit: casual
 display_name: Leona Winters
 eye_line: 0.2
 name_color: '#f2eed9'
+poses:
+  a:
+    facing: left
 scale: 1.0
 voice: woman

@@ -1,5 +1,10 @@
 display_name: Yuuna Yamashita
 eye_line: 0.23
 name_color: '#8e7ab5'
+poses:
+  a:
+    facing: left
+  b:
+    facing: right
 scale: 0.8
 voice: woman

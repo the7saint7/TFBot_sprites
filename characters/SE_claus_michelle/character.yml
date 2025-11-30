@@ -1,3 +1,8 @@
-name_color: '#cad4e0'
+﻿name_color: '#cad4e0'
+poses:
+  a:
+    facing: right
+  b:
+    facing: left
 scale: 0.9
 voice: male

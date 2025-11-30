@@ -1,3 +1,6 @@
 eye_line: 0.05
 name_color: '#dddced'
+poses:
+  a:
+    facing: left
 scale: 0.9

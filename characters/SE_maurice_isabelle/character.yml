@@ -2,5 +2,8 @@ default_outfit: suit
 display_name: Maurice Honda
 eye_line: 0.18
 name_color: '#736b91'
+poses:
+  a:
+    facing: left
 scale: 1.1
 voice: male

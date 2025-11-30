@@ -1,4 +1,7 @@
-display_name: Carrie
+﻿display_name: Carrie
 eye_line: 0.18
 name_color: '#a87b44'
+poses:
+  a:
+    facing: left
 scale: 1.1

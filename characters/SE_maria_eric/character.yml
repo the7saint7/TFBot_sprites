@@ -1,4 +1,7 @@
 eye_line: 0.02
 name_color: '#c4a571'
+poses:
+  a:
+    facing: right
 scale: 0.9
 voice: child

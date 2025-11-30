@@ -1,3 +1,6 @@
 name_color: '#9d80a3'
+poses:
+  a:
+    facing: left
 scale: 1.1
 voice: kiyoshi

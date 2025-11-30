@@ -1,3 +1,6 @@
-eye_line: 0.18
+﻿eye_line: 0.18
 name_color: '#a87b44'
+poses:
+  a:
+    facing: right
 scale: 1.0
