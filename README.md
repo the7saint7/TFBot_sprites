@@ -29,3 +29,29 @@ To keep downloads lightweight, tools in `tools/` focus on optimizing and cleanin
   ```
 
   Ensure `ect.exe` sits next to the script: `tools/ect_runner.py` automatically references it.
+
+- `tools/pose_cropper.py` composites every outfit, accessory, and face layer for a pose to find the tightest bounding box, then crops all related PNGs (honoring any `image_height` overrides defined in `character.yml`). Limit the run to a single test character with `--character` or fall back to an alphabetical cap via `--max-characters`.
+
+  ```bash
+  python tools/pose_cropper.py --dry-run --character abby     # inspect one character
+  python tools/pose_cropper.py --character abby               # apply crops to Abby only
+  python tools/pose_cropper.py --dry-run --max-characters 0   # preview everyone
+  ```
+
+  The tool requires Pillow and uses PyYAML when available (it falls back to a minimal parser otherwise); start with `--dry-run` to review the crop boxes that will be applied.
+
+### Python Environment
+
+Scripts assume you are working inside a virtual environment named `.env`. The tools will warn if they detect that `.env` is not active and remind you how to initialize or activate it. Recommended workflow:
+
+```bash
+python -m venv .env
+.\.env\Scripts\activate        # on Windows (PowerShell/CMD)
+source .env/bin/activate       # on macOS/Linux shells
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Once activated, run tools with the `python` command (not `py` on Windows) so the virtual environment's interpreter is used—for example: `python tools\pose_cropper.py --dry-run`.
+
+`requirements.txt` lists the minimal dependencies (`Pillow`, `PyYAML`). Re-run `pip install -r requirements.txt` whenever the list changes.
