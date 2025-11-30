@@ -1,0 +1,7 @@
+ETC, Efficient Compression Tool. Taken from https://github.com/fhanau/Efficient-Compression-Tool/
+
+To run on windows, open with cmd.exe and input the following command
+
+	./ect.exe -9 --allfilters --mt-deflate=4 *.png
+
+where .png is the file(s) to be optimized.
