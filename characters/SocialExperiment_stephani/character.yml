@@ -1,0 +1,13 @@
+default_outfit: uniform
+display_name: stephani
+eye_line: 0.0
+name_color: '#fff6d1'
+poses:
+  a:
+    center_width: 275
+    facing: right
+  b:
+    center_width: 210
+    facing: right
+scale: 0.92
+voice: woman

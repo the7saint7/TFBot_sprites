@@ -1,0 +1,7 @@
+display_name: Nitel
+name_color: '#4e4cba'
+poses:
+  a:
+    facing: right
+scale: 0.8
+voice: woman

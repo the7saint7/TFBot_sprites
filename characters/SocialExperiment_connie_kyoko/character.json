@@ -1,0 +1,12 @@
+{
+	"display_name": "Connie Williams",
+	"name_color": "#915f40",
+	"voice": "woman",
+	"default_outfit": "casual",
+	"scale": 0.9,
+	"poses": {
+		"a": {
+			"facing": "right"
+		}
+	}
+}

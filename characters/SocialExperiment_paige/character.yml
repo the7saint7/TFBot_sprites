@@ -1,0 +1,13 @@
+default_outfit: suit
+display_name: Paige
+eye_line: 0.0
+name_color: '#bf3167'
+poses:
+  a:
+    center_width: 230
+    facing: right
+  b:
+    center_width: 180
+    facing: right
+scale: 0.9
+voice: woman

@@ -1,0 +1,7 @@
+display_name: Xell
+name_color: '#8e8012'
+poses:
+  a:
+    facing: right
+scale: 0.8
+voice: woman

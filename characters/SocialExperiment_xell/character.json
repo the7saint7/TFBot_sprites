@@ -1,0 +1,11 @@
+{
+	"display_name": "Xell",
+	"name_color": "#8e8012",
+	"voice": "woman",
+	"scale": 0.8,
+	"poses": {
+		"a": {
+			"facing": "right"
+		}
+	}
+}

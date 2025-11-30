@@ -1,0 +1,13 @@
+default_outfit: suit
+display_name: Valerie
+eye_line: 0.0
+name_color: '#676084'
+poses:
+  a:
+    center_width: 215
+    image_height: 700
+  b:
+    center_width: 180
+    image_height: 700
+scale: 0.92
+voice: woman
