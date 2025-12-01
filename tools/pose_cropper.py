@@ -14,9 +14,12 @@ except ImportError:  # pragma: no cover - optional dependency
     yaml = None
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageFile, UnidentifiedImageError
 except ImportError:  # pragma: no cover - dependency warning
     Image = None  # type: ignore
+    UnidentifiedImageError = Exception  # type: ignore
+else:  # configure Pillow when available
+    ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 BoundBox = Tuple[int, int, int, int]
@@ -127,22 +130,26 @@ def collect_pose_assets(pose_dir: Path) -> Dict[str, List[Path]]:
 def union_bounds(paths: Sequence[Path]) -> BoundBox | None:
     bbox: BoundBox | None = None
     for path in paths:
-        with Image.open(path) as img:
-            if img.mode != "RGBA":
-                img = img.convert("RGBA")
-            alpha = img.getchannel("A")
-            current = alpha.getbbox()
-            if current is None:
-                continue
-            if bbox is None:
-                bbox = current
-            else:
-                bbox = (
-                    min(bbox[0], current[0]),
-                    min(bbox[1], current[1]),
-                    max(bbox[2], current[2]),
-                    max(bbox[3], current[3]),
-                )
+        try:
+            with Image.open(path) as img:
+                if img.mode != "RGBA":
+                    img = img.convert("RGBA")
+                alpha = img.getchannel("A")
+                current = alpha.getbbox()
+        except (FileNotFoundError, UnidentifiedImageError, OSError) as exc:
+            print(f"WARNING: Skipping unreadable image {path} ({exc})")
+            continue
+        if current is None:
+            continue
+        if bbox is None:
+            bbox = current
+        else:
+            bbox = (
+                min(bbox[0], current[0]),
+                min(bbox[1], current[1]),
+                max(bbox[2], current[2]),
+                max(bbox[3], current[3]),
+            )
     return bbox
 
 
@@ -161,22 +168,26 @@ def clamp_bounds(bounds: BoundBox, size: Tuple[int, int]) -> BoundBox | None:
 
 
 def crop_image(path: Path, bounds: BoundBox, dry_run: bool) -> bool:
-    with Image.open(path) as img:
-        clamped = clamp_bounds(bounds, img.size)
-        if clamped is None:
-            return False
-        if clamped == (0, 0, img.width, img.height):
-            return False
-        if dry_run:
-            print(
-                f"DRY-RUN crop {path} "
-                f"from {img.size} -> ({clamped[0]}, {clamped[1]}, {clamped[2]}, {clamped[3]})"
-            )
+    try:
+        with Image.open(path) as img:
+            clamped = clamp_bounds(bounds, img.size)
+            if clamped is None:
+                return False
+            if clamped == (0, 0, img.width, img.height):
+                return False
+            if dry_run:
+                print(
+                    f"DRY-RUN crop {path} "
+                    f"from {img.size} -> ({clamped[0]}, {clamped[1]}, {clamped[2]}, {clamped[3]})"
+                )
+                return True
+            cropped = img.crop(clamped)
+            cropped.save(path)
+            print(f"Cropped {path} to {cropped.size}")
             return True
-        cropped = img.crop(clamped)
-        cropped.save(path)
-        print(f"Cropped {path} to {cropped.size}")
-        return True
+    except (FileNotFoundError, UnidentifiedImageError, OSError) as exc:
+        print(f"WARNING: Failed to crop {path} ({exc})")
+        return False
 
 
 def parse_pose_heights_fallback(text: str) -> Dict[str, int]:
@@ -339,8 +350,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-characters",
         type=int,
-        default=1,
-        help="Process only the first N characters alphabetically (use 0 to process all).",
+        default=0,
+        help="Process only the first N characters alphabetically (default: 0 for all).",
     )
     parser.add_argument(
         "--character",

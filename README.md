@@ -30,7 +30,7 @@ To keep downloads lightweight, tools in `tools/` focus on optimizing and cleanin
 
   Ensure `ect.exe` sits next to the script: `tools/ect_runner.py` automatically references it.
 
-- `tools/pose_cropper.py` composites every outfit, accessory, and face layer for a pose to find the tightest bounding box, then crops all related PNGs (honoring any `image_height` overrides defined in `character.yml`). Limit the run to a single test character with `--character` or fall back to an alphabetical cap via `--max-characters`.
+- `tools/pose_cropper.py` composites every outfit, accessory, and face layer for a pose to find the tightest bounding box, then crops all related PNGs (honoring any `image_height` overrides defined in `character.yml`). By default it processes every character; use `--character` for a single target or `--max-characters` for an alphabetical cap.
 
   ```bash
   python tools/pose_cropper.py --dry-run --character abby     # inspect one character
