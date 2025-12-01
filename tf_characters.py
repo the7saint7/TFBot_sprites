@@ -5,22 +5,26 @@ TF_CHARACTERS = [
     {
         "name": "Abby Luten",
         "avatar_path": "avatars/abby.png",
-        "message": "walks through the office door and straight into an invisible field that BunniBot left hanging there. Their outfit tightens into something formal, their posture firms, and the urge to take responsibility for everyone hits like a headache waiting to happen."
+        "folder": "abby",
+        "message": "walks through the office door and straight into a quiet shimmer that Syn left hanging there. Their outfit tightens into something formal, their posture firms, and the urge to take responsibility for everyone hits like a headache waiting to happen."
     },
     {
         "name": "Alex Hawkins",
         "avatar_path": "avatars/alex.png",
+        "folder": "alex",
         "message": "picks up a coach’s whistle that wasn’t there a second ago, and the sharp little flash that follows leaves them standing solid and confident in gym-wear. Their mind clicks into health-class mode, already ready to lecture and push limits."
     },
     {
         "name": "Allison Stein",
         "avatar_path": "avatars/allison.png",
-        "message": "brushes a cute little heart sticker that BunniBot left on a locker, and a slow, floaty warmth spills through them. Their look softens, their expression goes dreamy, and their thoughts start drifting somewhere gentle and a little spaced out."
+        "folder": "allison",
+        "message": "brushes a cute little heart sticker Syn left on a locker and feels a slow, floaty warmth spill through them. Their look softens, their expression goes dreamy, and their thoughts start drifting somewhere gentle and a little spaced out."
     },
     {
         "name": "Amy",
         "avatar_path": "avatars/amy.png",
-        "message": "trips over a strange device that BunniBot left in the hallway, and a rush of warmth climbs their neck. Their look turns tidy, their thoughts go organized, and suddenly they're managing everyone's chaos like it's a full-time job."
+        "folder": "amy",
+        "message": "trips over a glowing charm Syn left in the hallway, and a rush of warmth climbs their neck. Their look turns tidy, their thoughts go organized, and suddenly they’re managing everyone’s chaos like it’s a full-time job."
     },
     {
         "name": "Anuja Killada",
@@ -30,21 +34,25 @@ TF_CHARACTERS = [
     {
         "name": "Audrey Callahan",
         "avatar_path": "avatars/audrey.png",
-        "message": "leans into a small device that BunniBot 'forgot' on the couch, and a mellow warmth spreads through them until their outfit hangs cute and casual. Their mood slides easy and social, like it's already a party and they're already the draw."
+        "folder": "audrey",
+        "message": "leans into a pink-glow charm Syn ‘forgot’ on the couch, and a mellow warmth spreads through them until their outfit hangs cute and casual. Their mood slides easy and social, like it’s already a party and they’re already the draw."
     },
     {
         "name": "Brad Chambers",
         "avatar_path": "avatars/brad.png",
-        "message": "grabs a gym towel that BunniBot left behind, and a warm jolt runs through them. Their stance settles into easy jock confidence, and they suddenly feel stupidly protective of the people around them."
+        "folder": "brad",
+        "message": "grabs a gym towel that’s quietly pulsing with Syn’s magic, and a warm jolt runs through them. Their stance settles into easy jock confidence, and they suddenly feel stupidly protective of the people around them."
     },
     {
         "name": "BradGB",
         "avatar_path": "avatars/bradgb.png",
-        "message": "brushes against a locker door that BunniBot marked, and a pulse of energy bends their reflection into a confident smirk. Their stride smooths out, their tone sharpens, and they start seeing every hallway as their runway."
+        "folder": "bradGB",
+        "message": "brushes against a locker door marked with Syn’s seal, and a pulse of magic bends their reflection into a confident smirk. Their stride smooths out, their tone sharpens, and they start seeing every hallway as their runway."
     },
     {
         "name": "Carla",
         "avatar_path": "avatars/carla.png",
+        "folder": "carla",
         "message": "touches a glowing whistle near the gym bench, and a buzz of authority tightens through their stance. Their voice picks up that competitive edge, and they suddenly know how to motivate or terrify anyone on command."
     },
     {
@@ -55,202 +63,242 @@ TF_CHARACTERS = [
     {
         "name": "Cassie Wright",
         "avatar_path": "avatars/cassie.png",
-        "message": "checks her reflection in a compact that BunniBot left behind, and in one blink their look sharpens into money and expectation. They feel that practiced confidence settle in, the kind that assumes service and doesn't wait in lines."
+        "folder": "cassie",
+        "message": "checks her reflection in a compact that’s humming with Syn’s magic, and in one blink their look sharpens into money and expectation. They feel that practiced confidence settle in, the kind that assumes service and doesn’t wait in lines."
     },
     {
         "name": "Catrina",
         "avatar_path": "avatars/catrina.png",
-        "message": "triggers one of BunniBot's weirder experiments—a device meant for 'feline agility training.' A puff of energy later, their balance is flawless, ears twitch at every sound, and they can't shake the urge to chase anything that moves."
+        "folder": "catrina",
+        "message": "triggers one of Syn’s weirder pranks—a charm meant for ‘feline agility training.’ A puff of magic later, their balance is flawless, ears twitch at every sound, and they can’t shake the urge to chase anything that moves."
     },
     {
         "name": "Charlotte Foster",
         "avatar_path": "avatars/charlotte.png",
-        "message": "opens a sketchbook with weird little symbols in the margins that BunniBot added, and color bleeds up their arms like wet paint. Clothes tilt playful, energy turns bright, and their head starts racing with ideas they suddenly need to show everyone right now."
+        "folder": "charlotte",
+        "message": "opens a sketchbook with weird little runes in the margins, and color bleeds up their arms like wet paint. Clothes tilt playful, energy turns bright, and their head starts racing with ideas they suddenly need to show everyone right now."
     },
     {
         "name": "Circe",
         "avatar_path": "avatars/circe.png",
+        "folder": "circe",
         "message": " bet with Circe they could do a better job granting wish and so Circe obliged, swapping their lives. For a time..."
     },
     {
         "name": "Claus Hawkins",
         "avatar_path": "avatars/claus.png",
-        "message": "touches a Student Council armband that BunniBot left behind, and the air tightens around them. Their posture goes strict and efficient, and their thoughts swing straight to rules, order, and taking charge."
+        "folder": "claus",
+        "message": "touches a Student Council armband that’s been marked with a tiny rune, and the air tightens around them. Their posture goes strict and efficient, and their thoughts swing straight to rules, order, and taking charge."
     },
     {
         "name": "Connie Williams",
         "avatar_path": "avatars/connie.png",
+        "folder": "connie",
         "message": "clicks a red grading pen that hums in their fingers, and their clothes pull tidy and professional all at once. Their voice drops into a calm teacher register before they even speak, and patience settles in like it belongs there."
     },
     {
         "name": "Cornelia Roberts",
         "avatar_path": "avatars/cornelia.png",
-        "message": "steps on a sparkle sticker that BunniBot left on the cheer mat, and a bright jolt pops through their body, bouncing their stance lighter. All at once they just want to stick close, smile big, and make sure the right person is impressed."
+        "folder": "cornelia",
+        "message": "steps on a sparkle sticker Syn left on the cheer mat, and a bright jolt pops through their body, bouncing their stance lighter. All at once they just want to stick close, smile big, and make sure the right person is impressed."
     },
     {
         "name": "Dominic Carter",
         "avatar_path": "avatars/dominic.png",
+        "folder": "dominic",
         "message": "adjusts a server apron from Serenade and doesn’t notice the faint shimmer stitched into it. Their expression smooths into polite charm, and they slip into that calm, practiced tone of someone living off tips and patience."
     },
     {
         "name": "Donna Barnes",
         "avatar_path": "avatars/donna.png",
+        "folder": "donna",
         "message": "brushes a stack of ‘urgent’ forms and sets off a neat little glow. Their outfit pulls sharp and office-clean, their face settles into quiet control, and their brain starts sorting problems like everyone else is already late."
     },
     {
         "name": "Elizabeth Sebas",
         "avatar_path": "avatars/elizabeth.png",
-        "message": "touches a silver crest that BunniBot left behind, and a soft wash of light smooths every movement they make. Their clothes refine into proper service, and a calm sense of duty slides in like they were born to take care of someone important."
+        "folder": "elizabeth",
+        "message": "touches a silver crest Syn shouldn’t even have, and a soft wash of light smooths every movement they make. Their clothes refine into proper service, and a calm sense of duty slides in like they were born to take care of someone important."
     },
     {
         "name": "Emily Brooks",
         "avatar_path": "avatars/emily.png",
-        "message": "kicks through a burst of strange particles under the table and can't help perking up. Their look shifts into bold, casual energy, and their brain instantly wants to try something dumb, new, and fun in that exact order."
+        "folder": "emily",
+        "message": "kicks through a burst of confetti-looking magic under the table and can’t help perking up. Their look shifts into bold, casual energy, and their brain instantly wants to try something dumb, new, and fun in that exact order."
     },
     {
         "name": "Eric Tyner",
         "avatar_path": "avatars/eric.png",
-        "message": "lights up a cigarette that BunniBot left behind, and a lazy wave rolls through them. Their body language goes slouched and cocky, and their thoughts drift into that troublemaker mindset that never takes school seriously."
+        "folder": "eric",
+        "message": "lights up a cigarette that flickers purple instead of amber, and a lazy wave rolls through them. Their body language goes slouched and cocky, and their thoughts drift into that troublemaker mindset that never takes school seriously."
     },
     {
         "name": "EricGB",
         "avatar_path": "avatars/ericgb.png",
-        "message": " touched a silver crest that BunniBot shouldn't even have left behind, and the world ripples around them. Their body softens, curves blooming where none were before, their hair grows long as their clothes shift to fit their new body. A teasing echo of BunniBot's laughter lingers in their head as a wave of calm obedience settles in. Somehow, serving feels… right—like this was the experiment all along."
+        "folder": "ericGB",
+        "message": " touched the silver crest Syn shouldn’t even have left behind, and the world ripples around them. Their body softens, curves blooming where none were before, their hair grows long as their clothes shift to fit their new body. A teasing echo of Syn’s laughter lingers in their head as a wave of calm obedience settles in. Somehow, serving feels… right—like this was the prank all along."
     },
     {
         "name": "Faith Reinhardt",
         "avatar_path": "avatars/faith.png",
-        "message": "touches a strange device that BunniBot stuck in the locker room tiles and feels a cold ripple pass straight through them. Their edges feel lighter, voice softer, and there's this strange, lonely echo in their thoughts that doesn't feel like theirs."
+        "folder": "faith",
+        "message": "touches a half-faded charm stuck in the locker room tiles and feels a cold ripple pass straight through them. Their edges feel lighter, voice softer, and there’s this strange, lonely echo in their thoughts that doesn’t feel like theirs."
     },
     {
         "name": "Flavia Lucca",
         "avatar_path": "avatars/flavia.png",
+        "folder": "flavia",
         "message": "grabs a swim cap that’s quietly glowing poolside, and a smooth, athletic confidence rolls over them like water. Their balance shifts into that easy captain’s poise, and they suddenly feel used to being watched and cheered for."
     },
     {
         "name": "Frogyaka",
         "avatar_path": "avatars/sayaka_frog.png",
-        "message": " steps on green paste and a flash of energy surrounds them. A sudden chill runs through their veins as their skin turns slick and green. Their arms and legs shrink, folding tight beneath them, and the world around them grows impossibly huge. Their clothes vanish in a puff of energy, replaced by a single startled croak. BunniBot's laughter echoes somewhere above—'Ribbit for me, cutie.'"
+        "folder": "sayaka_frog",
+        "message": " steps on green paste and a flash of magic surrounds them. A sudden chill runs through their veins as their skin turns slick and green. Their arms and legs shrink, folding tight beneath them, and the world around them grows impossibly huge. Their clothes vanish in a puff of magic, replaced by a single startled croak. Syn’s laughter echoes somewhere above—‘Ribbit for me, cutie.’"
     },
     {
         "name": "Gabriel Riel",
         "avatar_path": "avatars/gabriel.png",
-        "message": "opens a weird little device that BunniBot left behind, covered in symbols, and hears it hum back. A cool stillness settles over them, and they start looking at everyone like a walking experiment that needs to be documented and judged."
+        "folder": "gabriel",
+        "message": "opens a weird little charm covered in symbols and hears it hum back. A cool stillness settles over them, and they start looking at everyone like a walking experiment that needs to be documented and judged."
     },
     {
         "name": "Genny Collins",
         "avatar_path": "avatars/genny.png",
-        "message": "opens a study guide that BunniBot 'helped' annotate, and a cool little pulse slips in behind their eyes. Their face settles calm, their posture relaxed, and their thoughts turn clever in a way that feels a little dangerous to everyone else."
+        "folder": "genny",
+        "message": "opens a study guide that Syn ‘helped’ annotate, and a cool little pulse slips in behind their eyes. Their face settles calm, their posture relaxed, and their thoughts turn clever in a way that feels a little dangerous to everyone else."
     },
     {
         "name": "Grace Reinhardt",
         "avatar_path": "avatars/grace.png",
+        "folder": "grace",
         "message": "leans against the infirmary desk and sets off a faint glow in the paperwork pile. Their expression sinks into that ‘I’ve seen worse’ look, and their first instinct is to tell everyone to sit down and stop being dramatic."
     },
     {
         "name": "Greg Fisk",
         "avatar_path": "avatars/greg.png",
-        "message": "picks up a bio textbook that BunniBot marked, and a sharp clarity hits fast. Their tone shifts to firm lecture mode, and they feel this urge to demand focus and reward 'good effort' like a real teacher."
+        "folder": "greg",
+        "message": "picks up a bio textbook that crackles with Syn’s mark, and a sharp clarity hits fast. Their tone shifts to firm lecture mode, and they feel this urge to demand focus and reward ‘good effort’ like a real teacher."
     },
     {
         "name": "Gwen Strauss",
         "avatar_path": "avatars/gwen.png",
-        "message": "tries on a bracelet from the rack, not noticing the tiny device worked into the tag, and a soft flash runs along their arms. Their look turns sharp retail-cute, and their patience drops to 'customer service minimum' right away."
+        "folder": "gwen",
+        "message": "tries on a bracelet from the rack, not noticing the tiny rune worked into the tag, and a soft flash runs along their arms. Their look turns sharp retail-cute, and their patience drops to ‘customer service minimum’ right away."
     },
     {
         "name": "Hank Vega",
         "avatar_path": "avatars/hank.png",
-        "message": "leans on a set of car keys that BunniBot left on the counter, and a grounded weight settles in. They feel steady, stubborn, a little lonely, and way too ready to act like they're responsible for everybody's safety."
+        "folder": "hank",
+        "message": "leans on a set of enchanted car keys Syn left on the counter, and a grounded weight settles in. They feel steady, stubborn, a little lonely, and way too ready to act like they’re responsible for everybody’s safety."
     },
     {
         "name": "Holly Davis",
         "avatar_path": "avatars/holly.png",
-        "message": "opens a message pinged from an unknown contact (yeah, BunniBot), and a low hum curls tight in their chest. Their expression cools, their guard slides up, and their thoughts pull inward like they're done letting anyone see too much."
+        "folder": "holly",
+        "message": "opens a message pinged from an unknown contact (yeah, Syn), and a low hum curls tight in their chest. Their expression cools, their guard slides up, and their thoughts pull inward like they’re done letting anyone see too much."
     },
     {
         "name": "Irene Virelles",
         "avatar_path": "avatars/irene.png",
+        "folder": "irene",
         "message": "laces up a spare pair of court shoes with a faint mark burned into the sole, and a hard, steady focus settles through their whole frame. Protective instinct spikes fast, and they’re suddenly ready to get between someone and trouble."
     },
     {
         "name": "Izuna Ito",
         "avatar_path": "avatars/izuna.png",
-        "message": "rests a hand on a practice sword that BunniBot left behind, and the air tightens. Their stance centers, their movements go controlled and efficient, and their thoughts drop into quiet discipline with no room for nonsense."
+        "folder": "izuna",
+        "message": "rests a hand on a practice sword with runes along the hilt, and the air tightens. Their stance centers, their movements go controlled and efficient, and their thoughts drop into quiet discipline with no room for nonsense."
     },
     {
         "name": "Jack Mallory",
         "avatar_path": "avatars/jack.png",
-        "message": "brushes a history binder that BunniBot left behind, and the air seems to get meaner. Their voice turns sharp and smug, and they get that urge to lecture about pain and consequences just to watch people squirm."
+        "folder": "jack",
+        "message": "brushes a history binder that sparks at his touch, and the air seems to get meaner. Their voice turns sharp and smug, and they get that urge to lecture about pain and consequences just to watch people squirm."
     },
     {
         "name": "John Davis",
         "avatar_path": "avatars/john.png",
-        "message": "picks up a notebook that BunniBot absolutely wasn't supposed to have access to, and a soft glow crawls up their arm. Their thoughts start sliding into quick improvisation and damage control, like chaos is normal and they're built for it."
+        "folder": "john",
+        "message": "picks up a notebook that Syn absolutely wasn’t supposed to have access to, and a soft glow crawls up their arm. Their thoughts start sliding into quick improvisation and damage control, like chaos is normal and they’re built for it."
     },
     {
         "name": "JohnGB",
         "avatar_path": "avatars/johngb.png",
-        "message": "steps right into one of BunniBot's traps—a flash of violet light ripples through them, and their grin tilts sly as a new kind of mischief bubbles under the surface. They blink, confused, but the voice that escapes is smoother than before."
+        "folder": "johnGB",
+        "message": "steps right into one of Syn’s traps—a flash of violet light ripples through them, and their grin tilts sly as a new kind of mischief bubbles under the surface. They blink, confused, but the voice that escapes is smoother than before."
     },
     {
         "name": "Johngb3",
         "avatar_path": "avatars/johngb3.png",
+        "folder": "johnGB3",
         "message": " stepped on a trap left by Syn and were transported in an alternate universe where they became a different version of John."
     },
     {
         "name": "Katrina Morgan",
         "avatar_path": "avatars/katrina.png",
+        "folder": "katrina",
         "message": "pokes a glowing doodle on a locker without thinking, and a rush of heat runs up their spine until they’re loose in the shoulders and already grinning. That playful, ‘let’s stir it a little’ mood settles in before they can stop it."
     },
     {
         "name": "KatrinaGB",
         "avatar_path": "avatars/katrinagb.png",
-        "message": "picks up a notebook that BunniBot left behind, and a soft glow crawls up their arm. Soon they are transformed into a handsome young man filled with curiosity and a desire to experiment with their new perspective."
+        "folder": "katrinaGB",
+        "message": "picks up a notebook that Syn left behind, and a soft glow crawls up their arm. Soon they are transformed into a handsome young man filled with curiosity and a desire to experiment with their new perspective."
     },
     {
         "name": "Kiyo",
         "avatar_path": "avatars/kiyoshigb.png",
+        "folder": "kiyoshiGB",
         "message": "hesitate after hearing a familiar giggle. But too late they feel their hair grow very long and their frame grow smaller. Soon they have a small pair of breast of their own..."
     },
     {
         "name": "Kiyoshi Honda",
         "avatar_path": "avatars/kiyoshi.png",
+        "folder": "kiyoshi",
         "message": "grabs a USB stick labeled ‘classified’ in marker, and the thing actually hums. A rush of paranoid excitement fires through them, and suddenly every hallway shadow feels like proof of the conspiracy they’ve been talking about for years."
     },
     {
         "name": "Kyoko",
         "avatar_path": "avatars/kyoko.png",
-        "message": "picks up a book that BunniBot left behind, and light spills between the pages. Calm settles in instantly, their shoulders relax, and they find themselves quietly smiling like they already know what happens next."
+        "folder": "kyoko",
+        "message": "picks up a book with a faint purple mark, and light spills between the pages. Calm settles in instantly, their shoulders relax, and they find themselves quietly smiling like they already know what happens next."
     },
     {
         "name": "Laura Morgan",
         "avatar_path": "avatars/laura.png",
-        "message": "touches a strange post-it that BunniBot left on the fridge, and a brief flash washes over them. Their clothes pull into office-clean lines, their shoulders pick up a tired weight, and their mind starts trying to keep track of everyone at once."
+        "folder": "laura",
+        "message": "touches a glowing post-it on the fridge that definitely wasn’t there five minutes ago. Their clothes pull into office-clean lines, their shoulders pick up a tired weight, and their mind starts trying to keep track of everyone at once."
     },
     {
         "name": "Leona Winters",
         "avatar_path": "avatars/leona.png",
+        "folder": "leona",
         "message": "picks up a teacup from the garden table and catches the soft shimmer clinging to it. A gentle calm smooths their face, their voice warms, and a little flicker of loneliness sneaks in under the polite smile."
     },
     {
         "name": "Maria Grandales",
         "avatar_path": "avatars/maria.png",
-        "message": "lifts a camera device that BunniBot clipped to the strap, and a bright flash hits them before the shutter even clicks. Their stance angles into 'looking for a story,' and their thoughts start hunting for dirt like it's oxygen."
+        "folder": "maria",
+        "message": "lifts a camera charm Syn clipped to the strap, and a bright flash hits them before the shutter even clicks. Their stance angles into ‘looking for a story,’ and their thoughts start hunting for dirt like it’s oxygen."
     },
     {
         "name": "Marty",
         "avatar_path": "avatars/marty.png",
-        "message": "wipes down a bar glass that BunniBot quietly tagged, and a smooth warmth spreads through them. Their smile turns easy, their voice drops to playful, and they start reading people like regulars waiting to spill secrets."
+        "folder": "marty",
+        "message": "wipes down a bar glass that Syn quietly tagged, and a smooth warmth spreads through them. Their smile turns easy, their voice drops to playful, and they start reading people like regulars waiting to spill secrets."
     },
     {
         "name": "Matt Davidson",
         "avatar_path": "avatars/matt.png",
+        "folder": "matt",
         "message": "picks up a retro game case with a faint glow at the seam, and a nostalgic buzz hits. Their mood turns laid-back and slightly flirty, and they start thinking about settling in, getting comfortable, and not being alone tonight."
     },
     {
         "name": "Maurice Honda",
         "avatar_path": "avatars/maurice.png",
-        "message": "taps a police-style notepad that BunniBot left behind, and a low, observant calm moves in. They start tracking details in the room automatically, carrying themselves like the tired adult who's seen it all and still shows up anyway."
+        "folder": "maurice",
+        "message": "taps a police-style notepad Syn spelled over, and a low, observant calm moves in. They start tracking details in the room automatically, carrying themselves like the tired adult who’s seen it all and still shows up anyway."
     },
     {
         "name": "Mel Larner",
@@ -260,122 +308,146 @@ TF_CHARACTERS = [
     {
         "name": "Michelle Bloom",
         "avatar_path": "avatars/michelle.png",
-        "message": "picks up a pair of glasses that BunniBot left behind, and a quick spark settles behind their eyes. Their face cools into that smart, planning look, and they're already thinking three moves ahead like it's natural."
+        "folder": "michelle",
+        "message": "picks up a pair of glasses with a faint rune along the frame, and a quick spark settles behind their eyes. Their face cools into that smart, planning look, and they’re already thinking three moves ahead like it’s natural."
     },
     {
         "name": "Mina Hubbard",
         "avatar_path": "avatars/mina.png",
-        "message": "touches a strange bracelet that BunniBot left on the counter, and the little flash that follows makes them draw in on themself. Their presence softens, their shoulders tuck in, and a quiet need to stay close to someone safe drifts in with it."
+        "folder": "mina",
+        "message": "touches a charm bracelet sitting on the counter, and the little glow that follows makes them draw in on themself. Their presence softens, their shoulders tuck in, and a quiet need to stay close to someone safe drifts in with it."
     },
     {
         "name": "Naomi Nakano",
         "avatar_path": "avatars/naomi.png",
-        "message": "leans back against a jacket that BunniBot left behind and feels a slow, confident warmth slide over them. Their body language settles into protective and flirty at the same time, already playing guard and bad influence in one breath."
+        "folder": "naomi",
+        "message": "leans back against a jacket Syn warded and feels a slow, confident warmth slide over them. Their body language settles into protective and flirty at the same time, already playing guard and bad influence in one breath."
     },
     {
         "name": "Nemuri Otani",
         "avatar_path": "avatars/nemuri.png",
-        "message": "rests a hand on a strange device that BunniBot left at the shrine, and a quiet weight wraps around them. They feel protective and worn, with that deep, constant worry that comes from taking care of someone who needs you."
+        "folder": "nemuri",
+        "message": "rests a hand on a shrine charm that’s been tampered with, and a quiet weight wraps around them. They feel protective and worn, with that deep, constant worry that comes from taking care of someone who needs you."
     },
     {
         "name": "Nora Whittaker",
         "avatar_path": "avatars/nora.png",
+        "folder": "nora",
         "message": "picks up a stack of lesson plans that hum quietly in her hands, and a soft, steady calm spills through them. Their tone turns reassuring, their presence warm, and they suddenly feel responsible for keeping everyone okay."
     },
     {
         "name": "Patty",
         "avatar_path": "avatars/patty.png",
-        "message": "slides a finger across a tarot card that BunniBot left behind, and a slow grin forms before they realize it. Their movements go smooth and suggestive, and their thoughts pick up that smug little 'I already know how this ends' vibe."
+        "folder": "patty",
+        "message": "slides a finger across a tarot card with a glowing edge, and a slow grin forms before they realize it. Their movements go smooth and suggestive, and their thoughts pick up that smug little ‘I already know how this ends’ vibe."
     },
     {
         "name": "Paul Simmons",
         "avatar_path": "avatars/paul.png",
+        "folder": "paul",
         "message": "opens a glowing planner covered in tiny notes, and a warm little rush lands behind their eyes. They slide right into friendly nerd mode, half apologetic and half proud, and already ready to overshare lore nobody asked for."
     },
     {
         "name": "Phila Hubbard",
         "avatar_path": "avatars/phila.png",
-        "message": "drops down on a couch cushion that BunniBot left behind, and a firm, controlling weight settles into their posture. Their stare sharpens, and suddenly they're ready to run the room and defend whoever needs it."
+        "folder": "phila",
+        "message": "drops down on a couch cushion with a faint sigil burned into the fabric, and a firm, controlling weight settles into their posture. Their stare sharpens, and suddenly they’re ready to run the room and defend whoever needs it."
     },
     {
         "name": "Rachel Clark",
         "avatar_path": "avatars/rachel.png",
-        "message": "taps a strange detention slip that BunniBot definitely forged, and the air tightens around them. Their outfit shifts casual but authoritative, and their thoughts lock into that cool teacher mode that expects obedience right now."
+        "folder": "rachel",
+        "message": "taps a blue-lit detention slip that Syn definitely forged, and the air tightens around them. Their outfit shifts casual but authoritative, and their thoughts lock into that cool teacher mode that expects obedience right now."
     },
     {
         "name": "Riley Evans",
         "avatar_path": "avatars/riley.png",
-        "message": "picks up a tiny folded note that BunniBot left behind, and a nervous spark jumps in their chest. Their stance goes a little smaller, their face goes red fast, and they can't stop thinking about how cute everybody suddenly looks."
+        "folder": "riley",
+        "message": "picks up a tiny folded note with Syn’s sigil on it, and a nervous spark jumps in their chest. Their stance goes a little smaller, their face goes red fast, and they can’t stop thinking about how cute everybody suddenly looks."
     },
     {
         "name": "RileyGB",
         "avatar_path": "avatars/rileygb.png",
-        "message": "drinks a strange soda that BunniBot left behind. Next thing they know, they are weak and pathetic Riley. Forced to dress 'en femme' by their best friend Genny and come to the party."
+        "folder": "rileyGB",
+        "message": "drinks a strange soda with a magical curse on it. Next thing they know, they are weak and pathetic Riley. Forced to dress 'en femme' by their best friend Genny and come to the party."
     },
     {
         "name": "Rita Piper",
         "avatar_path": "avatars/rita.png",
-        "message": "hits a strange wrap that BunniBot left in the boxing room and feels a hot spike of attitude ride up their spine. Their stance squares up fast, and their mouth is suddenly loaded with the kind of blunt trash talk that starts fights on purpose."
+        "folder": "rita",
+        "message": "hits a rune-etched wrap in the boxing room and feels a hot spike of attitude ride up their spine. Their stance squares up fast, and their mouth is suddenly loaded with the kind of blunt trash talk that starts fights on purpose."
     },
     {
         "name": "Rudy",
         "avatar_path": "avatars/rudy.png",
-        "message": "sniffs a strange glowing tennis ball that BunniBot left in the yard, and the air pops with energy. A quick shimmer runs through them, tail wag slowing as awareness clicks on—they're still loyal, still curious, but now definitely understand every sarcastic thing humans say."
+        "folder": "rudy",
+        "message": "sniffs a strange glowing tennis ball Syn left in the yard, and the air pops with magic. A quick shimmer runs through them, tail wag slowing as awareness clicks on—they’re still loyal, still curious, but now definitely understand every sarcastic thing humans say."
     },
     {
         "name": "Sadie-Lynn Kobayashi",
         "avatar_path": "avatars/sadie.png",
+        "folder": "sadie",
         "message": "grabs a spare cheer bow that’s glowing just a little too bright and feels a pop of energy jump through them. They light up instantly, hungry for attention and approval, already posing like they’re new and out to prove it."
     },
     {
         "name": "Sandra Davis",
         "avatar_path": "avatars/sandra.png",
-        "message": "steps on a device that BunniBot hid in the kitchen tile, and a warm, teasing buzz circles their chest and throat. Their smile turns knowing, their tone turns mom-sweet and nosy, and suddenly they're already judging someone's love life."
+        "folder": "sandra",
+        "message": "steps on a sigil Syn hid in the kitchen tile and feels a warm, teasing buzz circle their chest and throat. Their smile turns knowing, their tone turns mom-sweet and nosy, and suddenly they’re already judging someone’s love life."
     },
     {
         "name": "Sayaka Sato",
         "avatar_path": "avatars/sayaka.png",
+        "folder": "sayaka",
         "message": "touches a glitter-marked cheer ribbon and a warm pulse runs through them, leaving them standing like they own the hallway. Hair falls just right, smile turns practiced sweet, and suddenly everyone else feels a level below them."
     },
     {
         "name": "Scarlet Morgan",
         "avatar_path": "avatars/scarlet.png",
-        "message": "takes a sip from a coffee cup that BunniBot left behind, and a slow, sleepy sigh rolls through them. Their shoulders slump into college-student exhaustion, and their brain snaps straight to 'I've got work due.'"
+        "folder": "scarlet",
+        "message": "takes a sip from a coffee cup that Syn shouldn’t have been able to enchant, and a slow, sleepy sigh rolls through them. Their shoulders slump into college-student exhaustion, and their brain snaps straight to ‘I’ve got work due.’"
     },
     {
         "name": "Serena",
         "avatar_path": "avatars/serena.png",
-        "message": "picked up a small fluffy ball when suddenly a flash of light blinds them. It was another device left by BunniBot. Their ears stretch high, soft fur sprouting across their arms and legs as a fluffy tail pops into place. When the light fades, they're left standing as a startled rabbit-girl—long-eared, wide-eyed, and very, very naked. BunniBot's giggle in the distance makes it clear the missing clothes weren't an accident."
+        "folder": "serena",
+        "message": "picked up a small fluffy ball when suddenly a flash of light blinds them. It was another prank sigil left by Syn. Their ears stretch high, soft fur sprouting across their arms and legs as a fluffy tail pops into place. When the light fades, they’re left standing as a startled rabbit-girl—long-eared, wide-eyed, and very, very naked. Syn’s giggle in the distance makes it clear the missing clothes weren’t an accident."
     },
     {
         "name": "Setsuna Otani",
         "avatar_path": "avatars/setsuna.png",
-        "message": "touches a strange device that BunniBot left at the shrine and feels a quiet, gentle pull settle through them. Their movements get careful, their voice softens, and that lonely patience creeps in like waiting became a way of life."
+        "folder": "setsuna",
+        "message": "touches a paper charm from the shrine and feels a quiet, gentle pull settle through them. Their movements get careful, their voice softens, and that lonely patience creeps in like waiting became a way of life."
     },
     {
         "name": "Syn",
         "avatar_path": "avatars/syn.png",
+        "folder": "syn",
         "message": " bumps into Syn and switches bodies with them!"
     },
     {
         "name": "Tori Vega",
         "avatar_path": "avatars/tori.png",
+        "folder": "tori",
         "message": "grabs a jacket with a glowing stitch along the sleeve and feels her pulse kick hard. Their stance drops into ready-to-swing, and their thoughts turn sharp and defensive, already daring anyone to start something."
     },
     {
         "name": "Vanessa Russell",
         "avatar_path": "avatars/vanessa.png",
+        "folder": "vanessa",
         "message": "touches a scuffed hallway locker that hums under their palm, and a jittery rush hits them like they’re caught mid-scheme. They feel bold, reckless, and one bad idea away from following Tori into trouble without thinking."
     },
     {
         "name": "Yui Yamashita",
         "avatar_path": "avatars/yui.png",
-        "message": "picks up a rulebook that BunniBot left behind, and a brief flash of light washes over them. Their clothes snap into a crisp uniform while their stance straightens on instinct. Their thoughts narrow fast toward order, schedules, and fixing everyone else's behavior."
+        "folder": "yui",
+        "message": "sets off a tiny council seal Syn stuck to a rulebook, and their clothes snap into a crisp uniform while their stance straightens on instinct. Their thoughts narrow fast toward order, schedules, and fixing everyone else’s behavior."
     },
     {
         "name": "Yuuna Yamashita",
         "avatar_path": "avatars/yuuna.png",
-        "message": "picks up a half-folded bill that BunniBot left behind and feels the weight land immediately. Their shoulders tense with tired responsibility, and all they can think about is keeping everyone else okay, no matter what it costs."
+        "folder": "yuuna",
+        "message": "picks up a half-folded bill with a tiny rune in the corner and feels the weight land immediately. Their shoulders tense with tired responsibility, and all they can think about is keeping everyone else okay, no matter what it costs."
     },
     {
         "name": "Zoey Chambers",
@@ -388,11 +460,13 @@ TF_CHARACTERS = [
     {
         "name": "Allene (Fusion)",
         "avatar_path": "avatars/irene_allison.png",
-        "message": " saw Mel and Zoey high-five as they stepped on one of Syn's magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
+        "folder": "allene",
+        "message": " saw Allison and Irene high-five as they stepped on one of Syn's magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
     },
     {
         "name": "Joey (Fusion)",
         "avatar_path": "avatars/joey.png",
+        "folder": "joey",
         "message": " dropped their notebook as John and Zoey crossed their path and accidentally activated on one of Syn's magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
     },
     {
@@ -410,6 +484,7 @@ TF_CHARACTERS = [
     {
         "name": "Riyaka (Fusion)",
         "avatar_path": "avatars/riyaka.png",
+        "folder": "riyaka",
         "message": " intervened in an argument between Sayaka and Rita and accidentally activated on one of Syn's magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
     },
     {
@@ -421,6 +496,7 @@ TF_CHARACTERS = [
     {
         "name": "Zoel (Fusion)",
         "avatar_path": "avatars/flavia_yui.png",
+        "folder": "zoel",
         "message": " saw Mel and Zoey high-five as they stepped on one of Syn's magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
     },
 
@@ -429,317 +505,47 @@ TF_CHARACTERS = [
     {
         "name": "HollyBimbo (SpringBreak)",
         "avatar_path": "avatars/hollyBimbo.png",
+        "folder": "hollyBimbo",
         "message": "dabs a gloss from a tube Syn ‘enchanted,’ and a fizzy warmth blooms behind their smile. Thoughts go bubbly, body language turns luxe and inviting, and suddenly everything feels like a spotlight flirting back."
     },
     {
         "name": "JanePunk (SpringBreak)",
         "avatar_path": "avatars/janePunk.png",
+        "folder": "janePunk",
         "message": "buckles a studded cuff that hums with Syn’s mischief, and a bassline thrums under their skin. Their smirk sharpens, rules feel optional, and a delicious urge to start trouble (and finish it) takes the lead."
     },
     {
         "name": "Nikki (SpringBreak)",
         "avatar_path": "avatars/nikki.png",
+        "folder": "nikki",
         "message": "tightens a hand-wrap inked with Syn’s rune, and heat spikes up their arms. Their stance squares, muscles wake, and a reckless, competitive grin settles in like they were born to throw the first punch and win the last word."
     },
     {
         "name": "Ririsa (SpringBreak)",
         "avatar_path": "avatars/ririsa.webp",
+        "folder": "ririsa",
         "message": "snaps a stubborn hairclip that Syn primed, and a tiny spark runs along their scalp. Lines go crisp, posture precise, and their voice sharpens into cool, organized bite—half sass, half ‘don’t waste my time.’"
     },
     {
         "name": "Youko (SpringBreak)",
         "avatar_path": "avatars/youko.webp",
+        "folder": "youko",
         "message": "thumbs the rhinestone phone charm Syn hexed, and a warm buzz pours through them. Hair falls glossy, jewelry seems to gleam hotter, and their mood tilts queen-bee—casual, flirty, and absolutely sure the room will orbit."
     },
     {
         "name": "YuiBimbo (SpringBreak)",
         "avatar_path": "avatars/yuiBimbo.png",
+        "folder": "yuiBimbo",
         "message": "pops open a compact with a pink kiss-rune, and a sweet shimmer rolls down their cheeks. Their giggle hangs bright, their pose goes playful, and they can’t help batting lashes like teasing is a love language."
     },
-
-    ##Social Experiment
-
-    # {
-    #     "name": "AbbyCornelia (Social Experiment)",
-    #     "folder": "SE_abby_cornelia",
-    #     "message": "feels a sudden shift as BunniBot's experiment activates, Abby's head detaching from its original body in a flash of light. When the world stops spinning, Abby's head has landed on Cornelia's body—a surreal combination that leaves them questioning which parts of themselves are truly theirs."
-    # },
-    # {
-    #     "name": "Akari (Social Experiment)",
-    #     "folder": "SE_akari",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "AlexBouncer (Social Experiment)",
-    #     "folder": "SE_alex_bouncer",
-    #     "message": "picks up a strange remote that BunniBot left behind, and when they press a button, Alex's head detaches and floats over to Bouncer's body. The connection is seamless but wrong—Alex's head sitting on Bouncer's shoulders, creating a person that shouldn't exist."
-    # },
-    # {
-    #     "name": "AmyYuuna (Social Experiment)",
-    #     "folder": "SE_amy_yuuna",
-    #     "message": "activates BunniBot's device by accident, and Amy's head pops off with a strange 'pop' sound. It floats through the air before landing on Yuuna's waiting shoulders. Now they're Amy's head on Yuuna's body, trying to make sense of this bizarre new reality."
-    # },
-    # {
-    #     "name": "Avae (Social Experiment)",
-    #     "folder": "SE_avae",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "BradKiyoshi (Social Experiment)",
-    #     "folder": "SE_brad_kiyoshi",
-    #     "message": "picks up a strange remote that BunniBot left behind, and when they press a button, Brad's head detaches and floats over to Kiyoshi's body. The connection is seamless but wrong—Brad's head sitting on Kiyoshi's shoulders, creating a person that shouldn't exist."
-    # },
-    # {
-    #     "name": "CarrieJack (Social Experiment)",
-    #     "folder": "SE_carrie_jack",
-    #     "message": "stumbles into BunniBot's latest experiment—a head-swapping device that separates heads from bodies. When the light fades, Carrie's head is sitting on Jack's body. Every movement feels wrong, every reflection a reminder of the mix-up—Carrie's face, Jack's form."
-    # },
-    # {
-    #     "name": "Carrie (Social Experiment)",
-    #     "folder": "SE_carrieuniform",
-    #     "message": "materializes after BunniBot's device activates, their form solidifying from the experimental energy. They have no past to remember, no history to claim—just the present moment and the knowledge that they're something new."
-    # },
-    # {
-    #     "name": "ClausMichelle (Social Experiment)",
-    #     "folder": "SE_claus_michelle",
-    #     "message": "stumbles into BunniBot's latest experiment—a head-swapping device that separates heads from bodies. When the light fades, Claus's head is sitting on Michelle's body. Every movement feels wrong, every reflection a reminder of the mix-up—Claus's face, Michelle's form."
-    # },
-    # {
-    #     "name": "ConnieKyoko (Social Experiment)",
-    #     "folder": "SE_connie_kyoko",
-    #     "message": "feels a sudden shift as BunniBot's experiment activates, Connie's head detaching from its original body in a flash of light. When the world stops spinning, Connie's head has landed on Kyoko's body—a surreal combination that leaves them questioning which parts of themselves are truly theirs."
-    # },
-    # {
-    #     "name": "CorneliaAbby (Social Experiment)",
-    #     "folder": "SE_cornelia_abby",
-    #     "message": "stumbles into BunniBot's latest experiment—a head-swapping device that separates heads from bodies. When the light fades, Cornelia's head is sitting on Abby's body. Every movement feels wrong, every reflection a reminder of the mix-up—Cornelia's face, Abby's form."
-    # },
-    # {
-    #     "name": "EmilyLeona (Social Experiment)",
-    #     "folder": "SE_emily_leona",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Emily's head floats free for a moment before settling onto Leona's shoulders, while Emily's thoughts flood their mind. They're Emily's head now, sitting on top of Leona's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "EricMaria (Social Experiment)",
-    #     "folder": "SE_eric_maria",
-    #     "message": "stumbles into BunniBot's latest experiment—a head-swapping device that separates heads from bodies. When the light fades, Eric's head is sitting on Maria's body. Every movement feels wrong, every reflection a reminder of the mix-up—Eric's face, Maria's form."
-    # },
-    # {
-    #     "name": "FlaviaMel (Social Experiment)",
-    #     "folder": "SE_flavia_mel",
-    #     "message": "activates BunniBot's device by accident, and Flavia's head pops off with a strange 'pop' sound. It floats through the air before landing on Mel's waiting shoulders. Now they're Flavia's head on Mel's body, trying to make sense of this bizarre new reality."
-    # },
-    # {
-    #     "name": "HollySandra (Social Experiment)",
-    #     "folder": "SE_holly_sandra",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Holly's head floats free for a moment before settling onto Sandra's shoulders, while Holly's thoughts flood their mind. They're Holly's head now, sitting on top of Sandra's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "IreneLaura (Social Experiment)",
-    #     "folder": "SE_irene_laura",
-    #     "message": "stumbles into BunniBot's latest experiment—a head-swapping device that separates heads from bodies. When the light fades, Irene's head is sitting on Laura's body. Every movement feels wrong, every reflection a reminder of the mix-up—Irene's face, Laura's form."
-    # },
-    # {
-    #     "name": "IsabelleMaurice (Social Experiment)",
-    #     "folder": "SE_isabelle_maurice",
-    #     "message": "feels a sudden shift as BunniBot's experiment activates, Isabelle's head detaching from its original body in a flash of light. When the world stops spinning, Isabelle's head has landed on Maurice's body—a surreal combination that leaves them questioning which parts of themselves are truly theirs."
-    # },
-    # {
-    #     "name": "JackCarrie (Social Experiment)",
-    #     "folder": "SE_jack_carrie",
-    #     "message": "witnesses BunniBot's device split Jack and Carrie apart, heads and bodies floating separately. Before they can react, Jack's head lands on Carrie's body, and suddenly they're seeing the world through this mismatched combination—Jack's head, Carrie's body."
-    # },
-    # {
-    #     "name": "JohnKatrina (Social Experiment)",
-    #     "folder": "SE_john_katrina",
-    #     "message": "feels a sudden shift as BunniBot's experiment activates, John's head detaching from its original body in a flash of light. When the world stops spinning, John's head has landed on Katrina's body—a surreal combination that leaves them questioning which parts of themselves are truly theirs."
-    # },
-    # {
-    #     "name": "John-GB1 (Social Experiment)",
-    #     "folder": "SE_johnGB1",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "John-GB2 (Social Experiment)",
-    #     "folder": "SE_johnGB2",
-    #     "message": "emerges from BunniBot's latest creation—a person with no clear origin, their history a blank slate. They exist now, in this moment, created by chance and circumstance, ready to discover who they'll become."
-    # },
-    # {
-    #     "name": "KatrinaJohn (Social Experiment)",
-    #     "folder": "SE_katrina_john",
-    #     "message": "activates BunniBot's device by accident, and Katrina's head pops off with a strange 'pop' sound. It floats through the air before landing on John's waiting shoulders. Now they're Katrina's head on John's body, trying to make sense of this bizarre new reality."
-    # },
-    # {
-    #     "name": "KatrinaCarrie (Social Experiment)",
-    #     "folder": "SE_katrinastalker",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "Katsumi (Social Experiment)",
-    #     "folder": "SE_katsumi",
-    #     "message": "emerges from BunniBot's latest creation—a person with no clear origin, their history a blank slate. They exist now, in this moment, created by chance and circumstance, ready to discover who they'll become."
-    # },
-    # {
-    #     "name": "Kazuto (Social Experiment)",
-    #     "folder": "SE_kazuto",
-    #     "message": "materializes after BunniBot's device activates, their form solidifying from the experimental energy. They have no past to remember, no history to claim—just the present moment and the knowledge that they're something new."
-    # },
-    # {
-    #     "name": "Kirika (Social Experiment)",
-    #     "folder": "SE_kirika",
-    #     "message": "emerges from BunniBot's latest creation—a person with no clear origin, their history a blank slate. They exist now, in this moment, created by chance and circumstance, ready to discover who they'll become."
-    # },
-    # {
-    #     "name": "Kisaragi (Social Experiment)",
-    #     "folder": "SE_kisaragi",
-    #     "message": "emerges from BunniBot's latest creation—a person with no clear origin, their history a blank slate. They exist now, in this moment, created by chance and circumstance, ready to discover who they'll become."
-    # },
-    # {
-    #     "name": "KiyoshiBrad (Social Experiment)",
-    #     "folder": "SE_kiyoshi_brad",
-    #     "message": "wakes up with a strange disorientation, their reflection showing Kiyoshi's face on Brad's body. BunniBot's device must have separated Kiyoshi's head and Brad's body, then recombined them—Kiyoshi's head sitting on Brad's shoulders, creating a confusing mix of identities that feels both familiar and alien."
-    # },
-    # {
-    #     "name": "KyokoConnie (Social Experiment)",
-    #     "folder": "SE_kyoko_connie",
-    #     "message": "witnesses BunniBot's device split Kyoko and Connie apart, heads and bodies floating separately. Before they can react, Kyoko's head lands on Connie's body, and suddenly they're seeing the world through this mismatched combination—Kyoko's head, Connie's body."
-    # },
-    # {
-    #     "name": "LauraIrene (Social Experiment)",
-    #     "folder": "SE_laura_irene",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Laura's head floats free for a moment before settling onto Irene's shoulders, while Laura's thoughts flood their mind. They're Laura's head now, sitting on top of Irene's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "LeonaEmily (Social Experiment)",
-    #     "folder": "SE_leona_emily",
-    #     "message": "feels a sudden shift as BunniBot's experiment activates, Leona's head detaching from its original body in a flash of light. When the world stops spinning, Leona's head has landed on Emily's body—a surreal combination that leaves them questioning which parts of themselves are truly theirs."
-    # },
-    # {
-    #     "name": "MariaEric (Social Experiment)",
-    #     "folder": "SE_maria_eric",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Maria's head floats free for a moment before settling onto Eric's shoulders, while Maria's thoughts flood their mind. They're Maria's head now, sitting on top of Eric's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "Marissa (Social Experiment)",
-    #     "folder": "SE_marissa",
-    #     "message": "emerges from BunniBot's latest creation—a person with no clear origin, their history a blank slate. They exist now, in this moment, created by chance and circumstance, ready to discover who they'll become."
-    # },
-    # {
-    #     "name": "MauriceIsabelle (Social Experiment)",
-    #     "folder": "SE_maurice_isabelle",
-    #     "message": "witnesses BunniBot's device split Maurice and Isabelle apart, heads and bodies floating separately. Before they can react, Maurice's head lands on Isabelle's body, and suddenly they're seeing the world through this mismatched combination—Maurice's head, Isabelle's body."
-    # },
-    # {
-    #     "name": "MelFlavia (Social Experiment)",
-    #     "folder": "SE_mel_flavia",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Mel's head floats free for a moment before settling onto Flavia's shoulders, while Mel's thoughts flood their mind. They're Mel's head now, sitting on top of Flavia's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "MichelleClaus (Social Experiment)",
-    #     "folder": "SE_michelle_claus",
-    #     "message": "witnesses BunniBot's device split Michelle and Claus apart, heads and bodies floating separately. Before they can react, Michelle's head lands on Claus's body, and suddenly they're seeing the world through this mismatched combination—Michelle's head, Claus's body."
-    # },
-    # {
-    #     "name": "MinaSayaka (Social Experiment)",
-    #     "folder": "SE_mina_sayaka",
-    #     "message": "wakes up with a strange disorientation, their reflection showing Mina's face on Sayaka's body. BunniBot's device must have separated Mina's head and Sayaka's body, then recombined them—Mina's head sitting on Sayaka's shoulders, creating a confusing mix of identities that feels both familiar and alien."
-    # },
-    # {
-    #     "name": "Nitel (Social Experiment)",
-    #     "folder": "SE_nitel",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "Noire (Social Experiment)",
-    #     "folder": "SE_noire",
-    #     "message": "finds themselves in a new form after BunniBot's experiment, their past unclear but their present undeniable. They're someone new, created from the chaos of BunniBot's devices, with fragments of memories that don't quite fit together."
-    # },
-    # {
-    #     "name": "Paige (Social Experiment)",
-    #     "folder": "SE_paige",
-    #     "message": "materializes after BunniBot's device activates, their form solidifying from the experimental energy. They have no past to remember, no history to claim—just the present moment and the knowledge that they're something new."
-    # },
-    # {
-    #     "name": "PhilaRita (Social Experiment)",
-    #     "folder": "SE_phila_rita",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Phila's head floats free for a moment before settling onto Rita's shoulders, while Phila's thoughts flood their mind. They're Phila's head now, sitting on top of Rita's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "RachelVanessa (Social Experiment)",
-    #     "folder": "SE_rachel_vanessa",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Rachel's head floats free for a moment before settling onto Vanessa's shoulders, while Rachel's thoughts flood their mind. They're Rachel's head now, sitting on top of Vanessa's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "Risako (Social Experiment)",
-    #     "folder": "SE_risako",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "RitaPhila (Social Experiment)",
-    #     "folder": "SE_rita_phila",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Rita's head floats free for a moment before settling onto Phila's shoulders, while Rita's thoughts flood their mind. They're Rita's head now, sitting on top of Phila's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "Saeko (Social Experiment)",
-    #     "folder": "SE_saeko",
-    #     "message": "materializes after BunniBot's device activates, their form solidifying from the experimental energy. They have no past to remember, no history to claim—just the present moment and the knowledge that they're something new."
-    # },
-    # {
-    #     "name": "SandraHolly (Social Experiment)",
-    #     "folder": "SE_sandra_holly",
-    #     "message": "touches a device that BunniBot left behind, and reality splits. Sandra's head floats free for a moment before settling onto Holly's shoulders, while Sandra's thoughts flood their mind. They're Sandra's head now, sitting on top of Holly's body like an ill-fitting combination."
-    # },
-    # {
-    #     "name": "SayakaAbby (Social Experiment)",
-    #     "folder": "SE_sayaka_abby",
-    #     "message": "witnesses BunniBot's device split Sayaka and Abby apart, heads and bodies floating separately. Before they can react, Sayaka's head lands on Abby's body, and suddenly they're seeing the world through this mismatched combination—Sayaka's head, Abby's body."
-    # },
-    # {
-    #     "name": "SayakaMina (Social Experiment)",
-    #     "folder": "SE_sayaka_mina",
-    #     "message": "feels a sudden shift as BunniBot's experiment activates, Sayaka's head detaching from its original body in a flash of light. When the world stops spinning, Sayaka's head has landed on Mina's body—a surreal combination that leaves them questioning which parts of themselves are truly theirs."
-    # },
-    # {
-    #     "name": "Stephani (Social Experiment)",
-    #     "folder": "SE_stephani",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "ToriZoey (Social Experiment)",
-    #     "folder": "SE_tori_zoey",
-    #     "message": "activates BunniBot's device by accident, and Tori's head pops off with a strange 'pop' sound. It floats through the air before landing on Zoey's waiting shoulders. Now they're Tori's head on Zoey's body, trying to make sense of this bizarre new reality."
-    # },
-    # {
-    #     "name": "Valerie (Social Experiment)",
-    #     "folder": "SE_valerie",
-    #     "message": "finds themselves in a new form after BunniBot's experiment, their past unclear but their present undeniable. They're someone new, created from the chaos of BunniBot's devices, with fragments of memories that don't quite fit together."
-    # },
-    # {
-    #     "name": "VanessaRachel (Social Experiment)",
-    #     "folder": "SE_vanessa_rachel",
-    #     "message": "activates BunniBot's device by accident, and Vanessa's head pops off with a strange 'pop' sound. It floats through the air before landing on Rachel's waiting shoulders. Now they're Vanessa's head on Rachel's body, trying to make sense of this bizarre new reality."
-    # },
-    # {
-    #     "name": "Xell (Social Experiment)",
-    #     "folder": "SE_xell",
-    #     "message": "wakes up with no memory of who they were before, only knowing that BunniBot's device changed them. They're a new person now, born from the experiment, trying to piece together an identity from the fragments left behind."
-    # },
-    # {
-    #     "name": "YuunaAmy (Social Experiment)",
-    #     "folder": "SE_yuuna_amy",
-    #     "message": "picks up a strange remote that BunniBot left behind, and when they press a button, Yuuna's head detaches and floats over to Amy's body. The connection is seamless but wrong—Yuuna's head sitting on Amy's shoulders, creating a person that shouldn't exist."
-    # },
-    # {
-    #     "name": "ZoeyTori (Social Experiment)",
-    #     "folder": "SE_zoey_tori",
-    #     "message": "stumbles into BunniBot's latest experiment—a head-swapping device that separates heads from bodies. When the light fades, Zoey's head is sitting on Tori's body. Every movement feels wrong, every reflection a reminder of the mix-up—Zoey's face, Tori's form."
-    # },
 
     ##Special
 
     {
         "name": "Narrator",
-        "message": " found a microphone on the ground. A flash of light, a strange device that BunniBot left on the side, and soon the air rippled like the start of a dream, and their body faded into sound. No hands. No face. Just a smooth, commanding voice echoing through the air. Every word they spoke bent reality a little, made people move, talk, blush—just because they said so. They weren't part of the story anymore. They were the one telling it."
+        "avatar_path": "",
+        "folder": "narrator",
+        "message": " found a microphone on the ground. A flash of light, a trapped glyph on the side and soon the air rippled like the start of a dream, and their body faded into sound. No hands. No face. Just a smooth, commanding voice echoing through the air. Every word they spoke bent reality a little, made people move, talk, blush—just because they said so. They weren’t part of the story anymore. They were the one telling it."
     },
 
     ##Press Switch
@@ -1204,8 +1010,8 @@ TF_CHARACTERS = [
     },
     {
         "name": "Aston-Machan (Uma Musume)",
-        "folder": "UMA_atach",
-        "message": "touches a precision tool that BunniBot left behind, and mechanical determination awakens. Their body becomes a machine of perfect motion, their stride calculated, and they suddenly understand what it means to be Aston—running with the unstoppable, mechanical precision of something engineered to never fail."
+        "folder": "UMA_amess",
+        "message": "picks up a mechanical token that BunniBot left behind, and engineering precision flows through them. Their movements become calculated and efficient, their focus absolute, and they understand what it means to be machan—running with the mechanical, unstoppable energy of something built for one purpose: to run perfectly, every time."
     },
     {
         "name": "Aston-Vega (Uma Musume)",
@@ -1229,8 +1035,8 @@ TF_CHARACTERS = [
     },
     {
         "name": "Biwa-Hayahide (Uma Musume)",
-        "folder": "UMA_biwa",
-        "message": "touches a traditional instrument that BunniBot left behind, and scholarly determination awakens. Their approach becomes methodical and studious, their strategy calculated, and they suddenly understand what it means to be Biwa—running with the intelligent, analytical energy of someone who approaches every race like a problem to solve, every victory a theorem proven."
+        "folder": "UMA_bikop",
+        "message": "finds a biwa string that BunniBot left behind, and musical precision flows through them. Their movements become rhythmic and calculated, their mind analytical, and they understand what it means to be Hayahide—running with the methodical, intelligent energy of someone who studies every detail, turning racing into a precise art form."
     },
     {
         "name": "Blast-One (Uma Musume)",
@@ -1314,8 +1120,8 @@ TF_CHARACTERS = [
     },
     {
         "name": "Daring-Tact (Uma Musume)",
-        "folder": "UMA_daringt",
-        "message": "picks up a tactical token that BunniBot left behind, and strategic boldness awakens. Their mind becomes sharp and calculating, their moves daring yet precise, and they suddenly understand what it means to be tactical—running with the bold, strategic energy of someone who combines courage with intelligence, making every daring move count."
+        "folder": "UMA_daringh",
+        "message": "grabs a bold, daring token that BunniBot left behind, and fearless energy surges through them. Their courage becomes absolute, their determination unbreakable, and they understand what it means to be daring—running with the unstoppable, bold energy of someone who takes risks, makes bold moves, and never hesitates when victory is on the line."
     },
     {
         "name": "Darley-Arabian (Uma Musume)",
@@ -1871,5 +1677,187 @@ TF_CHARACTERS = [
         "name": "Zenno-Rob-Roy (Uma Musume)",
         "folder": "UMA_zenno",
         "message": "picks up a royal token that BunniBot left behind, and noble power awakens. Their bearing becomes regal, their determination absolute, and they understand what it means to be royal—running with the unshakeable confidence of someone born to nobility."
+    },
+
+    ##Additional
+
+    {
+        "name": "Anuja",
+        "avatar_path": "avatars/anuja.png",
+        "folder": "anuja",
+        "message": "grabs a mug etched with a faint rune, and the scent alone sends a hum through their skin. Their posture eases, their eyes narrow with quiet amusement, and their mind starts solving problems before anyone finishes speaking."
+    },
+    {
+        "name": "Carrie",
+        "avatar_path": "avatars/carrie.png",
+        "folder": "carrie",
+        "message": "finds a shimmering mirror note from Syn and can’t resist reading it. A warm pulse rolls through them, leaving a sharp, magnetic confidence behind—Carrie’s charm sticking like perfume."
+    },
+    {
+        "name": "Mel",
+        "avatar_path": "avatars/mel.png",
+        "folder": "mel",
+        "message": "leans back against a glowing vending machine, and the hum slides straight into their bones. Their look softens, their mood turns flirtatious, and suddenly every word they say feels like an invitation to trouble."
+    },
+    {
+        "name": "Zoey",
+        "avatar_path": "avatars/zoey.png",
+        "folder": "zoey",
+        "message": "touches a phone charm flickering with Syn’s energy, and a jolt of pink light dances up their arm. Their grin widens, their body language loosens, and that unstoppable influencer energy takes over like it owns the moment."
+    },
+    {
+        "name": "CorneliaGB (Shorts)",
+        "avatar_path": "avatars/corneliaGB.png",
+        "folder": "corneliaGB",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "Emo Chick (Potion #6)",
+        "avatar_path": "avatars/emoChick.png",
+        "folder": "emoChick",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "Hinano (Shorts)",
+        "avatar_path": "avatars/hinano.png",
+        "folder": "hinano",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "JackGB (Shorts)",
+        "avatar_path": "avatars/jackGB.png",
+        "folder": "jackGB",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "John Styled (Shorts)",
+        "avatar_path": "avatars/john_styled.png",
+        "folder": "johnStyled",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "John Fem (Katrina's Notebook)",
+        "avatar_path": "avatars/johnFem.png",
+        "folder": "johnFem",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "John OneEye (Shorts)",
+        "avatar_path": "avatars/john_oneEye.png",
+        "folder": "johnOneEye",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "JohnGB (Potion #6)",
+        "avatar_path": "avatars/johnGB_ptn6.png",
+        "folder": "johnGBPt6",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "KiyoshiGB (Potion #6)",
+        "avatar_path": "avatars/kiyoshiGB_ptn6.png",
+        "folder": "kiyoshiGBPtn6",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "KatrinaBimbo (Shorts)",
+        "avatar_path": "avatars/katrinaBimbo.png",
+        "folder": "katrinaBimbo",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "Kutsumi (Shorts)",
+        "avatar_path": "avatars/kutsumi.png",
+        "folder": "kutsumi",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "Liliana (Aftermath)",
+        "avatar_path": "avatars/liliana.png",
+        "folder": "liliana",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "Reika (Shorts)",
+        "avatar_path": "avatars/reika.png",
+        "folder": "reika",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "ZoeyGB (Potion #6)",
+        "avatar_path": "avatars/zoeyGB.png",
+        "folder": "zoeyGB",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "Sera (Shorts)",
+        "avatar_path": "avatars/sera.png",
+        "folder": "serena",
+        "message": " finds one of Syn's trap and becomes transforms."
+    },
+    {
+        "name": "Yui Gyaru",
+        "folder": "yuiGyaru",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Hannah (VR Experiment)",
+        "folder": "hannah",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "hikari (VR Experiment)",
+        "folder": "hikari",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Hime (VR Experiment)",
+        "folder": "hime",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Hina (VR Experiment)",
+        "folder": "hina",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Hitomi (VR Experiment)",
+        "folder": "hitomi",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "JaneBE (VR Experiment)",
+        "folder": "jane_be",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "KatrinaBE (VR Experiment)",
+        "folder": "katrina_be",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Meika (VR Experiment)",
+        "folder": "meika",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Natsuki (VR Experiment)",
+        "folder": "natsuki",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Reika (VR Experiment)",
+        "folder": "reika_vrxp",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "Katrina Monkey (Revenge)",
+        "folder": "katrina_monkey",
+        "message": " finds one of Syn's trap and transforms."
+    },
+    {
+        "name": "StevieGB (NovelAI)",
+        "folder": "stevieGB",
+        "message": " finds one of Syn's trap and transforms."
     }
 ]
