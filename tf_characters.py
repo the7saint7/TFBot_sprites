@@ -984,9 +984,24 @@ TF_CHARACTERS = [
         "message": "picks up a digital watch that BunniBot left on the bench, and the screen flickers with strange symbols. A cool, analytical clarity washes over them, their thoughts organizing into precise patterns. They find themselves calculating angles, speeds, and strategies—seeing the track as a puzzle to solve, not just a path to run."
     },
     {
+        "name": "Agnes-Tachyon (Uma Musume)",
+        "folder": "UMA_atach",
+        "message": "Insert messege here."
+    },
+    {
         "name": "Air-Groove (Uma Musume)",
         "folder": "UMA_agroove",
         "message": "steps into a pair of sleek racing shoes that BunniBot left behind, and the air itself seems to part for them. Their body lightens, their stride becomes impossibly smooth, and they feel the wind itself cheering them forward—running not just fast, but with an ethereal grace that makes speed look effortless."
+    },
+    {
+        "name": "Air-Messiah (Uma Musume)",
+        "folder": "UMA_amess",
+        "message": "picks up a mechanical token that BunniBot left behind, and engineering precision flows through them. Their movements become calculated and efficient, their focus absolute, and they understand what it means to be machan—running with the mechanical, unstoppable energy of something built for one purpose: to run perfectly, every time."
+    },
+    {
+        "name": "Air-Shakur (Uma Musume)",
+        "folder": "UMA_ash",
+        "message": "Insert messege here."
     },
     {
         "name": "Almond-Eye (Uma Musume)",
@@ -1004,17 +1019,7 @@ TF_CHARACTERS = [
         "message": "touches a cold, crystalline object that BunniBot left behind, and a refreshing chill runs through them. Their mind clears, their focus sharpens, and they suddenly understand the beauty of running in crisp morning air—every breath invigorating, every step clean and purposeful."
     },
     {
-        "name": "Aston-Machan (Uma Musume)",
-        "folder": "UMA_amess",
-        "message": "picks up a mechanical token that BunniBot left behind, and engineering precision flows through them. Their movements become calculated and efficient, their focus absolute, and they understand what it means to be machan—running with the mechanical, unstoppable energy of something built for one purpose: to run perfectly, every time."
-    },
-    {
-        "name": "Aston-Machan (Uma Musume)",
-        "folder": "UMA_amess",
-        "message": "picks up a mechanical token that BunniBot left behind, and engineering precision flows through them. Their movements become calculated and efficient, their focus absolute, and they understand what it means to be machan—running with the mechanical, unstoppable energy of something built for one purpose: to run perfectly, every time."
-    },
-    {
-        "name": "Aston-Vega (Uma Musume)",
+        "name": "Admire-Vega (Uma Musume)",
         "folder": "UMA_avega",
         "message": "picks up a star-patterned cloth that BunniBot left behind, and cosmic energy courses through them. Their movements become otherworldly smooth, their presence magnetic, and they suddenly understand what it means to shine—not just run, but to be a star that others can't help but watch."
     },
@@ -1029,7 +1034,12 @@ TF_CHARACTERS = [
         "message": "finds a small, glowing charm that BunniBot left behind, and unshakeable faith fills their heart. Their doubts vanish, their confidence becomes absolute, and they suddenly know—really know—that they can achieve anything. Every step forward feels like destiny, every challenge like a promise they're meant to keep."
     },
     {
-        "name": "Biwa-Hayahide (Uma Musume)",
+        "name": "Biko-Pegasus (Uma Musume)",
+        "folder": "UMA_bikop",
+        "message": "Insert messege here."
+    },
+    {
+        "name": "Biko-Pegasus (Uma Musume)",
         "folder": "UMA_bikop",
         "message": "finds a biwa string that BunniBot left behind, and musical precision flows through them. Their movements become rhythmic and calculated, their mind analytical, and they understand what it means to be Hayahide—running with the methodical, intelligent energy of someone who studies every detail, turning racing into a precise art form."
     },
@@ -1039,7 +1049,7 @@ TF_CHARACTERS = [
         "message": "finds a biwa string that BunniBot left behind, and musical precision flows through them. Their movements become rhythmic and calculated, their mind analytical, and they understand what it means to be Hayahide—running with the methodical, intelligent energy of someone who studies every detail, turning racing into a precise art form."
     },
     {
-        "name": "Blast-One (Uma Musume)",
+        "name": "Blast-Onepiece (Uma Musume)",
         "folder": "UMA_blast",
         "message": "grabs a pair of explosive-patterned gloves that BunniBot left behind, and raw power surges through their veins. Their muscles tense with explosive potential, their energy becomes volatile and intense, and they feel like they could shatter records with a single burst—running not just fast, but with devastating force."
     },
@@ -1084,7 +1094,7 @@ TF_CHARACTERS = [
         "message": "picks up a vibrant, colorful accessory that BunniBot left behind, and energetic charisma explodes through them. Their personality becomes magnetic, their enthusiasm infectious, and they suddenly want to make everyone smile—running with joy, spreading happiness with every step."
     },
     {
-        "name": "Curren-Black (Uma Musume)",
+        "name": "Curren-Bouquetd'or (Uma Musume)",
         "folder": "UMA_currenb",
         "message": "finds a sleek, dark ribbon that BunniBot left behind, and shadowy intensity wraps around them. Their focus becomes absolute, their determination dark and unyielding, and they understand what it means to run in the darkness—finding strength where others see only absence."
     },
@@ -1119,9 +1129,9 @@ TF_CHARACTERS = [
         "message": "grabs a bold, daring token that BunniBot left behind, and fearless energy surges through them. Their courage becomes absolute, their determination unbreakable, and they understand what it means to be daring—running with the unstoppable, bold energy of someone who takes risks, makes bold moves, and never hesitates when victory is on the line."
     },
     {
-        "name": "Daring-Tact (Uma Musume)",
-        "folder": "UMA_daringh",
-        "message": "grabs a bold, daring token that BunniBot left behind, and fearless energy surges through them. Their courage becomes absolute, their determination unbreakable, and they understand what it means to be daring—running with the unstoppable, bold energy of someone who takes risks, makes bold moves, and never hesitates when victory is on the line."
+        "name": "Daring-Heart (Uma Musume)",
+        "folder": "UMA_daringt",
+        "message": "Insert messege here."
     },
     {
         "name": "Darley-Arabian (Uma Musume)",
@@ -1179,7 +1189,7 @@ TF_CHARACTERS = [
         "message": "finds a wild, untamed ribbon that BunniBot left behind, and furious passion explodes through them. Their energy becomes wild and untamed, their determination fierce, and they suddenly understand what it means to run with fury—every race a storm, every finish a tempest."
     },
     {
-        "name": "Fusaichi-Pegasus (Uma Musume)",
+        "name": "Fusaichi-Pandora (Uma Musume)",
         "folder": "UMA_fusaichi",
         "message": "touches a winged medallion that BunniBot left behind, and legendary power awakens. Their spirit becomes mythical, their speed otherworldly, and they feel like a creature of legend—running with the impossible grace and power of a pegasus taking flight."
     },
@@ -1189,7 +1199,7 @@ TF_CHARACTERS = [
         "message": "grabs an elegant, refined accessory that BunniBot left behind, and noble grace settles over them. Their movements become sophisticated and beautiful, their presence commanding yet gentle, and they understand what it means to be a lady—running with dignity, elegance, and unbreakable will."
     },
     {
-        "name": "Godolphin (Uma Musume)",
+        "name": "Godolphin-Barb (Uma Musume)",
         "folder": "UMA_godolphin",
         "message": "picks up a royal crest that BunniBot left behind, and aristocratic power flows through them. Their bearing becomes regal, their determination absolute, and they feel like nobility—running with the unshakeable confidence of someone born to lead."
     },
@@ -1204,7 +1214,7 @@ TF_CHARACTERS = [
         "message": "touches a mischievous charm that BunniBot left behind, and playful chaos bubbles up inside them. Their personality becomes unpredictable, their antics legendary, and they suddenly understand what it means to be a ship—sailing through races with wild, unpredictable energy that makes everyone watch."
     },
     {
-        "name": "Gran-Algeria (Uma Musume)",
+        "name": "Gran-Alegria (Uma Musume)",
         "folder": "UMA_gran",
         "message": "touches an exotic, foreign token that BunniBot left behind, and international energy flows through them. Their movements become refined and worldly, their presence sophisticated, and they understand what it means to be from Algeria—running with the elegant, cultured energy of someone who has seen the world and brings that experience to every race."
     },
@@ -1234,7 +1244,7 @@ TF_CHARACTERS = [
         "message": "grabs a powerful, commanding token that BunniBot left behind, and amazonian strength awakens. Their presence becomes formidable, their will unbreakable, and they understand what it means to be an Amazon—running with the fierce, unstoppable energy of a warrior, strong and assertive, never backing down from any challenge."
     },
     {
-        "name": "Hishi-Mambo (Uma Musume)",
+        "name": "Hishi-Miracle (Uma Musume)",
         "folder": "UMA_hishim",
         "message": "touches a rhythmic token that BunniBot left behind, and musical energy pulses through them. Their movements become a dance, their stride a rhythm, and they suddenly understand what it means to run with music—every race a performance, every step a beat."
     },
@@ -1289,12 +1299,12 @@ TF_CHARACTERS = [
         "message": "picks up a black, determined token that BunniBot left behind, and unyielding strength flows through them. Their resolve becomes absolute, their determination legendary, and they understand what it means to be Kitasan—running with the unstoppable, powerful energy of someone who works harder than anyone, turning every challenge into a stepping stone toward greatness."
     },
     {
-        "name": "Love-Me-Do (Uma Musume)",
+        "name": "Love-Only-You (Uma Musume)",
         "folder": "UMA_loves",
         "message": "grabs a heart-shaped charm that BunniBot left behind, and loving energy fills their heart. Their personality becomes warm and affectionate, their presence comforting, and they suddenly understand what it means to be loved—running with the joy of someone who spreads love with every step."
     },
     {
-        "name": "Lucky-Luz (Uma Musume)",
+        "name": "Lucky-Lilac (Uma Musume)",
         "folder": "UMA_lucky",
         "message": "picks up a lucky charm that BunniBot left behind, and fortunate energy surrounds them. Their luck becomes legendary, their fortune endless, and they suddenly understand what it means to be lucky—running with the unstoppable good fortune of someone who always lands on their feet."
     },
@@ -1374,7 +1384,7 @@ TF_CHARACTERS = [
         "message": "grabs a refined token that BunniBot left behind, and sophisticated energy flows through them. Their movements become elegant and smooth, their presence refined, and they understand what it means to be bourbon—running with the smooth, refined energy of something aged to perfection."
     },
     {
-        "name": "Mr.-C.B. (Uma Musume)",
+        "name": "Mr-C.B. (Uma Musume)",
         "folder": "UMA_mr",
         "message": "picks up a mysterious token that BunniBot left behind, and enigmatic power awakens. Their presence becomes mysterious, their identity unclear, and they understand what it means to be a mystery—running with the intriguing energy of someone whose true nature is hidden."
     },
@@ -1449,12 +1459,12 @@ TF_CHARACTERS = [
         "message": "picks up a rice grain that BunniBot left behind, and celebratory energy fills them. Their mood becomes festive, their presence joyful, and they understand what it means to shower—running with the unstoppable joy of someone who brings celebration wherever they go."
     },
     {
-        "name": "Royce (Uma Musume)",
+        "name": "Royce-and-Royce (Uma Musume)",
         "folder": "UMA_royce",
         "message": "finds an elegant token that BunniBot left behind, and refined grace settles over them. Their movements become sophisticated, their presence polished, and they understand what it means to be elegant—running with the beautiful, refined energy of someone who knows luxury."
     },
     {
-        "name": "Saint-Emilion (Uma Musume)",
+        "name": "Saint-Lite (Uma Musume)",
         "folder": "UMA_saint",
         "message": "touches a holy token that BunniBot left behind, and divine grace flows through them. Their presence becomes blessed, their movements sacred, and they understand what it means to be a saint—running with the beautiful, divine energy of something blessed."
     },
@@ -1479,7 +1489,7 @@ TF_CHARACTERS = [
         "message": "picks up a laurel branch that BunniBot left behind, and victorious energy flows through them. Their determination becomes absolute, their will to win unbreakable, and they understand what it means to wear laurels—running with the unstoppable energy of someone destined for victory."
     },
     {
-        "name": "Samson (Uma Musume)",
+        "name": "Samson-Big (Uma Musume)",
         "folder": "UMA_samson",
         "message": "finds a strength token that BunniBot left behind, and legendary power awakens. Their strength becomes unmatched, their will unbreakable, and they understand what it means to be strong—running with the unstoppable force of someone whose strength is legendary."
     },
@@ -1624,7 +1634,7 @@ TF_CHARACTERS = [
         "message": "finds a generic token that BunniBot left behind, and racing spirit awakens. Their determination becomes clear, their purpose certain, and they understand what it means to be an Uma Musume—running with the unstoppable energy of someone born to race."
     },
     {
-        "name": "Venus-Symbol (Uma Musume)",
+        "name": "Venus-Paques (Uma Musume)",
         "folder": "UMA_venus",
         "message": "touches a venus token that BunniBot left behind, and beautiful power flows through them. Their presence becomes radiant, their movements graceful, and they understand what it means to be Venus—running with the beautiful, unstoppable energy of the goddess of beauty herself."
     },
