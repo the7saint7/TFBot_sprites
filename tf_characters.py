@@ -1712,7 +1712,7 @@ TF_CHARACTERS = [
         "message": " finds one of Syn's trap and becomes transforms."
     },
     {
-        "name": "Emo Chick (Potion #6)",
+        "name": "JohnGB - EmoChick (Potion #6)",
         "avatar_path": "avatars/emoChick.png",
         "folder": "emoChick",
         "message": " finds one of Syn's trap and becomes transforms."
