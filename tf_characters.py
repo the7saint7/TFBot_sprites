@@ -1045,7 +1045,7 @@ TF_CHARACTERS = [
     },
     {
         "name": "Biwa-Hayahide (Uma Musume)",
-        "folder": "UMA_bikop",
+        "folder": "UMA_biwa",
         "message": "finds a biwa string that BunniBot left behind, and musical precision flows through them. Their movements become rhythmic and calculated, their mind analytical, and they understand what it means to be Hayahide—running with the methodical, intelligent energy of someone who studies every detail, turning racing into a precise art form."
     },
     {
@@ -1627,11 +1627,6 @@ TF_CHARACTERS = [
         "name": "Twin-Turbo (Uma Musume)",
         "folder": "UMA_twin",
         "message": "picks up a turbo token that BunniBot left behind, and explosive speed awakens. Their velocity becomes incredible, their power overwhelming, and they understand what it means to be turbo—running with the unstoppable, explosive force of something that moves at impossible speeds."
-    },
-    {
-        "name": "Uma-Musume (Uma Musume)",
-        "folder": "UMA_uma",
-        "message": "finds a generic token that BunniBot left behind, and racing spirit awakens. Their determination becomes clear, their purpose certain, and they understand what it means to be an Uma Musume—running with the unstoppable energy of someone born to race."
     },
     {
         "name": "Venus-Paques (Uma Musume)",
