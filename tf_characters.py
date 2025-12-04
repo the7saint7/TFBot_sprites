@@ -1009,14 +1009,9 @@ TF_CHARACTERS = [
         "message": "finds a pair of elegant glasses that BunniBot left behind, and when they put them on, the world sharpens into perfect focus. Their gaze becomes steady and observant, their movements precise and calculated. They see every detail, every opportunity—the track becomes a canvas, and they're the artist who knows exactly where each stroke should go."
     },
     {
-        "name": "Asahi-Rising (Uma Musume)",
+        "name": "Aston-Machan (Uma Musume)",
         "folder": "UMA_asm",
         "message": "grabs a sunrise-colored ribbon that BunniBot left behind, and warmth spreads through them like dawn breaking. Their energy surges with new beginnings, their optimism becomes infectious, and they feel unstoppable—like every race is a fresh start, every finish line a new horizon to chase."
-    },
-    {
-        "name": "Asahikawa (Uma Musume)",
-        "folder": "UMA_ash",
-        "message": "touches a cold, crystalline object that BunniBot left behind, and a refreshing chill runs through them. Their mind clears, their focus sharpens, and they suddenly understand the beauty of running in crisp morning air—every breath invigorating, every step clean and purposeful."
     },
     {
         "name": "Admire-Vega (Uma Musume)",
@@ -1037,11 +1032,6 @@ TF_CHARACTERS = [
         "name": "Biko-Pegasus (Uma Musume)",
         "folder": "UMA_bikop",
         "message": "Insert messege here."
-    },
-    {
-        "name": "Biko-Pegasus (Uma Musume)",
-        "folder": "UMA_bikop",
-        "message": "finds a biwa string that BunniBot left behind, and musical precision flows through them. Their movements become rhythmic and calculated, their mind analytical, and they understand what it means to be Hayahide—running with the methodical, intelligent energy of someone who studies every detail, turning racing into a precise art form."
     },
     {
         "name": "Biwa-Hayahide (Uma Musume)",
@@ -1069,7 +1059,7 @@ TF_CHARACTERS = [
         "message": "touches an ornate medallion that BunniBot left behind, and noble heritage awakens in their blood. Their bearing becomes regal, their determination fierce, and they feel the weight of legacy—running not just for themselves, but for a lineage of champions."
     },
     {
-        "name": "Calstone (Uma Musume)",
+        "name": "Calstone-Light-O (Uma Musume)",
         "folder": "UMA_calstone",
         "message": "picks up a smooth, polished stone that BunniBot left behind, and unyielding strength solidifies in their core. Their resolve becomes rock-hard, their endurance limitless, and they understand what it means to be unbreakable—running with the steady, relentless force of stone."
     },
@@ -1125,12 +1115,12 @@ TF_CHARACTERS = [
     },
     {
         "name": "Daring-Tact (Uma Musume)",
-        "folder": "UMA_daringh",
+        "folder": "UMA_daringt",
         "message": "grabs a bold, daring token that BunniBot left behind, and fearless energy surges through them. Their courage becomes absolute, their determination unbreakable, and they understand what it means to be daring—running with the unstoppable, bold energy of someone who takes risks, makes bold moves, and never hesitates when victory is on the line."
     },
     {
         "name": "Daring-Heart (Uma Musume)",
-        "folder": "UMA_daringt",
+        "folder": "UMA_daringh",
         "message": "Insert messege here."
     },
     {
