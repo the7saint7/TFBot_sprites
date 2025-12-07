@@ -4,4 +4,6 @@ name_color: '#fdb3c1'
 poses:
   a:
     facing: right
+  b:
+    facing: right
 scale: 1.15
