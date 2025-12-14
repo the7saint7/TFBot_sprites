@@ -1,0 +1,12 @@
+default_outfit: casual
+display_name: Ruri
+game: Yakata ~Kannou Kitan~
+name_color: '#fdb0b6'
+poses:
+  a:
+    center_width: 188
+    facing: right
+  b:
+    center_width: 255
+    facing: right
+voice: woman

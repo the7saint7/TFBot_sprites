@@ -1,0 +1,11 @@
+default_outfit: casual_panty
+eye_line: 0.0
+name: Corina
+name_color: '#267CF3'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 0.93
+voice: woman

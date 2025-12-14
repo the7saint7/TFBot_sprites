@@ -1,0 +1,13 @@
+default_outfit: pajamas
+display_name: Mom
+eye_line: 0.18
+mutations:
+  casual:
+  - casual
+  swimsuit:
+  - swimsuit
+name_color: '#e6847f'
+poses:
+  a:
+    facing: right
+voice: woman

@@ -1,0 +1,9 @@
+default_outfit: sucub
+display_name: Yuria
+game: Kyonyuu Majo
+name_color: '#6156c3'
+poses:
+  b:
+    facing: right
+scale: 0.9
+voice: woman

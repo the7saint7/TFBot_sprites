@@ -1,0 +1,14 @@
+display_name: "Riru"
+name_color: "#fc6854"
+voice: "girl"
+scale: 0.76
+poses:
+  a:
+    facing: "right"
+    image_height: 900
+  b:
+    facing: "right"
+    image_height: 900
+default_outfit: "casual"
+game: "Role Player: Okayu Shimai no Nenmaku Portrait - Gurigucha Live!"
+

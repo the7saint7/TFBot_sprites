@@ -1,0 +1,14 @@
+default_outfit: casual
+display_name: Catherine
+eye_line: 0.0
+name_color: '#a3cf8a'
+poses:
+  a:
+    center_width: 200
+    image_height: 685
+  b:
+    center_width: 275
+    facing: right
+    image_height: 685
+scale: 0.93
+voice: woman

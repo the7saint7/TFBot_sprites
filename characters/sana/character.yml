@@ -1,0 +1,18 @@
+default_outfit: suit
+display_name: Sana
+game: Mesu Kyoushi 2 _Injuu no Rasen_
+name_color: '#71d0cc'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  c:
+    facing: right
+  d:
+    facing: right
+  e:
+    facing: right
+  f:
+    facing: right
+voice: tomboy

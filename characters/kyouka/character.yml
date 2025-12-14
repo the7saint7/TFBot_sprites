@@ -1,0 +1,9 @@
+default_outfit: suit
+display_name: Kyouka
+game: Shihai no Kyoudan 2
+name_color: '#82627b'
+poses:
+  a:
+    facing: right
+scale: 1.0
+voice: woman

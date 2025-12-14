@@ -1,0 +1,14 @@
+display_name: "Seira"
+name_color: "#ffe2b5"
+voice: "girl"
+scale: 0.76
+poses:
+  a:
+    facing: "left"
+    image_height: 900
+  b:
+    facing: "left"
+    image_height: 900
+default_outfit: "casual"
+game: "Role Player: Okayu Shimai no Nenmaku Portrait - Gurigucha Live!"
+

@@ -1,0 +1,11 @@
+default_outfit: uniform
+eye_line: 0.0
+name: Cloe
+name_color: '#7DDA63'
+poses:
+  a:
+    facing: left
+  b:
+    facing: right
+scale: 0.82
+voice: woman

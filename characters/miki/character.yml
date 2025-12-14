@@ -1,0 +1,11 @@
+default_outfit: bdsm
+display_name: Miki
+game: Yakata ~Kannou Kitan~
+name_color: '#694c42'
+poses:
+  a:
+    center_width: 166
+  b:
+    center_width: 140
+scale: 1.0
+voice: woman

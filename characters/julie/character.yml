@@ -1,0 +1,11 @@
+default_outfit: maid
+display_name: Julie
+game: Yakata ~Kannou Kitan~
+name_color: '#C71585'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+scale: 0.8
+voice: woman

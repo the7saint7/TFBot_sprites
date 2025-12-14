@@ -1,0 +1,11 @@
+default_outfit: casual
+display_name: Misao
+eye_line: 0.0
+name_color: '#655f7f'
+poses:
+  a:
+    center_width: 220
+    facing: right
+    image_height: 670
+scale: 0.97
+voice: woman

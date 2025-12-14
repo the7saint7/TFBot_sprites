@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CLI helper to append new scenario characters into tf_characters.py."""
+"""CLI helper to add scenario characters, packs, and JSON entries."""
 
 from __future__ import annotations
 
@@ -12,15 +12,16 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 LOG_FILENAME = "add_scenario_characters_log.json"
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Append new characters from a directory of folders into tf_characters.py. "
-            "Each folder must contain a character.yml file with a display_name or name field."
+            "Append new characters from a directory of folders, update tf_characters.json, "
+            "and create/update the corresponding pack file. Each folder must contain a character.yml "
+            "file with a display_name or name field."
         )
     )
     parser.add_argument(
@@ -32,13 +33,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--scenario-name",
         type=str,
-        help="Optional scenario name used for the comment header and name suffix.",
+        help="Scenario name that becomes the pack title and JSON entry (required unless --undo-last).",
     )
     parser.add_argument(
         "--tf-characters",
         type=Path,
-        default=Path("tf_characters.py"),
-        help="Path to tf_characters.py (defaults to repository root).",
+        default=Path("tf_characters.json"),
+        help="Path to tf_characters.json (defaults to repository root).",
     )
     default_characters = Path(__file__).resolve().parents[1] / "characters"
     parser.add_argument(
@@ -47,15 +48,22 @@ def parse_args() -> argparse.Namespace:
         default=default_characters,
         help=f"Destination characters directory (default: {default_characters})",
     )
+    default_packs = Path(__file__).resolve().parents[1] / "packs"
+    parser.add_argument(
+        "--packs-dir",
+        type=Path,
+        default=default_packs,
+        help=f"Destination packs directory (default: {default_packs})",
+    )
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Preview the changes without modifying tf_characters.py.",
+        help="Preview the changes without modifying tf_characters.json or packs.",
     )
     parser.add_argument(
         "--undo-last",
         action="store_true",
-        help="Remove the most recent run: delete copied character folders and remove the appended block from tf_characters.py.",
+        help="Remove the most recent run: delete copied character folders, revert JSON, and restore the pack file.",
     )
     return parser.parse_args()
 
@@ -126,13 +134,6 @@ def collect_characters(characters_root: Path) -> List[Tuple[str, str, Path, Dict
     return characters
 
 
-def existing_folders(tf_characters_text: str) -> Sequence[str]:
-    return [
-        match.group(1)
-        for match in re.finditer(r'"folder"\s*:\s*"([^"]+)"', tf_characters_text)
-    ]
-
-
 def load_run_log(log_path: Path) -> List[dict]:
     if not log_path.exists():
         return []
@@ -144,6 +145,88 @@ def load_run_log(log_path: Path) -> List[dict]:
 
 def save_run_log(log_path: Path, entries: List[dict]) -> None:
     log_path.write_text(json.dumps(entries, indent=2), encoding="utf-8")
+
+
+def scenario_file_slug(scenario_name: str) -> str:
+    parts = re.findall(r"[A-Za-z0-9]+", scenario_name)
+    if not parts:
+        return "characters_Pack"
+    slug = "characters_" + "".join(part[:1].upper() + part[1:] for part in parts)
+    return slug
+
+
+def ensure_unique_file_slug(base: str, existing: set[str]) -> str:
+    candidate = base
+    suffix = 2
+    while candidate in existing:
+        candidate = f"{base}{suffix}"
+        suffix += 1
+    existing.add(candidate)
+    return candidate
+
+
+PACK_HEADER = """import os
+
+# Bot name from environment, defaults to "Syn" for backwards compatibility
+BOT_NAME = os.getenv("TFBOT_NAME", "Syn").strip() or "Syn"
+
+# Helper function to replace bot name placeholder in messages
+def _format_message(message: str) -> str:
+    \"\"\"Replace {BOT_NAME} placeholder with actual bot name.\"\"\"
+    return message.replace("{BOT_NAME}", BOT_NAME)
+
+TF_CHARACTERS = [
+
+"""
+
+
+def format_pack_entries(
+    entries: Iterable[Tuple[str, str]], scenario_name: str
+) -> str:
+    indent = "    "
+    block_lines: List[str] = [f"{indent}##{scenario_name}", ""]
+    for folder, display_name in entries:
+        safe_name = display_name.replace('"', r"\"")
+        block_lines.extend(
+            [
+                f"{indent}{{",
+                f'{indent * 2}"name": "{safe_name} ({scenario_name})",',
+                f'{indent * 2}"folder": "{folder}"',
+                indent + "},",
+                "",
+            ]
+        )
+    while block_lines and block_lines[-1] == "":
+        block_lines.pop()
+    return "\n".join(block_lines)
+
+
+def render_new_pack(block: str) -> str:
+    ending = "\n]\n"
+    block_text = block + "\n\n" if block else ""
+    return PACK_HEADER + block_text + ending
+
+
+def append_block_to_pack(pack_text: str, block: str) -> str:
+    closing_index = pack_text.rfind("]")
+    if closing_index == -1:
+        raise ValueError("Unable to locate closing bracket in pack file.")
+    prefix = pack_text[:closing_index].rstrip()
+    suffix = pack_text[closing_index:]
+    if not prefix.endswith("\n"):
+        prefix += "\n"
+    block_text = block + "\n\n"
+    return f"{prefix}\n\n{block_text}{suffix}"
+
+
+def remove_block(text: str, block: str) -> str:
+    marker = f"\n\n{block}\n\n"
+    if marker in text:
+        return text.replace(marker, "\n\n", 1)
+    idx = text.find(block)
+    if idx == -1:
+        raise ValueError("Unable to locate stored block.")
+    return text[:idx] + text[idx + len(block) :]
 
 
 def ensure_virtualenv_active(repo_root: Path) -> None:
@@ -180,44 +263,29 @@ def ensure_unique_folder(folder: str, taken: set[str]) -> str:
         suffix += 1
 
 
-def format_new_entries(
-    entries: Iterable[Tuple[str, str]], scenario_name: str
-) -> str:
-    indent = "    "
-    block_lines: List[str] = [f"{indent}# {scenario_name}", ""]
-    for folder, display_name in entries:
-        safe_name = display_name.replace('"', r"\"")
-        block_lines.extend(
-            [
-                f"{indent}{{",
-                f'{indent * 2}"name": "{safe_name} ({scenario_name})",',
-                f'{indent * 2}"folder": "{folder}"',
-                indent + "},",
-                "",
-            ]
-        )
-    while block_lines and block_lines[-1] == "":
-        block_lines.pop()
-    return "\n".join(block_lines)
+def folder_has_outfits(folder: Path) -> bool:
+    outfits_dir = folder / "outfits"
+    if not outfits_dir.exists():
+        return False
+    for _ in outfits_dir.iterdir():
+        return True
+    return False
 
 
-def insert_entries(tf_text: str, block: str) -> str:
-    closing_index = tf_text.rfind("]")
-    if closing_index == -1:
-        raise ValueError("Unable to locate closing bracket in tf_characters.py")
-    prefix = tf_text[:closing_index].rstrip()
-    suffix = tf_text[closing_index:]
-    return f"{prefix}\n\n{block}\n\n{suffix}"
-
-
-def remove_block(tf_text: str, block: str) -> str:
-    marker = f"\n\n{block}\n\n"
-    if marker in tf_text:
-        return tf_text.replace(marker, "\n\n", 1)
-    idx = tf_text.find(block)
-    if idx == -1:
-        raise ValueError("Unable to locate the stored block inside tf_characters.py.")
-    return tf_text[:idx] + tf_text[idx + len(block) :]
+def remove_dud_folder(folder: Path, dry_run: bool) -> bool:
+    """Return True if an invalid folder was removed (or would be in dry-run)."""
+    if not folder.exists():
+        return False
+    if (folder / "character.yml").exists():
+        return False
+    if folder_has_outfits(folder):
+        return False
+    if dry_run:
+        print(f"[dry-run] remove dud folder {folder}")
+    else:
+        shutil.rmtree(folder)
+        print(f"[delete] removed dud folder {folder}")
+    return True
 
 
 def copy_character_folder(
@@ -254,7 +322,6 @@ def process_character_assets(
 ) -> None:
     face_script = tools_dir / "face_fixer.py"
     pose_script = tools_dir / "pose_cropper.py"
-    ect_script = tools_dir / "ect_runner.py"
 
     run_tool(face_script, [str(characters_dir / folder_name)], dry_run, f"face_fixer ({folder_name})")
     run_tool(
@@ -262,12 +329,6 @@ def process_character_assets(
         [str(characters_dir), "--character", folder_name],
         dry_run,
         f"pose_cropper ({folder_name})",
-    )
-    run_tool(
-        ect_script,
-        ["--characters", str(characters_dir / folder_name)],
-        dry_run,
-        f"ect_runner ({folder_name})",
     )
 
 
@@ -339,9 +400,7 @@ def undo_last_run(
     entry = entries[-1]
     saved_tf = Path(entry["tf_characters"])
     saved_characters = Path(entry["characters_dir"])
-    block = entry.get("block", "")
     folders = entry.get("copied_folders") or entry.get("folders") or []
-    block_written = entry.get("block_written", bool(block))
     merged_updates = entry.get("merged_updates", [])
 
     if saved_tf.resolve() != tf_characters_path.resolve():
@@ -360,15 +419,7 @@ def undo_last_run(
     target_tf = saved_tf if saved_tf.exists() else tf_characters_path
     if not target_tf.exists():
         raise SystemExit(f"Cannot undo: tf_characters file not found at {target_tf}")
-    tf_text = target_tf.read_text(encoding="utf-8")
-    updated_text = tf_text
-    if block and block_written:
-        try:
-            updated_text = remove_block(tf_text, block)
-        except ValueError as exc:
-            raise SystemExit(f"Cannot undo block: {exc}")
-    elif block:
-        print("[info] Block was never written; skipping tf_characters.py editing.")
+    uses_snapshots = "tf_characters_snapshot" in entry or "pack_file" in entry
 
     for folder in folders:
         target_dir = saved_characters / folder
@@ -406,16 +457,52 @@ def undo_last_run(
                 print(f"[delete] merged file {target}")
 
     if dry_run:
-        if block and block_written:
-            print("[dry-run] tf_characters.py would have the last block removed.")
+        if uses_snapshots:
+            if entry.get("tf_characters_snapshot") is not None:
+                print(f"[dry-run] tf_characters.json at {target_tf} would be restored from snapshot.")
+            pack_file = entry.get("pack_file")
+            if pack_file:
+                if entry.get("pack_file_created"):
+                    print(f"[dry-run] Newly created pack file {pack_file} would be deleted.")
+                elif entry.get("pack_previous_text") is not None:
+                    print(f"[dry-run] Pack file {pack_file} would be restored from snapshot.")
+        else:
+            block = entry.get("block", "")
+            block_written = entry.get("block_written", bool(block))
+            if block and block_written:
+                print("[dry-run] tf_characters file would have the last block removed.")
         return
 
+    if uses_snapshots:
+        snapshot = entry.get("tf_characters_snapshot")
+        if snapshot is None:
+            raise SystemExit("Recorded run is missing tf_characters snapshot.")
+        target_tf.write_text(snapshot, encoding="utf-8")
+        pack_file = Path(entry["pack_file"]) if entry.get("pack_file") else None
+        if pack_file:
+            if entry.get("pack_file_created") and pack_file.exists():
+                pack_file.unlink()
+                print(f"[delete] pack file {pack_file}")
+            elif entry.get("pack_previous_text") is not None:
+                pack_file.write_text(entry["pack_previous_text"], encoding="utf-8")
+                print(f"[restore] pack file {pack_file}")
+    else:
+        block = entry.get("block", "")
+        block_written = entry.get("block_written", bool(block))
+        tf_text = target_tf.read_text(encoding="utf-8")
+        updated_text = tf_text
+        if block and block_written:
+            try:
+                updated_text = remove_block(tf_text, block)
+            except ValueError as exc:
+                raise SystemExit(f"Cannot undo block: {exc}")
+        elif block:
+            print("[info] Block was never written; skipping tf_characters editing.")
+        target_tf.write_text(updated_text, encoding="utf-8")
+
     entries.pop()
-    target_tf.write_text(updated_text, encoding="utf-8")
     save_run_log(log_path, entries)
-    print(
-        f"Removed {len(folders)} character folders and deleted the last appended block from {target_tf}."
-    )
+    print(f"Removed {len(folders)} character folders and reverted the last run.")
 
 
 def main() -> None:
@@ -424,9 +511,12 @@ def main() -> None:
     log_path = tools_dir / LOG_FILENAME
     tf_characters_path = args.tf_characters.resolve()
     destination_characters = args.characters_dir.resolve()
+    packs_dir = args.packs_dir.resolve()
     repo_root = tools_dir.parents[1]
 
     ensure_virtualenv_active(repo_root)
+
+    scenario_name = (args.scenario_name or "").strip()
 
     if args.undo_last:
         undo_last_run(log_path, tf_characters_path, destination_characters, args.dry_run)
@@ -434,6 +524,8 @@ def main() -> None:
 
     if args.characters_path is None:
         raise SystemExit("characters_path is required unless --undo-last is specified.")
+    if not scenario_name:
+        raise SystemExit("--scenario-name is required unless --undo-last is specified.")
 
     characters_path = args.characters_path.resolve()
 
@@ -447,14 +539,57 @@ def main() -> None:
         raise SystemExit(f"Characters directory {destination_characters} not found.")
     if not destination_characters.is_dir():
         raise SystemExit(f"{destination_characters} is not a directory.")
-
-    scenario_name = args.scenario_name or characters_path.name
+    if not packs_dir.exists():
+        raise SystemExit(f"Packs directory {packs_dir} not found.")
+    if not packs_dir.is_dir():
+        raise SystemExit(f"{packs_dir} is not a directory.")
 
     new_characters = collect_characters(characters_path)
     if not new_characters:
         raise SystemExit("No character folders with valid character.yml files found.")
 
     tf_text = tf_characters_path.read_text(encoding="utf-8")
+    try:
+        tf_data = json.loads(tf_text)
+    except json.JSONDecodeError as exc:
+        raise SystemExit(f"Failed to parse {tf_characters_path}: {exc}") from exc
+    if not isinstance(tf_data, list):
+        raise SystemExit(f"{tf_characters_path} must contain a JSON array.")
+
+    existing_file_names = {
+        str(entry.get("file"))
+        for entry in tf_data
+        if isinstance(entry, dict) and entry.get("file")
+    }
+    scenario_entry: Optional[Dict[str, Any]] = None
+    for entry in tf_data:
+        if isinstance(entry, dict) and entry.get("name") == scenario_name:
+            scenario_entry = entry
+            break
+
+    if scenario_entry is None:
+        base_file = scenario_file_slug(scenario_name)
+        pack_file_stem = ensure_unique_file_slug(base_file, existing_file_names)
+        scenario_entry = {
+            "name": scenario_name,
+            "file": pack_file_stem,
+            "enable_BunniBot": True,
+            "enable_VNBot": True,
+        }
+        tf_data.append(scenario_entry)
+    else:
+        pack_file_stem = scenario_entry.get("file")
+        if not pack_file_stem:
+            base_file = scenario_file_slug(scenario_name)
+            pack_file_stem = ensure_unique_file_slug(base_file, existing_file_names)
+            scenario_entry["file"] = pack_file_stem
+        pack_file_stem = str(pack_file_stem)
+        scenario_entry["file"] = pack_file_stem
+        scenario_entry["enable_BunniBot"] = True
+        scenario_entry["enable_VNBot"] = True
+
+    pack_file_path = packs_dir / f"{pack_file_stem}.py"
+
     existing_dir_names = {
         path.name for path in destination_characters.iterdir() if path.is_dir()
     }
@@ -463,7 +598,12 @@ def main() -> None:
     character_actions: List[Dict[str, Any]] = []
     for folder, name, source, metadata in new_characters:
         dest_path = destination_characters / folder
+        removed_dud = False
         if dest_path.exists():
+            removed_dud = remove_dud_folder(dest_path, args.dry_run)
+            if removed_dud:
+                taken_names.discard(dest_path.name)
+        if dest_path.exists() and not removed_dud:
             existing_config = dest_path / "character.yml"
             existing_data: Dict[str, Any] = {}
             if existing_config.exists():
@@ -512,15 +652,33 @@ def main() -> None:
     if not character_actions:
         raise SystemExit("No characters available for import.")
 
-    block_entries = [
-        (action["folder"], action["display_name"]) for action in character_actions
+    pack_entries = [
+        (action["folder"], action["display_name"])
+        for action in character_actions
+        if action["type"] != "merge"
     ]
-    block = format_new_entries(block_entries, scenario_name)
-    updated_text = insert_entries(tf_text, block)
+    pack_block = format_pack_entries(pack_entries, scenario_name) if pack_entries else ""
+
+    updated_tf_text = json.dumps(tf_data, indent=2) + "\n"
+    pack_file_exists = pack_file_path.exists()
+    pack_previous_text: Optional[str] = None
+    updated_pack_text: Optional[str] = None
+    if pack_entries:
+        if pack_file_exists:
+            try:
+                pack_previous_text = pack_file_path.read_text(encoding="utf-8")
+            except OSError as exc:
+                raise SystemExit(f"Unable to read existing pack file {pack_file_path}: {exc}") from exc
+            try:
+                updated_pack_text = append_block_to_pack(pack_previous_text, pack_block)
+            except ValueError as exc:
+                raise SystemExit(f"Failed to update pack file {pack_file_path}: {exc}") from exc
+        else:
+            updated_pack_text = render_new_pack(pack_block)
 
     if args.dry_run:
-        print("Dry run: showing block that would be inserted:\n")
-        print(block)
+        print("Dry run: showing pack block that would be inserted:\n")
+        print(pack_block)
 
     log_entries: List[dict] | None = None
     log_entry: dict | None = None
@@ -532,10 +690,17 @@ def main() -> None:
             "copied_folders": [],
             "tf_characters": str(tf_characters_path),
             "characters_dir": str(destination_characters),
-            "block": block,
-            "block_written": False,
+            "tf_characters_snapshot": tf_text,
             "merged_updates": [],
         }
+        if pack_entries:
+            log_entry.update(
+                {
+                    "pack_file": str(pack_file_path),
+                    "pack_file_created": not pack_file_exists,
+                    "pack_previous_text": pack_previous_text,
+                }
+            )
         log_entries.append(log_entry)
         save_run_log(log_path, log_entries)
 
@@ -566,12 +731,14 @@ def main() -> None:
     if args.dry_run:
         return
 
-    tf_characters_path.write_text(updated_text, encoding="utf-8")
+    tf_characters_path.write_text(updated_tf_text, encoding="utf-8")
+    if pack_entries and updated_pack_text is not None:
+        pack_file_path.parent.mkdir(parents=True, exist_ok=True)
+        pack_file_path.write_text(updated_pack_text, encoding="utf-8")
     if log_entry is not None and log_entries is not None:
-        log_entry["block_written"] = True
         save_run_log(log_path, log_entries)
 
-    print(f"Added {len(filtered)} characters under scenario '{scenario_name}'.")
+    print(f"Added {len(character_actions)} characters under scenario '{scenario_name}'.")
 
 
 if __name__ == "__main__":

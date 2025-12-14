@@ -1,0 +1,9 @@
+default_outfit: suit
+display_name: Souko
+eye_line: 0.0
+name_color: '#b28981'
+poses:
+  a:
+    center_width: 133
+scale: 0.9
+voice: woman

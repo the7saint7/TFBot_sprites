@@ -1,0 +1,23 @@
+default_outfit: casual
+eye_line: 0.0
+name: Narume
+name_color: CD98D2
+poses:
+  a:
+    facing: left
+  b:
+    facing: left
+  c:
+    facing: left
+  d:
+    facing: left
+  e:
+    facing: left
+  f:
+    facing: left
+  g:
+    facing: left
+  h:
+    facing: left
+scale: 0.44
+voice: woman

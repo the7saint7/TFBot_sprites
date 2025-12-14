@@ -1,0 +1,11 @@
+default_outfit: uniform
+display_name: Cecile
+game: Kyonyuu Majo
+name_color: '#599c73'
+poses:
+  a:
+    facing: left
+  b:
+    facing: left
+scale: 0.88
+voice: woman

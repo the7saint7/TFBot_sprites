@@ -1,0 +1,11 @@
+default_outfit: chinese
+eye_line: 0.0
+name: Melisa
+name_color: '#EF64BE'
+poses:
+  a:
+    facing: left
+  b:
+    facing: left
+scale: 0.79
+voice: girl

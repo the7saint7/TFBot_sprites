@@ -1,0 +1,10 @@
+default_outfit: nude
+display_name: Miria
+game: Shihai no Kyoudan
+name_color: '#ffeba7'
+poses:
+  b:
+    center_width: 160
+    facing: right
+scale: 0.9
+voice: deep

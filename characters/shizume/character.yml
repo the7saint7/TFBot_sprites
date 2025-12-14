@@ -1,0 +1,10 @@
+default_outfit: maid
+display_name: Shizume
+game: Kyonyuu Majo
+name_color: '#d6c7d0'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+voice: woman

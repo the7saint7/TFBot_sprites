@@ -1,0 +1,11 @@
+default_outfit: dancer
+display_name: Ciriel
+eye_line: 0.0
+name_color: '#8abda2'
+poses:
+  a:
+    center_width: 400
+  b:
+    center_width: 400
+scale: 0.85
+voice: girl

@@ -1,0 +1,10 @@
+display_name: "Inori"
+name_color: "#77569c"
+scale: 0.95
+voice: "girl"
+default_outfit: "uniform"
+poses:
+  a:
+    facing: "right"
+game: "Reijou Kanritou ~Seifuku Shoujo-tachi no Sakunyuu Reizokuki~"
+

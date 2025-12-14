@@ -1,0 +1,12 @@
+default_outfit: uniform
+display_name: Kokoro
+eye_line: 0.0
+name_color: '#e9b198'
+poses:
+  a:
+    center_width: 155
+  b:
+    center_width: 165
+    facing: right
+scale: 0.8
+voice: woman

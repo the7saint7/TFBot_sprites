@@ -1,0 +1,13 @@
+default_outfit: casual
+display_name: Mark
+eye_line: 0.0
+name_color: '#d1a15b'
+poses:
+  a:
+    center_width: 185
+    image_height: 720
+  b:
+    center_width: 185
+    image_height: 720
+scale: 0.98
+voice: deep

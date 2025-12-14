@@ -1,0 +1,10 @@
+display_name: "Haru"
+name_color: "#fdeeac"
+voice: "girl"
+scale: .9
+poses:
+  b:
+    facing: right
+default_outfit: "uniform_wings"
+game: "DraPri Guu-ta-life"
+

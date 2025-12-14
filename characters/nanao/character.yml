@@ -1,0 +1,12 @@
+display_name: "Nanao"
+name_color: "#852fdf"
+scale: 0.9
+voice: "girl"
+poses: 
+  a: 
+    facing: "right" 
+  b: 
+    facing: "right" 
+default_outfit: "uniform"
+game: "Reijou Kanritou ~Seifuku Shoujo-tachi no Sakunyuu Reizokuki~"
+

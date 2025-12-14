@@ -1,0 +1,11 @@
+default_outfit: uniform
+eye_line: 0.0
+name: Mitsuki
+name_color: '#5117CD'
+poses:
+  a:
+    facing: right
+  b:
+    facing: left
+scale: 0.8
+voice: girl

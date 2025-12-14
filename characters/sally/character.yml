@@ -1,0 +1,11 @@
+display_name: "Sally"
+name_color: "#6e3280"
+voice: "girl"
+scale: 1.0
+poses:
+  a:
+    facing: left
+    image_height: 640
+default_outfit: "harem"
+game: "Mama x Holic ~Miwaku no Mama to Amaama Kankei~"
+
