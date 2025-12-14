@@ -237,7 +237,7 @@ def load_pose_image_heights(character_dir: Path) -> Dict[str, int]:
     config_path = character_dir / "character.yml"
     if not config_path.exists():
         return {}
-    text = config_path.read_text()
+    text = config_path.read_text(encoding="utf-8")
     if yaml is None:
         return parse_pose_heights_fallback(text)
     try:

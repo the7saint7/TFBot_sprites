@@ -40,6 +40,28 @@ To keep downloads lightweight, tools in `tools/` focus on optimizing and cleanin
 
   The tool requires Pillow and uses PyYAML when available (it falls back to a minimal parser otherwise); start with `--dry-run` to review the crop boxes that will be applied.
 
+- `tools/ai_outfit_builder.py` wraps a Flux-Kontext ComfyUI workflow (see `tools/FLUX_KONTEXT_IMAGE_EDITING_API.json`) so every character can automatically receive a new AI-generated outfit. Point the script at your workflow JSON, supply the outfit name, and optionally override the secondary reference image or prompt. Node bindings default to primary image `408`, optional secondary `402`, prompt `394`, and output `392`, but you can override those via `--*-node` flags if your workflow differs. Generated renders are staged for manual QA before background removal.
+
+  ```bash
+  python tools/ai_outfit_builder.py ^
+      --workflow tools/FLUX_KONTEXT_IMAGE_EDITING_API.json ^
+      --outfit-name neon_guard ^
+      --secondary-image suit.png ^
+      --prompt "Energetic neon bodyguard uniform"
+  ```
+
+  The workflow template JSON may optionally include a `metadata` block that identifies each node binding; otherwise pass node ids via CLI. Generated sprites flatten onto a light gray background before upload, are cropped to their left half, and saved into `outputs/<character>/<pose>/TIMESTAMP_outfit.png`. The script skips any character that already has a folder in `outputs/`, `to_remove_bg/`, or `bg_removed/` (unless `--force` is passed). Move a reviewed character folder from `outputs/` to `to_remove_bg/` when it is ready for the separate background-removal step.
+
+- `tools/add_scenario_characters.py` reads every folder inside a supplied directory, pulls each folder's `display_name` from `character.yml`, copies the character folder into `characters/`, batch-runs the cleanup tools, and appends the character entries to `tf_characters.py` under a single scenario header. The comment defaults to the directory name but can be overridden with `--scenario-name`. Existing folders are skipped automatically, and the tool can preview the block it would append via `--dry-run`. Pass `--undo-last` to remove the most recent run (it deletes the recorded character folders and removes the appended block from `tf_characters.py`); add `--dry-run` to preview what would be undone.
+
+  ```bash
+  python tools/add_scenario_characters.py ..\new_truth_or_syn --scenario-name "Truth or Syn"
+  python tools/add_scenario_characters.py ..\new_truth_or_syn --dry-run
+  python tools/add_scenario_characters.py --undo-last
+  ```
+
+  Characters are appended at the end of the `TF_CHARACTERS` list with their names suffixed by the scenario in parentheses, matching the in-file template. If a folder name would collide with an existing character, the script compares each folder’s `character.yml`. When the canonical metadata (name plus the non-pose fields) matches, the new content is merged into the existing folder—only missing poses/outfits/files are copied across, and the merge is logged so `--undo-last` can delete those paths later. If the metadata differs, the folder name is automatically incremented (`john`, `john1`, `john2`, …) so the characters stay distinct. When `character.yml` lacks a readable name, the folder name is title-cased and used as a fallback instead of skipping the character. After copying or merging each folder into the destination characters directory (override with `--characters-dir` when needed), the tool runs `face_fixer.py`, `pose_cropper.py --character <name>`, and `ect_runner.py --characters <path>` to keep the assets tidy before writing to `tf_characters.py`. Every run is logged incrementally, so `--undo-last` can roll back even a partially failed import. The script exits immediately if it detects that the `.env` virtual environment is not active, so activate it first.
+
 ### Python Environment
 
 Scripts assume you are working inside a virtual environment named `.env`. The tools will warn if they detect that `.env` is not active and remind you how to initialize or activate it. Recommended workflow:
