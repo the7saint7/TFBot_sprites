@@ -63,7 +63,7 @@
     "name": "ST - Scenarios - Social Experiment",
     "file": "characters_SocialExperiment",
     "enable_BunniBot": true,
-    "enable_VNBot": true
+    "enable_VNBot": false
   },
   {
     "name": "ST - Scenarios - Fusion",
