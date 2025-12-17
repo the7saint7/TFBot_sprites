@@ -17,7 +17,11 @@ TF_CHARACTERS = [
         "folder": "yuiGyaru",
         "message": " finds one of {BOT_NAME}'s trap and transforms."
     },
-
+    {
+        "name": "Claus Gyaru",
+        "folder": "clausgb",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
+    },
 
 
 ]
