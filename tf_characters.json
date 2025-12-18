@@ -106,5 +106,12 @@
     "file": "characters_TruthOrSyn",
     "enable_BunniBot": true,
     "enable_VNBot": true
+  },
+  {
+    "name": "Community",
+    "file": "characters_Comunity",
+    "enable_BunniBot": false,
+    "enable_VNBot": true
   }
+
 ]

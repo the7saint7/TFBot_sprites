@@ -29,6 +29,21 @@ TF_CHARACTERS = [
         "folder": "rita_be",
         "message": " finds one of {BOT_NAME}'s trap and transforms."
     },
+    {
+        "name": "JohnGB Mannequin",
+        "folder": "johnGB_mannequin",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
+    },
+    {
+        "name": "KiyoshiGB Mannequin",
+        "folder": "kiyoshiGB_mannequin",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
+    },
+    {
+        "name": "Katrina Mannequin",
+        "folder": "katrina_mannequin",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
+    },
 
 
 

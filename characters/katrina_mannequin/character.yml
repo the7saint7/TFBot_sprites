@@ -1,0 +1,7 @@
+display_name: "Katrina Mannequin"
+name_color: "#d17554"
+poses:
+  ai:
+    facing: "left"
+default_outfit: "uniform"
+
