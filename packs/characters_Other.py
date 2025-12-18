@@ -26,5 +26,5 @@ TF_CHARACTERS = [
         "name": "RitaBE",
         "folder": "rita_be",
         "message": " finds one of {BOT_NAME}'s trap and transforms."
-
+    },
 ]
