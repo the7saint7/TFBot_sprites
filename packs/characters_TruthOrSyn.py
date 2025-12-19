@@ -203,11 +203,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Natsumi (Truth or Syn)",
-        "folder": "natsumiAP"
-    },
-
-    {
         "name": "Rachel (Truth or Syn)",
         "folder": "rachelAR"
     },
@@ -293,11 +288,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Tori (Truth or Syn)",
-        "folder": "toriAR"
-    },
-
-    {
         "name": "Tsubasa (Truth or Syn)",
         "folder": "tsubasa"
     },
@@ -307,10 +297,6 @@ TF_CHARACTERS = [
         "folder": "uya"
     },
 
-    {
-        "name": "Vanessa (Truth or Syn)",
-        "folder": "vanessaAR"
-    },
 
     {
         "name": "Yui (Truth or Syn)",
