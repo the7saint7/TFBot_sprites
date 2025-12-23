@@ -869,5 +869,9 @@ TF_CHARACTERS = [
         "folder": "UMA_zenno",
         "message": "picks up a royal token that {BOT_NAME} left behind, and noble power awakens. Their bearing becomes regal, their determination absolute, and they understand what it means to be royalâ€”running with the unshakeable confidence of someone born to nobility."
     },
-
+    {
+        "name": "BoJack (Uma Musume)",
+        "folder": "UMA_bojack",
+        "message": "picks up a strange coffee mug that {BOT_NAME} left behind, and lazy power awakens. Ah, fuck this shit..."
+    },
 ]

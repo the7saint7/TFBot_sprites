@@ -1,0 +1,5 @@
+default_outfit: casual
+name_color: '#a16d54'
+poses:
+  a:
+    facing: right
