@@ -3,5 +3,7 @@ name_color: '#d17554'
 poses:
   b:
     facing: right
+  ai:
+    facing: right
 scale: 0.9
 voice: tomboy
