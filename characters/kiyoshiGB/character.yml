@@ -11,3 +11,5 @@ poses:
         - uniform
   c:
     facing: right
+  ai:
+    facing: right
