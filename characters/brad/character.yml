@@ -2,5 +2,7 @@ name_color: '#ffedaa'
 poses:
   a:
     facing: right
+  ai:
+    facing: right
 scale: 0.9
 voice: male

@@ -4,3 +4,6 @@ poses:
     facing: right
   c:
     facing: right
+  ai:
+    facing: right
+

@@ -13,5 +13,7 @@ name_color: '#fbca86'
 poses:
   b:
     facing: right
+  ai:
+    facing: right
 scale: 0.9
 voice: child

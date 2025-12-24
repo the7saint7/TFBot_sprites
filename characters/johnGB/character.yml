@@ -4,5 +4,7 @@ poses:
     facing: right
   c:
     facing: right
+  ai:
+    facing: right
 scale: 0.92
 voice: johnGB
