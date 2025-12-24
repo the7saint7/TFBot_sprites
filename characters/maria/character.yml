@@ -1,6 +1,4 @@
 eye_line: 0.02
 name_color: '#c4a571'
-  ai:
-    facing: right
 scale: 0.9
 voice: child
