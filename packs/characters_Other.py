@@ -44,7 +44,11 @@ TF_CHARACTERS = [
         "folder": "katrina_mannequin",
         "message": " finds one of {BOT_NAME}'s trap and transforms."
     },
-
+    {
+        "name": "Kyoko Mannequin",
+        "folder": "kyoko_mannequin",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
+    },
 
 
 ]
