@@ -272,7 +272,7 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "JohnGB",
+        "name": "Jane Davis",
         "avatar_path": "avatars/johngb.png",
         "folder": "johnGB",
         "message": "steps right into one of {BOT_NAME}'s trapsâ€”a flash of violet light ripples through them, and their grin tilts sly as a new kind of mischief bubbles under the surface. They blink, confused, but the voice that escapes is smoother than before."
@@ -300,7 +300,7 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Kiyo",
+        "name": "Kiyo Honda",
         "avatar_path": "avatars/kiyoshigb.png",
         "folder": "kiyoshiGB",
         "message": "hesitate after hearing a familiar giggle. But too late they feel their hair grow very long and their frame grow smaller. Soon they have a small pair of breast of their own..."
@@ -314,7 +314,7 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Kyoko",
+        "name": "Kyoko Hano",
         "avatar_path": "avatars/kyoko.png",
         "folder": "kyoko",
         "message": "picks up a book with a faint purple mark, and light spills between the pages. Calm settles in instantly, their shoulders relax, and they find themselves quietly smiling like they already know what happens next."
