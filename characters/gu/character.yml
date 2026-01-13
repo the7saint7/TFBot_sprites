@@ -5,9 +5,7 @@ name_color: '#8258fa'
 poses:
   a:
     center_width: 300
-    image_height: 650
   b:
     center_width: 300
-    image_height: 650
 scale: 0.7
 voice: girl
