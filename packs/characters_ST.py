@@ -125,7 +125,7 @@ TF_CHARACTERS = [
     {
         "name": "Casey",
         "gender": "female",
-        "genderswap": None",
+        "genderswap": None,
         "age": "teen",
         "type": "human",
         "avatar_path": "avatars/casey.png",
