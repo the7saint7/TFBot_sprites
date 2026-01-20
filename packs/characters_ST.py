@@ -1,4 +1,4 @@
-﻿import os
+import os
 
 # Bot name from environment, defaults to "Syn" for backwards compatibility
 BOT_NAME = os.getenv("TFBOT_NAME", "Syn").strip() or "Syn"
@@ -90,7 +90,7 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "BradGB",
+        "name": "Bread Chambers",
         "gender": "female",
         "genderswap": "brad",
         "age": "teen",
@@ -120,6 +120,17 @@ TF_CHARACTERS = [
         "avatar_path": "avatars/carrie.png",
         "folder": "carrie",
         "message": "finds a strange mirror note that {BOT_NAME} left behind and can't resist reading it. A warm pulse rolls through them, leaving a sharp, magnetic confidence behindâ€”Carrie's charm sticking like perfume."
+    },
+
+    {
+        "name": "Casey",
+        "gender": "female",
+        "genderswap": None",
+        "age": "teen",
+        "type": "human",
+        "avatar_path": "avatars/casey.png",
+        "folder": "casey",
+        "message": "touches something {BOT_NAME} left behind and feels a shift ripple through them. Their form settles, their presence becomes steady, and they stand ready for whatever comes next."
     },
 
     {
@@ -255,7 +266,7 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "EricGB",
+        "name": "Erica Tyner",
         "gender": "female",
         "genderswap": "eric",
         "age": "teen",
@@ -428,17 +439,6 @@ TF_CHARACTERS = [
         "avatar_path": "avatars/johngb.png",
         "folder": "johnGB",
         "message": "steps right into one of {BOT_NAME}'s trapsâ€”a flash of violet light ripples through them, and their grin tilts sly as a new kind of mischief bubbles under the surface. They blink, confused, but the voice that escapes is smoother than before."
-    },
-
-    {
-        "name": "Johngb3",
-        "gender": "female",
-        "genderswap": None,
-        "age": "teen",
-        "type": "human",
-        "avatar_path": "avatars/johngb3.png",
-        "folder": "johnGB3",
-        "message": " stepped on a trap left by {BOT_NAME} and were transported in an alternate universe where they became a different version of John."
     },
 
     {
@@ -794,6 +794,28 @@ TF_CHARACTERS = [
     },
 
     {
+        "name": "Stevie",
+        "gender": "male",
+        "genderswap": "stevieGB",
+        "age": "teen",
+        "type": "human",
+        "avatar_path": "avatars/stevie.png",
+        "folder": "stevie",
+        "message": "touches something {BOT_NAME} left behind and feels a shift ripple through them. Their form settles, their presence becomes steady, and they stand ready for whatever comes next."
+    },
+
+    {
+        "name": "StevieGB",
+        "gender": "female",
+        "genderswap": "stevie",
+        "age": "teen",
+        "type": "human",
+        "avatar_path": "avatars/stevie.png",
+        "folder": "stevieGB",
+        "message": "touches something {BOT_NAME} left behind and feels a shift ripple through them. Their form settles, their presence becomes steady, and they stand ready for whatever comes next."
+    },
+
+    {
         "name": "Tori Vega",
         "gender": "female",
         "genderswap": None,
@@ -835,6 +857,17 @@ TF_CHARACTERS = [
         "avatar_path": "avatars/yuuna.png",
         "folder": "yuuna",
         "message": "picks up a half-folded bill with a tiny rune in the corner and feels the weight land immediately. Their shoulders tense with tired responsibility, and all they can think about is keeping everyone else okay, no matter what it costs."
+    },
+
+    {
+        "name": "Yoshinori",
+        "gender": "male",
+        "genderswap": None,
+        "age": "adult",
+        "type": "human",
+        "avatar_path": "avatars/yoshinori.png",
+        "folder": "yoshinori",
+        "message": "touches something {BOT_NAME} left behind and feels a shift ripple through them. Their form settles, their presence becomes steady, and they stand ready for whatever comes next."
     },
 
     {

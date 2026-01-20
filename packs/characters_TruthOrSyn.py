@@ -88,6 +88,17 @@ TF_CHARACTERS = [
     },
 
     {
+        "name": "Johngb3",
+        "gender": "female",
+        "genderswap": None,
+        "age": "teen",
+        "type": "human",
+        "avatar_path": "avatars/johngb3.png",
+        "folder": "johnGB3",
+        "message": " stepped on a trap left by {BOT_NAME} and were transported in an alternate universe where they became a different version of John."
+    },
+    
+    {
         "name": "Johnshrink (Truth or Syn)",
         "folder": "johnShrink"
     },
