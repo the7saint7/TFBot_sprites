@@ -1,6 +1,10 @@
-display_name: ZoeyGB
-default_outfit: uniform
-eye_line: 0.11
-name_color: '#eed25d'
-scale: 0.9
-voice: child
+display_name: "Joey"
+name_color: "#eed25d"
+voice: "male"
+scale: .70
+default_outfit: "uniform"
+poses:
+  a:
+    facing: right
+game: "Hanikami Clover"
+

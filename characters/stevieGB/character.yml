@@ -1,13 +1,24 @@
-display_name: StevieGB
-default_outfit: uniform
-eye_line: 0.2
-name_color: '#e8cb90'
+display_name: "Stevie"
+name_color: "#e8cb90"
+voice: "girl"
+scale: .67
 poses:
   a:
-    center_width: 160
-    facing: right
+    facing: "right"
+    excludes:
+      nails:
+        - girlUniform_E
+        - nude_A
+        - nude_D
+        - nude_E
   b:
-    center_width: 160
-    facing: right
-scale: 1.1
-voice: tomboy
+    facing: "right"
+    excludes:
+      nails:
+        - girlUniform_E
+        - nude_A
+        - nude_D
+        - nude_E
+default_outfit: "boyUniform_A"
+game: "Made in Stable Diffusion by: The7Saint7"
+
