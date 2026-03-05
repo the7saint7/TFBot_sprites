@@ -1,0 +1,8 @@
+display_name: MichelleGB
+default_outfit: uniform
+eye_line: 0.08
+name_color: '#966a5b'
+poses:
+  a:
+    facing: right
+scale: 0.9

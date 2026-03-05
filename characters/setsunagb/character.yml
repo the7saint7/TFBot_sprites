@@ -1,0 +1,8 @@
+display_name: SetsunaGB
+default_outfit: casual
+eye_line: 0.06
+name_color: '#afe4d8'
+poses:
+  b:
+    facing: right
+scale: 0.9

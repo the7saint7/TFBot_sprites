@@ -1,8 +1,5 @@
-display_name: "Clausoko"
+display_name: ClausGB
+default_outfit: uniform
 name_color: '#cad4e0'
 scale: 0.9
-voice: girl
-poses:
-  a:
-    facing: left
-
+voice: male

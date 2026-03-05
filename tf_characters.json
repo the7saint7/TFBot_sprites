@@ -10,6 +10,14 @@
       "enable_VNBot_snakes_ladders": false
     },
     {
+      "name": "ST Variants",
+      "file": "characters_STVariants",
+      "enable_BunniBot": true,
+      "enable_VNBot": true,
+      "enable_BunniBot_snakes_ladders": false,
+      "enable_VNBot_snakes_ladders": false
+    },
+    {
       "name": "ST - Special",
       "file": "characters_Special",
       "enable_BunniBot": true,

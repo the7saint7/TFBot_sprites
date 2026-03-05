@@ -1,20 +1,13 @@
-display_name: "Jacky Mallory"
-name_color: "#786f67"
-voice: "girl"
-scale: .75
-default_outfit: "suit"
+default_outfit: party
+display_name: JackGB
+eye_line: 0.18
+name_color: '#786f67'
 poses:
   a:
+    center_height: 270
+    center_width: 277
     facing: right
-    image_height: 900
-  b:
-    facing: right
-    image_height: 900
-  c:
-    facing: right
-    image_height: 900
-  d:
-    facing: right
-    image_height: 900
-game: "[GLASSES] Megasuki! ~Kanojo to Boku no Megane Jijou~ Toono Shiori Hen"
-
+    image_height: 650
+    image_width: 500
+scale: 1.1
+voice: deep

@@ -1,5 +1,8 @@
-default_outfit: formal
-display_name: Kyoko Hano
-eye_line: 0.0
+display_name: KyokoAP
+default_outfit: casual
+eye_line: 0.04
 name_color: '#823f4f'
-scale: 0.85
+poses:
+  b:
+    facing: right
+scale: 0.9

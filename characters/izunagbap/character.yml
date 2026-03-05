@@ -1,0 +1,9 @@
+display_name: IzunaGBAP
+default_outfit: uniform
+eye_line: 0.04
+name_color: '#32a5dd'
+poses:
+  b:
+    facing: right
+scale: 0.9
+voice: tomboy
