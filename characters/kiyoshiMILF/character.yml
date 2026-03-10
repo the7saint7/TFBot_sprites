@@ -1,0 +1,8 @@
+name_color: "#9d80a3"
+display_name: "Kiyoshi"
+voice: girl
+scale: 0.5
+default_outfit: beach_casual
+poses:
+  a:
+    facing: left

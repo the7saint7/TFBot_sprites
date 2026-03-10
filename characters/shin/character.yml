@@ -1,0 +1,9 @@
+name_color: "#8964a5"
+display_name: "Shin2"
+voice: girl
+scale: 0.8
+default_outfit: beach_casual
+poses:
+  a:
+    facing: left
+    image_height: 670

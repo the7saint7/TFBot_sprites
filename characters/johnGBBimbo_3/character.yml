@@ -1,0 +1,11 @@
+name_color: '#ee6b8d'
+scale: 0.58
+voice: girl
+default_outfit: minidress
+poses:
+  a:
+    center_width: 393
+    image_height: 1425
+  b:
+    center_width: 393
+    image_height: 1425

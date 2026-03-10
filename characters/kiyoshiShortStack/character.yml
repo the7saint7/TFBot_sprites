@@ -1,0 +1,10 @@
+name_color: '#9d80a3'
+scale: 0.45
+voice: girl
+poses:
+  a:
+    facing: right
+    image_height: 1100
+  b:
+    facing: right
+    image_height: 1100

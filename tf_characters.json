@@ -160,6 +160,12 @@
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
       "enable_VNBot_snakes_ladders": false
+    },
+    {
+      "name": "Treats of Summer",
+      "file": "characters_TreatsOfSummer",
+      "enable_BunniBot": true,
+      "enable_VNBot": true
     }
   ]
 }

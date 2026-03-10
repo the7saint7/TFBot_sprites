@@ -553,16 +553,29 @@ def main() -> None:
         tf_data = json.loads(tf_text)
     except json.JSONDecodeError as exc:
         raise SystemExit(f"Failed to parse {tf_characters_path}: {exc}") from exc
-    if not isinstance(tf_data, list):
-        raise SystemExit(f"{tf_characters_path} must contain a JSON array.")
+
+    tf_entries: List[Any]
+    if isinstance(tf_data, list):
+        tf_entries = tf_data
+    elif isinstance(tf_data, dict):
+        packs = tf_data.get("packs")
+        if not isinstance(packs, list):
+            raise SystemExit(
+                f"{tf_characters_path} must contain a JSON array or an object with a 'packs' array."
+            )
+        tf_entries = packs
+    else:
+        raise SystemExit(
+            f"{tf_characters_path} must contain a JSON array or an object with a 'packs' array."
+        )
 
     existing_file_names = {
         str(entry.get("file"))
-        for entry in tf_data
+        for entry in tf_entries
         if isinstance(entry, dict) and entry.get("file")
     }
     scenario_entry: Optional[Dict[str, Any]] = None
-    for entry in tf_data:
+    for entry in tf_entries:
         if isinstance(entry, dict) and entry.get("name") == scenario_name:
             scenario_entry = entry
             break
@@ -576,7 +589,7 @@ def main() -> None:
             "enable_BunniBot": True,
             "enable_VNBot": True,
         }
-        tf_data.append(scenario_entry)
+        tf_entries.append(scenario_entry)
     else:
         pack_file_stem = scenario_entry.get("file")
         if not pack_file_stem:
@@ -659,7 +672,10 @@ def main() -> None:
     ]
     pack_block = format_pack_entries(pack_entries, scenario_name) if pack_entries else ""
 
-    updated_tf_text = json.dumps(tf_data, indent=2) + "\n"
+    if isinstance(tf_data, list):
+        updated_tf_text = json.dumps(tf_entries, indent=2) + "\n"
+    else:
+        updated_tf_text = json.dumps(tf_data, indent=2) + "\n"
     pack_file_exists = pack_file_path.exists()
     pack_previous_text: Optional[str] = None
     updated_pack_text: Optional[str] = None

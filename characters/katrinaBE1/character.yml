@@ -1,0 +1,8 @@
+eye_line: 0.08
+name_color: '#d17554'
+default_outfit: casual
+scale: 0.9
+voice: tomboy
+poses:
+  b: 
+    facing: right
