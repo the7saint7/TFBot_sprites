@@ -1,8 +1,0 @@
-default_outfit: uniform
-display_name: ConnieGBAR
-name_color: '#915f40'
-poses:
-  a:
-    facing: right
-scale: 0.9
-voice: woman

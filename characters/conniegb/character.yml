@@ -1,8 +1,0 @@
-default_outfit: suit
-display_name: ConnieGB
-name_color: '#915f40'
-poses:
-  a:
-    facing: right
-scale: 0.9
-voice: woman

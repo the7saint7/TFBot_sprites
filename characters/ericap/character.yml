@@ -1,8 +1,0 @@
-display_name: EricAP
-default_outfit: casual
-name_color: '#686f63'
-poses:
-  a:
-    facing: right
-scale: 0.9
-voice: deep

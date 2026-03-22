@@ -1,9 +1,0 @@
-display_name: KiyoshiAP
-default_outfit: casual
-eye_line: 0.18
-name_color: '#726b94'
-poses:
-  ai:
-    facing: right
-scale: 1.1
-voice: kiyoshi
