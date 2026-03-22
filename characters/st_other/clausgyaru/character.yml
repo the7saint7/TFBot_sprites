@@ -1,0 +1,8 @@
+display_name: "Clausoko"
+name_color: '#cad4e0'
+scale: 0.9
+voice: girl
+poses:
+  a:
+    facing: left
+

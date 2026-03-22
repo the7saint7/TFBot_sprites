@@ -1,0 +1,7 @@
+display_name: SayakaGB
+default_outfit: casual2
+name_color: '#f8b5ae'
+poses:
+  a:
+    facing: right
+scale: 0.9

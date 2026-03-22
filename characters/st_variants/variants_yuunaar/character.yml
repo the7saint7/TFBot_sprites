@@ -1,0 +1,9 @@
+display_name: YuunaAR
+default_outfit: uniform
+eye_line: 0.04
+name_color: '#8e7ab5'
+poses:
+  a:
+    facing: right
+scale: 0.9
+voice: woman

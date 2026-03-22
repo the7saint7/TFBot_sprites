@@ -1,0 +1,21 @@
+display_name: CorneliaGB
+default_outfit: uniform
+eye_line: 0.1
+mutations:
+  twintails:
+  - casual
+  - costume
+  - swimwear
+  - uniform
+  - uniform_b
+  - yukata
+  - cheer
+  - cheer_inverted
+name_color: '#fbca86'
+poses:
+  b:
+    facing: right
+  ai:
+    facing: right
+scale: 0.9
+voice: child

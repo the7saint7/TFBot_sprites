@@ -2377,3 +2377,5 @@ for _block in CHARACTER_BLOCKS:
     _dc = _block["default_character"]
     for _v in _block["variants"]:
         TF_CHARACTERS.append({**_v, "default_character": _dc})
+
+

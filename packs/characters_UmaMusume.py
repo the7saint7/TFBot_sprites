@@ -799,12 +799,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Uma-Musume (Uma Musume)",
-        "folder": "UMA_uma",
-        "message": "finds a generic token that {BOT_NAME} left behind, and racing spirit awakens. Their determination becomes clear, their purpose certain, and they understand what it means to be an Uma Musumeâ€”running with the unstoppable energy of someone born to race."
-    },
-
-    {
         "name": "Venus-Paques (Uma Musume)",
         "folder": "UMA_venus",
         "message": "touches a venus token that {BOT_NAME} left behind, and beautiful power flows through them. Their presence becomes radiant, their movements graceful, and they understand what it means to be Venusâ€”running with the beautiful, unstoppable energy of the goddess of beauty herself."
@@ -875,3 +869,5 @@ TF_CHARACTERS = [
         "message": "picks up a strange coffee mug that {BOT_NAME} left behind, and lazy power awakens. Ah, fuck this shit..."
     },
 ]
+
+

@@ -145,17 +145,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Catrina",
-        "gender": "female",
-        "genderswap": None,
-        "age": "teen",
-        "type": "hybrid",
-        "avatar_path": "avatars/catrina.png",
-        "folder": "catrina",
-        "message": "triggers one of {BOT_NAME}'s weirder pranksâ€”a charm meant for 'feline agility training.' A puff of magic later, their balance is flawless, ears twitch at every sound, and they can't shake the urge to chase anything that moves."
-    },
-
-    {
         "name": "Charlotte Foster",
         "gender": "female",
         "genderswap": None,
@@ -387,10 +376,21 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Irene Virelles",
+        "name": "Isabelle",
         "gender": "female",
         "genderswap": None,
         "age": "adult",
+        "type": "human",
+        "avatar_path": "avatars/isabelle.png",
+        "folder": "isabelle",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
+    },
+
+    {
+        "name": "Irene Virelles",
+        "gender": "female",
+        "genderswap": None,
+        "age": "teen",
         "type": "human",
         "avatar_path": "avatars/irene.png",
         "folder": "irene",
@@ -427,6 +427,17 @@ TF_CHARACTERS = [
         "type": "human",
         "avatar_path": "avatars/john.png",
         "folder": "john",
+        "message": "picks up a notebook that {BOT_NAME} absolutely wasn't supposed to have access to, and a soft glow crawls up their arm. Their thoughts start sliding into quick improvisation and damage control, like chaos is normal and they're built for it."
+    },
+
+    {
+        "name": "Jennifer Diane Winters",
+        "gender": "female",
+        "genderswap": "john_leonalife",
+        "age": "adult",
+        "type": "human",
+        "avatar_path": "avatars/john_leonalife.png",
+        "folder": "john_leonalife",
         "message": "picks up a notebook that {BOT_NAME} absolutely wasn't supposed to have access to, and a soft glow crawls up their arm. Their thoughts start sliding into quick improvisation and damage control, like chaos is normal and they're built for it."
     },
 
@@ -515,6 +526,17 @@ TF_CHARACTERS = [
         "type": "human",
         "avatar_path": "avatars/leona.png",
         "folder": "leona",
+        "message": "picks up a teacup from the garden table and catches the soft shimmer clinging to it. A gentle calm smooths their face, their voice warms, and a little flicker of loneliness sneaks in under the polite smile."
+    },
+
+    {
+        "name": "Leon Davis",
+        "gender": "male",
+        "genderswap": None,
+        "age": "teen",
+        "type": "human",
+        "avatar_path": "avatars/leona_johnlife.png",
+        "folder": "leona_johnlife",
         "message": "picks up a teacup from the garden table and catches the soft shimmer clinging to it. A gentle calm smooths their face, their voice warms, and a little flicker of loneliness sneaks in under the polite smile."
     },
 
@@ -684,17 +706,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "RileyGB",
-        "gender": "female",
-        "genderswap": "riley",
-        "age": "teen",
-        "type": "human",
-        "avatar_path": "avatars/rileygb.png",
-        "folder": "rileyGB",
-        "message": "drinks a strange soda with a magical curse on it. Next thing they know, they are weak and pathetic Riley. Forced to dress 'en femme' by their best friend Genny and come to the party."
-    },
-
-    {
         "name": "Rita Piper",
         "gender": "female",
         "genderswap": None,
@@ -725,6 +736,17 @@ TF_CHARACTERS = [
         "avatar_path": "avatars/sadie.png",
         "folder": "sadie",
         "message": "grabs a spare cheer bow that's glowing just a little too bright and feels a pop of energy jump through them. They light up instantly, hungry for attention and approval, already posing like they're new and out to prove it."
+    },
+
+    {
+        "name": "Sam",
+        "gender": "female",
+        "genderswap": None,
+        "age": "adult",
+        "type": "human",
+        "avatar_path": "avatars/sam.png",
+        "folder": "sam",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
     },
 
     {
@@ -761,17 +783,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Serena",
-        "gender": "female",
-        "genderswap": None,
-        "age": "teen",
-        "type": "alien",
-        "avatar_path": "avatars/serena.png",
-        "folder": "serena",
-        "message": "picked up a small fluffy ball when suddenly a flash of light blinds them. It was another prank sigil left by {BOT_NAME}. Their ears stretch high, soft fur sprouting across their arms and legs as a fluffy tail pops into place. When the light fades, they're left standing as a startled rabbit-girlâ€”long-eared, wide-eyed, and very, very naked. {BOT_NAME}'s giggle in the distance makes it clear the missing clothes weren't an accident."
-    },
-
-    {
         "name": "Setsuna Otani",
         "gender": "female",
         "genderswap": None,
@@ -783,17 +794,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Syn",
-        "gender": "female",
-        "genderswap": None,
-        "age": "adult",
-        "type": "demon",
-        "avatar_path": "avatars/syn.png",
-        "folder": "syn",
-        "message": " bumps into {BOT_NAME} and switches bodies with them!"
-    },
-
-    {
         "name": "Stevie",
         "gender": "male",
         "genderswap": "stevieGB",
@@ -801,17 +801,6 @@ TF_CHARACTERS = [
         "type": "human",
         "avatar_path": "avatars/stevie.png",
         "folder": "stevie",
-        "message": "touches something {BOT_NAME} left behind and feels a shift ripple through them. Their form settles, their presence becomes steady, and they stand ready for whatever comes next."
-    },
-
-    {
-        "name": "StevieGB",
-        "gender": "female",
-        "genderswap": "stevie",
-        "age": "teen",
-        "type": "human",
-        "avatar_path": "avatars/stevie.png",
-        "folder": "stevieGB",
         "message": "touches something {BOT_NAME} left behind and feels a shift ripple through them. Their form settles, their presence becomes steady, and they stand ready for whatever comes next."
     },
 
@@ -882,5 +871,6 @@ TF_CHARACTERS = [
     },
 
 
-
 ]
+
+

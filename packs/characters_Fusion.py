@@ -1,4 +1,4 @@
-﻿import os
+import os
 
 # Bot name from environment, defaults to "Syn" for backwards compatibility
 BOT_NAME = os.getenv("TFBOT_NAME", "Syn").strip() or "Syn"
@@ -20,6 +20,20 @@ TF_CHARACTERS = [
     },
 
     {
+        "name": "Anuja/Michelle (Fusion)",
+        "avatar_path": "avatars/anuja_michelle.png",
+        "folder": "anuja_michelle",
+        "message": " dropped their notebook as John and Zoey crossed their path and accidentally activated on one of {BOT_NAME}'s magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
+    },
+
+    {
+        "name": "Eric/Brad (Fusion)",
+        "avatar_path": "avatars/eric_brad.png",
+        "folder": "eric_brad",
+        "message": " dropped their notebook as John and Zoey crossed their path and accidentally activated on one of {BOT_NAME}'s magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
+    },
+
+    {
         "name": "Joey (Fusion)",
         "avatar_path": "avatars/joey.png",
         "folder": "joey",
@@ -27,17 +41,38 @@ TF_CHARACTERS = [
     },
 
     {
+        "name": "John/Kiyoshi (Fusion)",
+        "avatar_path": "avatars/johnKiyoshi.png",
+        "folder": "johnKiyoshi",
+        "message": " dropped their notebook as John and Zoey crossed their path and accidentally activated on one of {BOT_NAME}'s magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
+    },
+
+    {
         "name": "Jori (Fusion)",
-        "avatar_path": "avatars/john_tori_fusion.png",
-        "folder": "john_tori_fusion",
+        "avatar_path": "avatars/jori.png",
+        "folder": "jori",
         "message": " picked up a strange ring. After putting it on, their bodies began to change. It was another prank by {BOT_NAME}. Quickly they become a sort of fusion of John and Tori Vegas."
     },
 
     {
         "name": "Jori2 (Fusion)",
-        "avatar_path": "avatars/john_tori_headswap.png",
-        "folder": "john_tori_headswap",
+        "avatar_path": "avatars/jori2.png",
+        "folder": "jori2",
         "message": " accidentally sat on a magic trap! Soon, their bodies began to change. their bodies developed into the lustful form of Tori Vegas, but to everyone's shock, they have John's head!"
+    },
+
+    {
+        "name": "Katrina/Kyoko (Fusion)",
+        "avatar_path": "avatars/katrina_kyoko.png",
+        "folder": "katrina_kyoko",
+        "message": " dropped their notebook as John and Zoey crossed their path and accidentally activated on one of {BOT_NAME}'s magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
+    },
+
+    {
+        "name": "Riley/Gabriel (Fusion)",
+        "avatar_path": "avatars/riley_gabriel.png",
+        "folder": "riley_gabriel",
+        "message": " dropped their notebook as John and Zoey crossed their path and accidentally activated on one of {BOT_NAME}'s magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
     },
 
     {
@@ -48,19 +83,20 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Yuvia (Fusion)",
-        "avatar_path": "avatars/flavia_yui.png",
-        "folder": "flavia_yui",
-        "message": " bumps into Flavia and Yui augmenting and accidentally trigger one of {BOT_NAME}'s trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
+        "name": "Yuvia (yuvia) (Fusion)",
+        "avatar_path": "avatars/yuvia.png",
+        "folder": "yuvia",
+        "message": " dropped their notebook as John and Zoey crossed their path and accidentally activated on one of {BOT_NAME}'s magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
     },
 
     {
         "name": "Zoel (Fusion)",
-        "avatar_path": "avatars/flavia_yui.png",
+        "avatar_path": "avatars/zoel.png",
         "folder": "zoel",
         "message": " saw Mel and Zoey high-five as they stepped on one of {BOT_NAME}'s magical trap. Soon their 3 bodies merge with them in full control of the resulting amalgam!"
     },
 
 
-
 ]
+
+

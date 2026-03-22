@@ -35,11 +35,13 @@ TF_CHARACTERS = [
 
     {
         "name": "ZoeyGB (Potion #6)",
-        "avatar_path": "avatars/zoeyGB.png",
-        "folder": "zoeyGB",
+        "avatar_path": "avatars/zoeyGBPtn6.png",
+        "folder": "zoeyGBPtn6",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
 
 
 ]
+
+

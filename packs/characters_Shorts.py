@@ -14,67 +14,69 @@ TF_CHARACTERS = [
 
     {
         "name": "CorneliaGB (Shorts)",
-        "avatar_path": "avatars/corneliaGB.png",
-        "folder": "corneliaGB",
+        "avatar_path": "avatars/corneliaGB_shorts.png",
+        "folder": "corneliaGB_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "Hinano (Shorts)",
-        "avatar_path": "avatars/hinano.png",
-        "folder": "hinano",
+        "avatar_path": "avatars/hinano_shorts.png",
+        "folder": "hinano_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "JackGB (Shorts)",
-        "avatar_path": "avatars/jackGB.png",
-        "folder": "jackGB",
+        "avatar_path": "avatars/jackGB_shorts.png",
+        "folder": "jackGB_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "John OneEye (Shorts)",
         "avatar_path": "avatars/john_oneEye.png",
-        "folder": "johnOneEye",
+        "folder": "johnOneEye_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "John Styled (Shorts)",
-        "avatar_path": "avatars/john_styled.png",
-        "folder": "johnStyled",
+        "avatar_path": "avatars/john_styled_shorts.png",
+        "folder": "johnStyled_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "KatrinaBimbo (Shorts)",
-        "avatar_path": "avatars/katrinaBimbo.png",
-        "folder": "katrinaBimbo",
+        "avatar_path": "avatars/katrinaBimbo_shorts.png",
+        "folder": "katrinaBimbo_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "Kutsumi (Shorts)",
-        "avatar_path": "avatars/kutsumi.png",
-        "folder": "kutsumi",
+        "avatar_path": "avatars/kutsumi_shorts.png",
+        "folder": "kutsumi_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "Reika (Shorts)",
-        "avatar_path": "avatars/reika.png",
-        "folder": "reika",
+        "avatar_path": "avatars/reika_shorts.png",
+        "folder": "reika_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
     {
         "name": "Sera (Shorts)",
-        "avatar_path": "avatars/sera.png",
-        "folder": "serena",
+        "avatar_path": "avatars/sera_shorts.png",
+        "folder": "serena_shorts",
         "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
     },
 
 
 
 ]
+
+

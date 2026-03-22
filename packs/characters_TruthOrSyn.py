@@ -129,11 +129,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Kyoko Hano (Truth or Syn)",
-        "folder": "kyokoAP"
-    },
-
-    {
         "name": "Kyouka (Truth or Syn)",
         "folder": "kyouka"
     },
@@ -156,11 +151,6 @@ TF_CHARACTERS = [
     {
         "name": "Masika (Truth or Syn)",
         "folder": "masika"
-    },
-
-    {
-        "name": "Meika (Truth or Syn)",
-        "folder": "meika"
     },
 
     {
@@ -259,11 +249,6 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Sayaka (Truth or Syn)",
-        "folder": "sayakaAR"
-    },
-
-    {
         "name": "Scott (Truth or Syn)",
         "folder": "scott"
     },
@@ -294,10 +279,16 @@ TF_CHARACTERS = [
     },
 
     {
-        "name": "Tori (Truth or Syn)",
-        "folder": "tori"
+        "name": "Syn",
+        "gender": "female",
+        "genderswap": None,
+        "age": "adult",
+        "type": "demon",
+        "avatar_path": "avatars/syn.png",
+        "folder": "syn",
+        "message": " bumps into {BOT_NAME} and switches bodies with them!"
     },
-
+    
     {
         "name": "Tsubasa (Truth or Syn)",
         "folder": "tsubasa"
@@ -306,12 +297,6 @@ TF_CHARACTERS = [
     {
         "name": "Uya2 (Truth or Syn)",
         "folder": "uya"
-    },
-
-
-    {
-        "name": "Yui (Truth or Syn)",
-        "folder": "yui"
     },
 
     {
@@ -329,10 +314,7 @@ TF_CHARACTERS = [
         "folder": "yuria"
     },
 
-    {
-        "name": "Yuuna Yamashita (Truth or Syn)",
-        "folder": "yuuna"
-    },
-
 
 ]
+
+

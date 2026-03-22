@@ -4,6 +4,7 @@
     {
       "name": "Student Transfer",
       "file": "characters_ST",
+      "sprite_bucket": "st_characters",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": true,
@@ -12,6 +13,7 @@
     {
       "name": "ST Variants",
       "file": "characters_STVariants",
+      "sprite_bucket": "st_variants",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -20,6 +22,7 @@
     {
       "name": "ST - Special",
       "file": "characters_Special",
+      "sprite_bucket": "undefined",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -28,6 +31,7 @@
     {
       "name": "ST - Scenarios - Shorts",
       "file": "characters_Shorts",
+      "sprite_bucket": "st_shorts",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -36,6 +40,7 @@
     {
       "name": "ST - Scenarios - Katrina's Notebook",
       "file": "characters_KatrinasNotebook",
+      "sprite_bucket": "st_katrinasnotebook",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -44,6 +49,7 @@
     {
       "name": "ST - Scenarios - Potion #6",
       "file": "characters_Potion6",
+      "sprite_bucket": "st_potion6",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -52,14 +58,7 @@
     {
       "name": "ST - Scenarios - Revenge",
       "file": "characters_Revenge",
-      "enable_BunniBot": true,
-      "enable_VNBot": true,
-      "enable_BunniBot_snakes_ladders": false,
-      "enable_VNBot_snakes_ladders": false
-    },
-    {
-      "name": "ST - Scenarios - NovelAI",
-      "file": "characters_NovelAI",
+      "sprite_bucket": "st_revenge",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -68,6 +67,7 @@
     {
       "name": "ST - Scenarios - VR Experiment",
       "file": "characters_VRExperiment",
+      "sprite_bucket": "st_vrexperiment",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -76,6 +76,7 @@
     {
       "name": "ST - Scenarios - Aftermath",
       "file": "characters_Aftermath",
+      "sprite_bucket": "st_aftermath",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -84,6 +85,7 @@
     {
       "name": "ST - Scenarios - Other",
       "file": "characters_Other",
+      "sprite_bucket": "st_other",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -92,6 +94,7 @@
     {
       "name": "ST - Scenarios - Social Experiment",
       "file": "characters_SocialExperiment",
+      "sprite_bucket": "st_social_experement",
       "enable_BunniBot": true,
       "enable_VNBot": false,
       "enable_BunniBot_snakes_ladders": false,
@@ -100,6 +103,7 @@
     {
       "name": "ST - Scenarios - Fusion",
       "file": "characters_Fusion",
+      "sprite_bucket": "st_fusion",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -108,6 +112,7 @@
     {
       "name": "ST - Scenarios - SpringBreak",
       "file": "characters_SpringBreak",
+      "sprite_bucket": "st_springbreak",
       "enable_BunniBot": true,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
@@ -116,6 +121,7 @@
     {
       "name": "Press Switch",
       "file": "characters_PressSwitch",
+      "sprite_bucket": "press_switch",
       "enable_BunniBot": true,
       "enable_VNBot": false,
       "enable_BunniBot_snakes_ladders": false,
@@ -124,6 +130,7 @@
     {
       "name": "Uma Musume",
       "file": "characters_UmaMusume",
+      "sprite_bucket": "uma",
       "enable_BunniBot": true,
       "enable_VNBot": false,
       "enable_BunniBot_snakes_ladders": false,
@@ -148,15 +155,8 @@
     {
       "name": "Truth or Syn",
       "file": "characters_TruthOrSyn",
+      "sprite_bucket": "st_truthorsyn",
       "enable_BunniBot": true,
-      "enable_VNBot": true,
-      "enable_BunniBot_snakes_ladders": false,
-      "enable_VNBot_snakes_ladders": false
-    },
-    {
-      "name": "Community",
-      "file": "characters_Comunity",
-      "enable_BunniBot": false,
       "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
       "enable_VNBot_snakes_ladders": false
@@ -164,6 +164,7 @@
     {
       "name": "Treats of Summer",
       "file": "characters_TreatsOfSummer",
+      "sprite_bucket": "st_treatsofsummer",
       "enable_BunniBot": true,
       "enable_VNBot": true
     }

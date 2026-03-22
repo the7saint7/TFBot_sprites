@@ -13,6 +13,17 @@ TF_CHARACTERS = [
     ##ST - Scenarios - Other
 
     {
+        "name": "Catrina",
+        "gender": "female",
+        "genderswap": None,
+        "age": "teen",
+        "type": "hybrid",
+        "avatar_path": "avatars/catrina.png",
+        "folder": "catrina",
+        "message": "triggers one of {BOT_NAME}'s weirder pranksâ€”a charm meant for 'feline agility training.' A puff of magic later, their balance is flawless, ears twitch at every sound, and they can't shake the urge to chase anything that moves."
+    },
+    
+    {
         "name": "Yui Gyaru",
         "folder": "yuiGyaru",
         "message": " finds one of {BOT_NAME}'s trap and transforms."
@@ -20,7 +31,7 @@ TF_CHARACTERS = [
 
     {
         "name": "Claus Gyaru",
-        "folder": "clausgb",
+        "folder": "clausgyaru",
         "message": " finds one of {BOT_NAME}'s trap and transforms."
     },
 
@@ -52,3 +63,5 @@ TF_CHARACTERS = [
 
 
 ]
+
+

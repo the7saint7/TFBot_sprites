@@ -1,0 +1,13 @@
+display_name: RachelGB
+default_outfit: suit
+eye_line: 0.04
+name_color: '#94847c'
+poses:
+  a:
+    facing: right
+  b:
+    facing: right
+  full_a:
+    facing: right
+scale: 0.9
+voice: woman
