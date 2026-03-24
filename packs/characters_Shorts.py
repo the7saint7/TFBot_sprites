@@ -1,4 +1,4 @@
-﻿import os
+import os
 
 # Bot name from environment, defaults to "Syn" for backwards compatibility
 BOT_NAME = os.getenv("TFBOT_NAME", "Syn").strip() or "Syn"
@@ -14,9 +14,15 @@ TF_CHARACTERS = [
 
     {
         "name": "CorneliaGB (Shorts)",
+        "gender": "male",
+        "genderswap": "characters_ST/cornelia",
+        "ageswap": "characters_STVariants/CorneliaAP",
+        "gender_age_swap": None,
+        "age": "teen",
+        "type": "human",
         "avatar_path": "avatars/corneliaGB_shorts.png",
         "folder": "corneliaGB_shorts",
-        "message": " finds one of {BOT_NAME}'s trap and becomes transforms."
+        "message": " finds one of {BOT_NAME}'s trap and becomes transforms.",
     },
 
     {
