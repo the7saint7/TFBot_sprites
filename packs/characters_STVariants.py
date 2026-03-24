@@ -1347,7 +1347,7 @@ CHARACTER_BLOCKS = [
         "default_character": 'characters_ST/katrina',
         "variants": [
             {
-                "name": 'KatAP',
+                "name": 'KatrinaAP',
                 "gender": 'female',
                 "genderswap": 'variants_katgbap',
                 "age": 'adult',
@@ -1359,7 +1359,7 @@ CHARACTER_BLOCKS = [
                 "gender_age_swap": None,
             },
             {
-                "name": 'KatGBAP',
+                "name": 'KatrinaGBAP',
                 "gender": 'male',
                 "genderswap": 'variants_katap',
                 "age": 'adult',
