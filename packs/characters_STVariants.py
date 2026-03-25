@@ -131,7 +131,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_allisongb',
                 "message": '',
                 "ageswap": 'variants_allisongbap',
-                "gender_age_swap": 'characters_ST/allison',
+                "gender_age_swap": 'variants_allisonap',
             },
             {
                 "name": 'AllisonGBAP',
@@ -205,7 +205,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_anujagb',
                 "message": '',
                 "ageswap": 'variants_anujagbap',
-                "gender_age_swap": 'characters_ST/anuja',
+                "gender_age_swap": 'variants_anujaap',
             },
             {
                 "name": 'AnujaGBAP',
@@ -248,7 +248,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_audreygb',
                 "message": '',
                 "ageswap": 'variants_audreygbap',
-                "gender_age_swap": 'characters_ST/audrey',
+                "gender_age_swap": 'variants_audreyap',
             },
             {
                 "name": 'AudreyGBAP',
@@ -365,7 +365,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_carriegb',
                 "message": '',
                 "ageswap": 'variants_carriegbap',
-                "gender_age_swap": 'characters_ST/carrie',
+                "gender_age_swap": 'variants_carrieap',
             },
             {
                 "name": 'CarrieGBAP',
@@ -544,7 +544,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_clausgb',
                 "message": '',
                 "ageswap": 'variants_clausgbap',
-                "gender_age_swap": 'characters_ST/claus',
+                "gender_age_swap": 'variants_clausap',
             },
             {
                 "name": 'ClausGBAP',
@@ -790,7 +790,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_emilygb',
                 "message": '',
                 "ageswap": 'variants_emilygbap',
-                "gender_age_swap": 'characters_ST/emily',
+                "gender_age_swap": 'variants_emilyap',
             },
             {
                 "name": 'EmilyGBAP',
@@ -907,7 +907,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_gabrielgb',
                 "message": '',
                 "ageswap": 'variants_gabrielgbap',
-                "gender_age_swap": 'characters_ST/gabriel',
+                "gender_age_swap": 'variants_gabrielap',
             },
             {
                 "name": 'GabrielGBAP',
@@ -950,7 +950,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_gennygb',
                 "message": '',
                 "ageswap": 'variants_gennygbap',
-                "gender_age_swap": 'characters_ST/genny',
+                "gender_age_swap": 'variants_gennyap',
             },
             {
                 "name": 'GennyGBAP',
@@ -1251,7 +1251,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_izunagb',
                 "message": '',
                 "ageswap": 'variants_izunagbap',
-                "gender_age_swap": 'characters_ST/izuna',
+                "gender_age_swap": 'variants_izunaap',
             },
             {
                 "name": 'IzunaGBAP',
@@ -1430,7 +1430,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_kyokogb',
                 "message": '',
                 "ageswap": 'variants_kyokogbap',
-                "gender_age_swap": 'characters_ST/kyoko',
+                "gender_age_swap": 'variants_kyokoap',
             },
             {
                 "name": 'KyokoGBAP',
@@ -1731,7 +1731,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_melgb',
                 "message": '',
                 "ageswap": 'variants_melgbap',
-                "gender_age_swap": 'characters_ST/mel',
+                "gender_age_swap": 'variants_melap',
             },
             {
                 "name": 'MelGBAP',
@@ -1774,7 +1774,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_michellegb',
                 "message": '',
                 "ageswap": 'variants_michellegbap',
-                "gender_age_swap": 'characters_ST/michelle',
+                "gender_age_swap": 'variants_michelleap',
             },
             {
                 "name": 'MichelleGBAP',
@@ -1817,7 +1817,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_minagb',
                 "message": '',
                 "ageswap": 'variants_minagbap',
-                "gender_age_swap": 'characters_ST/mina',
+                "gender_age_swap": 'variants_minaap',
             },
             {
                 "name": 'MinaGBAP',
@@ -2032,7 +2032,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_philagb',
                 "message": '',
                 "ageswap": 'variants_philagbap',
-                "gender_age_swap": 'characters_ST/phila',
+                "gender_age_swap": 'variants_philaap',
             },
             {
                 "name": 'PhilaGBAP',
@@ -2118,7 +2118,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_rileygb',
                 "message": '',
                 "ageswap": 'variants_rileygbap',
-                "gender_age_swap": 'characters_ST/riley',
+                "gender_age_swap": 'variants_rileyap',
             },
             {
                 "name": 'RileyGBAP',
@@ -2161,7 +2161,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_ritagb',
                 "message": '',
                 "ageswap": 'variants_ritagbap',
-                "gender_age_swap": 'characters_ST/rita',
+                "gender_age_swap": 'variants_ritaap',
             },
             {
                 "name": 'RitaGBAP',
@@ -2204,7 +2204,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_sadiegb',
                 "message": '',
                 "ageswap": 'variants_sadiegbap',
-                "gender_age_swap": 'characters_ST/sadie',
+                "gender_age_swap": 'variants_sadieap',
             },
             {
                 "name": 'SadieGBAP',
@@ -2376,7 +2376,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_setsunagb',
                 "message": '',
                 "ageswap": 'variants_setsunagbap',
-                "gender_age_swap": 'characters_ST/setsuna',
+                "gender_age_swap": 'variants_setsunaap',
             },
             {
                 "name": 'SetsunaGBAP',
@@ -2474,7 +2474,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_torigb',
                 "message": '',
                 "ageswap": 'variants_torigbap',
-                "gender_age_swap": 'characters_ST/tori',
+                "gender_age_swap": 'variants_toriap',
             },
             {
                 "name": 'ToriGBAP',
@@ -2517,7 +2517,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_vanessagb',
                 "message": '',
                 "ageswap": 'variants_vanessagbap',
-                "gender_age_swap": 'characters_ST/vanessa',
+                "gender_age_swap": 'variants_vanessaap',
             },
             {
                 "name": 'VanessaGBAP',
@@ -2560,7 +2560,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_yuigb',
                 "message": '',
                 "ageswap": 'variants_yuigbap',
-                "gender_age_swap": 'characters_ST/yui',
+                "gender_age_swap": 'variants_yuiap',
             },
             {
                 "name": 'YuiGBAP',
@@ -2646,7 +2646,7 @@ CHARACTER_BLOCKS = [
                 "folder": 'variants_zoeygb',
                 "message": '',
                 "ageswap": 'variants_zoeygbap',
-                "gender_age_swap": 'characters_ST/zoey',
+                "gender_age_swap": 'variants_zoeyap',
             },
             {
                 "name": 'ZoeyGBAP',
