@@ -147,50 +147,7 @@ CHARACTER_BLOCKS = [
             },
         ],
     },
-
-    # Amy
-    {
-        "default_character": 'characters_ST/amy',
-        "variants": [
-            {
-                "name": 'AmyAP',
-                "gender": 'female',
-                "genderswap": 'variants_amygbap',
-                "age": 'adult',
-                "type": 'human',
-                "avatar_path": None,
-                "folder": 'variants_amyap',
-                "message": '',
-                "ageswap": 'characters_ST/amy',
-                "gender_age_swap": 'variants_amygb',
-            },
-            {
-                "name": 'AmyGB',
-                "gender": 'male',
-                "genderswap": 'characters_ST/amy',
-                "age": 'teen',
-                "type": 'human',
-                "avatar_path": None,
-                "folder": 'variants_amygb',
-                "message": '',
-                "ageswap": 'variants_amygbap',
-                "gender_age_swap": 'variants_amyap',
-            },
-            {
-                "name": 'AmyGBAP',
-                "gender": 'male',
-                "genderswap": 'variants_amyap',
-                "age": 'adult',
-                "type": 'human',
-                "avatar_path": None,
-                "folder": 'variants_amygbap',
-                "message": '',
-                "ageswap": 'variants_amygb',
-                "gender_age_swap": 'characters_ST/amy',
-            },
-        ],
-    },
-
+    
     # Anuja
     {
         "default_character": 'characters_ST/anuja',
@@ -390,49 +347,6 @@ CHARACTER_BLOCKS = [
                 "message": '',
                 "ageswap": 'variants_carriegb',
                 "gender_age_swap": 'characters_ST/carrie',
-            },
-        ],
-    },
-
-    # Casey
-    {
-        "default_character": 'characters_ST/casey',
-        "variants": [
-            {
-                "name": 'CaseyAP',
-                "gender": 'female',
-                "genderswap": 'variants_caseygbap',
-                "age": 'adult',
-                "type": 'human',
-                "avatar_path": None,
-                "folder": 'variants_caseyap',
-                "message": '',
-                "ageswap": 'characters_ST/casey',
-                "gender_age_swap": 'variants_caseygb',
-            },
-            {
-                "name": 'CaseyGB',
-                "gender": 'male',
-                "genderswap": 'characters_ST/casey',
-                "age": 'teen',
-                "type": 'human',
-                "avatar_path": None,
-                "folder": 'variants_caseygb',
-                "message": '',
-                "ageswap": 'variants_caseygbap',
-                "gender_age_swap": 'variants_caseyap',
-            },
-            {
-                "name": 'CaseyGBAP',
-                "gender": 'male',
-                "genderswap": 'variants_caseyap',
-                "age": 'adult',
-                "type": 'human',
-                "avatar_path": None,
-                "folder": 'variants_caseygbap',
-                "message": '',
-                "ageswap": 'variants_caseygb',
-                "gender_age_swap": 'characters_ST/casey',
             },
         ],
     },
