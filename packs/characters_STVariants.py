@@ -645,18 +645,6 @@ CHARACTER_BLOCKS = [
                 "gender_age_swap": 'characters_Shorts/corneliaGB_shorts',
             },
             {
-                "name": 'CorneliaGB',
-                "gender": 'male',
-                "genderswap": 'characters_ST/cornelia',
-                "age": 'teen',
-                "type": 'human',
-                "avatar_path": None,
-                "folder": 'variants_corneliagb',
-                "message": '',
-                "ageswap": 'variants_corneliagbap',
-                "gender_age_swap": 'variants_corneliaap',
-            },
-            {
                 "name": 'CorneliaGBAP',
                 "gender": 'male',
                 "genderswap": 'variants_corneliaap',
