@@ -123,7 +123,7 @@
       "file": "characters_PressSwitch",
       "sprite_bucket": "press_switch",
       "enable_BunniBot": true,
-      "enable_VNBot": false,
+      "enable_VNBot": true,
       "enable_BunniBot_snakes_ladders": false,
       "enable_VNBot_snakes_ladders": false
     },
