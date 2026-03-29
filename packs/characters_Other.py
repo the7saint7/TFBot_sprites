@@ -43,6 +43,11 @@ TF_CHARACTERS = [
 
     {
         "name": "Luna Silvermoon (Original Character)",
+        "gender": "female",
+        "genderswap": None,
+        "age": "teen",
+        "type": "hybrid",
+        "avatar_path": None,
         "folder": "luna_silvermoon",
         "message": " finds one of {BOT_NAME}'s trap and transforms."
     },
