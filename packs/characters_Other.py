@@ -41,6 +41,11 @@ TF_CHARACTERS = [
         "message": " finds one of {BOT_NAME}'s trap and transforms."
     },
 
+    {
+        "name": "Luna Silvermoon (Original Character)",
+        "folder": "luna_silvermoon",
+        "message": " finds one of {BOT_NAME}'s trap and transforms."
+    },
 
 ]
 
