@@ -1,7 +1,4 @@
 name_color: '#cad4e0'
-scale: 0.9
-voice: girl
 poses:
-  a:
+  ai:
     facing: left
-
