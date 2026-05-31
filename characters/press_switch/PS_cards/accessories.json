@@ -1,0 +1,20 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:41.650505+00:00",
+  "character_folder": "PS_cards",
+  "pack_relative": "press_switch/PS_cards",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j"
+  ],
+  "disk_manifest": [],
+  "found": []
+}
