@@ -1,0 +1,250 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:54.451241+00:00",
+  "character_folder": "yui",
+  "pack_relative": "st_characters/yui",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "a2",
+    "b2",
+    "e"
+  ],
+  "disk_manifest": [
+    "a2/outfits/nude/rope1|on.webp:4016",
+    "a2/outfits/nude/rope2|on.webp:22610",
+    "a2/outfits/panties/rope1|on.webp:4016",
+    "a2/outfits/panties/rope2|on.webp:22610",
+    "a2/outfits/underwear/rope1|on.webp:4016",
+    "a2/outfits/underwear/rope2|on.webp:22610",
+    "a2/outfits/uniform/hairpin|on.webp:1144",
+    "b2/outfits/uniform/hairpin|on.webp:1148"
+  ],
+  "found": [
+    {
+      "key": "nude/rope1",
+      "label": "nude / rope1",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a2": {
+          "on_layer": "a2/outfits/nude/rope1/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a2": {
+            "on_layer": "a2/outfits/nude/rope1/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a2"
+      ]
+    },
+    {
+      "key": "nude/rope2",
+      "label": "nude / rope2",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a2": {
+          "on_layer": "a2/outfits/nude/rope2/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a2": {
+            "on_layer": "a2/outfits/nude/rope2/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a2"
+      ]
+    },
+    {
+      "key": "panties/rope1",
+      "label": "panties / rope1",
+      "order": 0,
+      "outfit_scope": "panties",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a2": {
+          "on_layer": "a2/outfits/panties/rope1/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "panties": {
+          "a2": {
+            "on_layer": "a2/outfits/panties/rope1/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a2"
+      ]
+    },
+    {
+      "key": "panties/rope2",
+      "label": "panties / rope2",
+      "order": 0,
+      "outfit_scope": "panties",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a2": {
+          "on_layer": "a2/outfits/panties/rope2/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "panties": {
+          "a2": {
+            "on_layer": "a2/outfits/panties/rope2/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a2"
+      ]
+    },
+    {
+      "key": "underwear/rope1",
+      "label": "underwear / rope1",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a2": {
+          "on_layer": "a2/outfits/underwear/rope1/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a2": {
+            "on_layer": "a2/outfits/underwear/rope1/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a2"
+      ]
+    },
+    {
+      "key": "underwear/rope2",
+      "label": "underwear / rope2",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a2": {
+          "on_layer": "a2/outfits/underwear/rope2/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a2": {
+            "on_layer": "a2/outfits/underwear/rope2/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a2"
+      ]
+    },
+    {
+      "key": "uniform/hairpin",
+      "label": "uniform / hairpin",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a2": {
+          "on_layer": "a2/outfits/uniform/hairpin/on.webp"
+        },
+        "b2": {
+          "on_layer": "b2/outfits/uniform/hairpin/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a2": {
+            "on_layer": "a2/outfits/uniform/hairpin/on.webp"
+          },
+          "b2": {
+            "on_layer": "b2/outfits/uniform/hairpin/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a2",
+        "b2"
+      ]
+    }
+  ]
+}
