@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T17:01:52.163597+00:00",
+  "scraped_at": "2026-05-31T18:19:07.102489+00:00",
   "character_folder": "PS_taylor",
   "pack_relative": "press_switch/PS_taylor",
   "poses_scanned": [
@@ -9,80 +9,5 @@
   "disk_manifest": [
     "a/outfits/acc_hair|off.webp:6206|on_brown.png:67"
   ],
-  "found": [
-    {
-      "key": "acc_hair",
-      "label": "hair",
-      "order": 0,
-      "outfit_scope": null,
-      "universal": true,
-      "default_visible": true,
-      "outfit_relative": false,
-      "layer_target": null,
-      "region": "head",
-      "poses": {
-        "a": {
-          "off_layer": "a/outfits/acc_hair/off.webp"
-        }
-      },
-      "paths_by_outfit": {},
-      "listable": false,
-      "compose_role": "hair_behind",
-      "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
-      "available_poses": [
-        "a"
-      ]
-    },
-    {
-      "key": "acc_hair/brown/brown",
-      "label": "brown",
-      "order": 0,
-      "outfit_scope": null,
-      "universal": true,
-      "default_visible": false,
-      "outfit_relative": false,
-      "layer_target": null,
-      "region": "head",
-      "poses": {
-        "a": {
-          "off_layer": "a/outfits/acc_hair/off.webp",
-          "on_layer": "a/outfits/acc_hair/on_brown.png"
-        }
-      },
-      "paths_by_outfit": {},
-      "compose_role": "hair_dual",
-      "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "over_face",
-      "available_poses": [
-        "a"
-      ]
-    },
-    {
-      "key": "acc_hair/brown/hairdown",
-      "label": "hair down",
-      "order": 0,
-      "outfit_scope": null,
-      "universal": true,
-      "default_visible": true,
-      "outfit_relative": false,
-      "layer_target": null,
-      "region": "head",
-      "poses": {
-        "a": {
-          "off_layer": "a/outfits/acc_hair/off.webp"
-        }
-      },
-      "paths_by_outfit": {},
-      "compose_role": "hair_behind",
-      "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
-      "available_poses": [
-        "a"
-      ]
-    }
-  ]
+  "found": []
 }
