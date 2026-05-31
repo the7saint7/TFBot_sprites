@@ -1,0 +1,139 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:41.955198+00:00",
+  "character_folder": "tori",
+  "pack_relative": "st_characters/tori",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c"
+  ],
+  "disk_manifest": [
+    "b/outfits/nude/long|off.png:41517|on.png:41611",
+    "b/outfits/uniform/long|off.png:42548|on.png:40420"
+  ],
+  "found": [
+    {
+      "key": "nude/long/hairdown",
+      "label": "long",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/nude/long/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "b": {
+            "off_layer": "b/outfits/nude/long/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "nude/long/hairup",
+      "label": "long",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/nude/long/off.png",
+          "on_layer": "b/outfits/nude/long/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "b": {
+            "on_layer": "b/outfits/nude/long/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "uniform/long/hairdown",
+      "label": "long",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/uniform/long/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "b": {
+            "off_layer": "b/outfits/uniform/long/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "uniform/long/hairup",
+      "label": "long",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/uniform/long/off.png",
+          "on_layer": "b/outfits/uniform/long/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "b": {
+            "on_layer": "b/outfits/uniform/long/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    }
+  ]
+}
