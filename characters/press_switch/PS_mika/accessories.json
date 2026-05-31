@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T17:01:50.198346+00:00",
+  "scraped_at": "2026-05-31T18:18:53.277263+00:00",
   "character_folder": "PS_mika",
   "pack_relative": "press_switch/PS_mika",
   "poses_scanned": [
@@ -148,7 +148,7 @@
       "compose_role": "hair_dual",
       "mutex_slot": "hair",
       "off_tier": "under_face",
-      "on_tier": "over_face",
+      "on_tier": "under_face",
       "available_poses": [
         "a"
       ]
@@ -178,7 +178,7 @@
       "compose_role": "hair_dual",
       "mutex_slot": "hair",
       "off_tier": "under_face",
-      "on_tier": "over_face",
+      "on_tier": "under_face",
       "available_poses": [
         "a",
         "b"
@@ -205,7 +205,7 @@
       "compose_role": "hair_dual",
       "mutex_slot": "hair",
       "off_tier": "under_face",
-      "on_tier": "over_face",
+      "on_tier": "under_face",
       "available_poses": [
         "a"
       ]
@@ -235,7 +235,7 @@
       "compose_role": "hair_dual",
       "mutex_slot": "hair",
       "off_tier": "under_face",
-      "on_tier": "over_face",
+      "on_tier": "under_face",
       "available_poses": [
         "a",
         "b"
