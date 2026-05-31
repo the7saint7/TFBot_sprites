@@ -1,0 +1,673 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T15:24:34.134764+00:00",
+  "character_folder": "sandra",
+  "pack_relative": "st_characters/sandra",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/dress/bedhead|off.png:39274|on.png:46909",
+    "a/outfits/formal/bedhead|off.png:39867|on.png:46803",
+    "a/outfits/lingerie/bedhead|off.png:39274|on.png:46909",
+    "a/outfits/nude/bedhead|off.png:39274|on.png:46909",
+    "a/outfits/pajamas/bedhead|off.png:39574|on.png:47128",
+    "a/outfits/suit/bedhead|off.png:39868|on.png:47115",
+    "a/outfits/towel/bedhead|off.png:39274|on.png:46909",
+    "a/outfits/underwear/bedhead|off.png:39358|on.png:46970",
+    "b/outfits/acc_hat|on.png:34242",
+    "b/outfits/dress/bedhead|off.png:45985|on.png:54973",
+    "b/outfits/formal/bedhead|off.png:46148|on.png:55537",
+    "b/outfits/nude/bedhead|off.png:45985|on.png:54973",
+    "b/outfits/pajamas/bedhead|off.png:46624|on.png:55620",
+    "b/outfits/suit/bedhead|off.png:46378|on.png:55590",
+    "b/outfits/witch/bedhead|off.png:45985|on.png:54973",
+    "b/outfits/witch/cape|on.png:38180"
+  ],
+  "found": [
+    {
+      "key": "acc_hat",
+      "label": "hat",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "on_layer": "b/outfits/acc_hat/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hat",
+      "mutex_slot": "hat",
+      "on_tier": "hat",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "dress/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/dress/bedhead/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/dress/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "a": {
+            "off_layer": "a/outfits/dress/bedhead/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/dress/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "dress/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/dress/bedhead/off.png",
+          "on_layer": "a/outfits/dress/bedhead/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/dress/bedhead/off.png",
+          "on_layer": "b/outfits/dress/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "a": {
+            "on_layer": "a/outfits/dress/bedhead/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/dress/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "formal/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "formal",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/formal/bedhead/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/formal/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "formal": {
+          "a": {
+            "off_layer": "a/outfits/formal/bedhead/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/formal/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "formal/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "formal",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/formal/bedhead/off.png",
+          "on_layer": "a/outfits/formal/bedhead/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/formal/bedhead/off.png",
+          "on_layer": "b/outfits/formal/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "formal": {
+          "a": {
+            "on_layer": "a/outfits/formal/bedhead/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/formal/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "lingerie/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "lingerie",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/lingerie/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "lingerie": {
+          "a": {
+            "off_layer": "a/outfits/lingerie/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "lingerie/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "lingerie",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/lingerie/bedhead/off.png",
+          "on_layer": "a/outfits/lingerie/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "lingerie": {
+          "a": {
+            "on_layer": "a/outfits/lingerie/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "nude/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/bedhead/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/bedhead/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/bedhead/off.png",
+          "on_layer": "a/outfits/nude/bedhead/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/bedhead/off.png",
+          "on_layer": "b/outfits/nude/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "on_layer": "a/outfits/nude/bedhead/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/nude/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "pajamas/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "pajamas",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/pajamas/bedhead/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/pajamas/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "pajamas": {
+          "a": {
+            "off_layer": "a/outfits/pajamas/bedhead/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/pajamas/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "pajamas/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "pajamas",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/pajamas/bedhead/off.png",
+          "on_layer": "a/outfits/pajamas/bedhead/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/pajamas/bedhead/off.png",
+          "on_layer": "b/outfits/pajamas/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "pajamas": {
+          "a": {
+            "on_layer": "a/outfits/pajamas/bedhead/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/pajamas/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "suit/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "suit",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/suit/bedhead/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/suit/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "suit": {
+          "a": {
+            "off_layer": "a/outfits/suit/bedhead/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/suit/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "suit/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "suit",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/suit/bedhead/off.png",
+          "on_layer": "a/outfits/suit/bedhead/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/suit/bedhead/off.png",
+          "on_layer": "b/outfits/suit/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "suit": {
+          "a": {
+            "on_layer": "a/outfits/suit/bedhead/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/suit/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "towel/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "towel",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/towel/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "towel": {
+          "a": {
+            "off_layer": "a/outfits/towel/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "towel/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "towel",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/towel/bedhead/off.png",
+          "on_layer": "a/outfits/towel/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "towel": {
+          "a": {
+            "on_layer": "a/outfits/towel/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "underwear/bedhead/hairdown",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/underwear/bedhead/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a": {
+            "off_layer": "a/outfits/underwear/bedhead/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "underwear/bedhead/hairup",
+      "label": "bedhead",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/underwear/bedhead/off.png",
+          "on_layer": "a/outfits/underwear/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a": {
+            "on_layer": "a/outfits/underwear/bedhead/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "witch/bedhead",
+      "label": "witch / bedhead",
+      "order": 0,
+      "outfit_scope": "witch",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/witch/bedhead/off.png",
+          "on_layer": "b/outfits/witch/bedhead/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "witch": {
+          "b": {
+            "off_layer": "b/outfits/witch/bedhead/off.png",
+            "on_layer": "b/outfits/witch/bedhead/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "witch/cape",
+      "label": "witch / cape",
+      "order": 0,
+      "outfit_scope": "witch",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "on_layer": "b/outfits/witch/cape/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "witch": {
+          "b": {
+            "on_layer": "b/outfits/witch/cape/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    }
+  ]
+}
