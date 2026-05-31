@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T16:23:37.805055+00:00",
+  "scraped_at": "2026-05-31T18:19:19.827197+00:00",
   "character_folder": "brad",
   "pack_relative": "st_characters/brad",
   "poses_scanned": [
@@ -14,37 +14,8 @@
   ],
   "found": [
     {
-      "key": "casual/hair3/hairdown",
-      "label": "hair3",
-      "order": 0,
-      "outfit_scope": "casual",
-      "universal": false,
-      "default_visible": true,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "head",
-      "poses": {
-        "a2": {
-          "off_layer": "a2/outfits/casual/hair3/off.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "casual": {
-          "a2": {
-            "off_layer": "a2/outfits/casual/hair3/off.webp"
-          }
-        }
-      },
-      "compose_role": "over_face",
-      "mutex_slot": "face_detail",
-      "on_tier": "over_face",
-      "available_poses": [
-        "a2"
-      ]
-    },
-    {
-      "key": "casual/hair3/hairup",
-      "label": "hair3",
+      "key": "casual/hair3",
+      "label": "casual / hair3",
       "order": 0,
       "outfit_scope": "casual",
       "universal": false,
@@ -61,10 +32,12 @@
       "paths_by_outfit": {
         "casual": {
           "a2": {
+            "off_layer": "a2/outfits/casual/hair3/off.webp",
             "on_layer": "a2/outfits/casual/hair3/on.webp"
           }
         }
       },
+      "listable": true,
       "compose_role": "hair_replace",
       "mutex_slot": "hair",
       "off_tier": "under_face",
@@ -76,37 +49,8 @@
       ]
     },
     {
-      "key": "meika_legs/hair3/hairdown",
-      "label": "hair3",
-      "order": 0,
-      "outfit_scope": "meika_legs",
-      "universal": false,
-      "default_visible": true,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "head",
-      "poses": {
-        "a2": {
-          "off_layer": "a2/outfits/meika_legs/hair3/off.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "meika_legs": {
-          "a2": {
-            "off_layer": "a2/outfits/meika_legs/hair3/off.webp"
-          }
-        }
-      },
-      "compose_role": "over_face",
-      "mutex_slot": "face_detail",
-      "on_tier": "over_face",
-      "available_poses": [
-        "a2"
-      ]
-    },
-    {
-      "key": "meika_legs/hair3/hairup",
-      "label": "hair3",
+      "key": "meika_legs/hair3",
+      "label": "meika legs / hair3",
       "order": 0,
       "outfit_scope": "meika_legs",
       "universal": false,
@@ -123,10 +67,12 @@
       "paths_by_outfit": {
         "meika_legs": {
           "a2": {
+            "off_layer": "a2/outfits/meika_legs/hair3/off.webp",
             "on_layer": "a2/outfits/meika_legs/hair3/on.webp"
           }
         }
       },
+      "listable": false,
       "compose_role": "hair_replace",
       "mutex_slot": "hair",
       "off_tier": "under_face",
