@@ -1,0 +1,92 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:39.208267+00:00",
+  "character_folder": "cornelia",
+  "pack_relative": "st_characters/cornelia",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/costume/bottle|off.png:9955|on.png:18224",
+    "b/outfits/costume/bottle|off.png:13914|on.png:17803"
+  ],
+  "found": [
+    {
+      "key": "costume/bottle/hairdown",
+      "label": "bottle",
+      "order": 0,
+      "outfit_scope": "costume",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/costume/bottle/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/costume/bottle/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "costume": {
+          "a": {
+            "off_layer": "a/outfits/costume/bottle/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/costume/bottle/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "costume/bottle/hairup",
+      "label": "bottle",
+      "order": 0,
+      "outfit_scope": "costume",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/costume/bottle/off.png",
+          "on_layer": "a/outfits/costume/bottle/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/costume/bottle/off.png",
+          "on_layer": "b/outfits/costume/bottle/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "costume": {
+          "a": {
+            "on_layer": "a/outfits/costume/bottle/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/costume/bottle/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}

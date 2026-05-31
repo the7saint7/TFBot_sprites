@@ -1,0 +1,263 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:39.502815+00:00",
+  "character_folder": "elizabeth",
+  "pack_relative": "st_characters/elizabeth",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_hairbun-1|off.png:42311|on.png:17130",
+    "a/outfits/maid/hairbun|off.png:44067|on.png:46888",
+    "b/outfits/maid/hairbun|off.png:43507|on.png:43303",
+    "b/outfits/maid_stained/hairbun|off.png:43507|on.png:43303",
+    "b/outfits/server/hairbun|off.png:44621|on.png:26497"
+  ],
+  "found": [
+    {
+      "key": "maid/hairbun/hairdown",
+      "label": "hairbun",
+      "order": 0,
+      "outfit_scope": "maid",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/maid/hairbun/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/maid/hairbun/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "maid": {
+          "a": {
+            "off_layer": "a/outfits/maid/hairbun/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/maid/hairbun/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "maid/hairbun/hairup",
+      "label": "hairbun",
+      "order": 0,
+      "outfit_scope": "maid",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/maid/hairbun/off.png",
+          "on_layer": "a/outfits/maid/hairbun/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/maid/hairbun/off.png",
+          "on_layer": "b/outfits/maid/hairbun/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "maid": {
+          "a": {
+            "on_layer": "a/outfits/maid/hairbun/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/maid/hairbun/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "maid_stained/hairbun/hairdown",
+      "label": "hairbun",
+      "order": 0,
+      "outfit_scope": "maid_stained",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/maid_stained/hairbun/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "maid_stained": {
+          "b": {
+            "off_layer": "b/outfits/maid_stained/hairbun/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "maid_stained/hairbun/hairup",
+      "label": "hairbun",
+      "order": 0,
+      "outfit_scope": "maid_stained",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/maid_stained/hairbun/off.png",
+          "on_layer": "b/outfits/maid_stained/hairbun/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "maid_stained": {
+          "b": {
+            "on_layer": "b/outfits/maid_stained/hairbun/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "server/hairbun/hairdown",
+      "label": "hairbun",
+      "order": 0,
+      "outfit_scope": "server",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/server/hairbun/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "server": {
+          "b": {
+            "off_layer": "b/outfits/server/hairbun/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "server/hairbun/hairup",
+      "label": "hairbun",
+      "order": 0,
+      "outfit_scope": "server",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/server/hairbun/off.png",
+          "on_layer": "b/outfits/server/hairbun/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "server": {
+          "b": {
+            "on_layer": "b/outfits/server/hairbun/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hairbun-1/hairdown",
+      "label": "hair down",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hairbun-1/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_hairbun-1/hairup",
+      "label": "on",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hairbun-1/off.png",
+          "on_layer": "a/outfits/acc_hairbun-1/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
