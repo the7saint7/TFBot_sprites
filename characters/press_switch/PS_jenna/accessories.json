@@ -1,0 +1,193 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:45.519524+00:00",
+  "character_folder": "PS_jenna",
+  "pack_relative": "press_switch/PS_jenna",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_eyes|on_empty.webp:3890|on_mind.webp:3948",
+    "a/outfits/acc_hair-1|off.webp:10100|on_bob.webp:5268|on_down.webp:14028|on_twintails.webp:11306",
+    "a/outfits/acc_head|on_maid.webp:4348|on_tiara.webp:3236",
+    "b/outfits/acc_hair-1|off.webp:10464|on_bob.webp:5126|on_down.webp:13478|on_twintails.webp:10986",
+    "b/outfits/acc_head|on_maid.webp:3866|on_tiara.webp:2634"
+  ],
+  "found": [
+    {
+      "key": "acc_eyes",
+      "label": "eyes",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_eyes/on_empty.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_head",
+      "label": "head",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_head/on_maid.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/acc_head/on_maid.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hair-1",
+      "label": "hair-1",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hair-1/off.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hair-1/bob",
+      "label": "bob",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp",
+          "on_layer": "a/outfits/acc_hair-1/on_bob.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hair-1/off.webp",
+          "on_layer": "b/outfits/acc_hair-1/on_bob.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hair-1/down",
+      "label": "down",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp",
+          "on_layer": "a/outfits/acc_hair-1/on_down.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hair-1/off.webp",
+          "on_layer": "b/outfits/acc_hair-1/on_down.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hair-1/twintails",
+      "label": "twintails",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp",
+          "on_layer": "a/outfits/acc_hair-1/on_twintails.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hair-1/off.webp",
+          "on_layer": "b/outfits/acc_hair-1/on_twintails.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
