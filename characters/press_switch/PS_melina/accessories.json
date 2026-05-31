@@ -1,0 +1,104 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:48.274298+00:00",
+  "character_folder": "PS_melina",
+  "pack_relative": "press_switch/PS_melina",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_head|on_off.webp:2250|on_ears.webp:4590|on_off.webp:2250",
+    "b/outfits/acc_head|on_off.webp:2242|on_ears.webp:5058|on_off.webp:2242"
+  ],
+  "found": [
+    {
+      "key": "acc_head",
+      "label": "head",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_head/on_off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_head/on_off.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": false,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_head/ears",
+      "label": "ears",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_head/on_off.webp",
+          "on_layer": "a/outfits/acc_head/on_ears.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_head/on_off.webp",
+          "on_layer": "b/outfits/acc_head/on_ears.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_head/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_head/on_off.webp",
+          "on_layer": "a/outfits/acc_head/on_off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_head/on_off.webp",
+          "on_layer": "b/outfits/acc_head/on_off.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
