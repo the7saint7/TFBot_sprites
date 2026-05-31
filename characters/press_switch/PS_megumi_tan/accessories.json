@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T18:18:49.537158+00:00",
+  "scraped_at": "2026-05-31T19:11:16.469749+00:00",
   "character_folder": "PS_megumi_tan",
   "pack_relative": "press_switch/PS_megumi_tan",
   "poses_scanned": [
@@ -20,7 +20,7 @@
       "default_visible": false,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "on_layer": "a/outfits/acc_eyes/on_empty.webp"
@@ -30,7 +30,7 @@
       "listable": true,
       "compose_role": "over_face",
       "mutex_slot": "face_detail",
-      "on_tier": "over_face",
+      "on_tier": "eyes_glow",
       "available_poses": [
         "a"
       ]
