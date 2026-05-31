@@ -1,0 +1,195 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:41.122751+00:00",
+  "character_folder": "maria",
+  "pack_relative": "st_characters/maria",
+  "poses_scanned": [
+    "a"
+  ],
+  "disk_manifest": [
+    "a/outfits/gym/camera|off.png:10294|on.png:23995|on.webp:15136",
+    "a/outfits/sextoy/pussyface|off.webp:58|on.webp:2110",
+    "a/outfits/uniform/camera|off.png:15548|on.png:24432|on.webp:15634"
+  ],
+  "found": [
+    {
+      "key": "gym/camera/hairdown",
+      "label": "camera",
+      "order": 0,
+      "outfit_scope": "gym",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/gym/camera/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "gym": {
+          "a": {
+            "off_layer": "a/outfits/gym/camera/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "gym/camera/hairup",
+      "label": "camera",
+      "order": 0,
+      "outfit_scope": "gym",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/gym/camera/off.png",
+          "on_layer": "a/outfits/gym/camera/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "gym": {
+          "a": {
+            "on_layer": "a/outfits/gym/camera/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy/pussyface/hairdown",
+      "label": "pussyface",
+      "order": 0,
+      "outfit_scope": "sextoy",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy/pussyface/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy": {
+          "a": {
+            "off_layer": "a/outfits/sextoy/pussyface/off.webp"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy/pussyface/hairup",
+      "label": "pussyface",
+      "order": 0,
+      "outfit_scope": "sextoy",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy/pussyface/off.webp",
+          "on_layer": "a/outfits/sextoy/pussyface/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy": {
+          "a": {
+            "on_layer": "a/outfits/sextoy/pussyface/on.webp"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "uniform/camera/hairdown",
+      "label": "camera",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform/camera/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a": {
+            "off_layer": "a/outfits/uniform/camera/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "uniform/camera/hairup",
+      "label": "camera",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform/camera/off.png",
+          "on_layer": "a/outfits/uniform/camera/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a": {
+            "on_layer": "a/outfits/uniform/camera/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}

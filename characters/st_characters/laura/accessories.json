@@ -1,0 +1,466 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:41.018963+00:00",
+  "character_folder": "laura",
+  "pack_relative": "st_characters/laura",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/casual/necklace|off.png:1438|on.png:1984",
+    "a/outfits/loungewear/necklace|off.png:1438|on.png:1984",
+    "a/outfits/nude/necklace|off.png:1438|on.png:1984",
+    "a/outfits/suit/necklace|off.png:1438|on.png:1984",
+    "a/outfits/underwear/necklace|off.png:1438|on.png:1984",
+    "b/outfits/casual/arms_up|off.png:57535|on.png:53095",
+    "b/outfits/casual/necklace|off.png:3974|on.png:4568",
+    "b/outfits/formal/arms_up|off.png:55045|on.png:45912",
+    "b/outfits/loungewear/arms_up|off.png:51633|on.png:44224",
+    "b/outfits/loungewear/necklace|off.png:3941|on.png:4549",
+    "b/outfits/nude/arms_up|off.png:52739|on.png:44587",
+    "b/outfits/nude/necklace|off.png:3941|on.png:4549",
+    "b/outfits/suit/arms_up|off.png:56424|on.png:44993",
+    "b/outfits/suit/necklace|off.png:3197|on.png:3195",
+    "b/outfits/underwear/arms_up|off.png:57621|on.png:44526",
+    "b/outfits/underwear/necklace|off.png:3941|on.png:4549"
+  ],
+  "found": [
+    {
+      "key": "casual/arms_up",
+      "label": "casual / arms up",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/casual/arms_up/off.png",
+          "on_layer": "b/outfits/casual/arms_up/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "b": {
+            "off_layer": "b/outfits/casual/arms_up/off.png",
+            "on_layer": "b/outfits/casual/arms_up/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "casual/necklace",
+      "label": "casual / necklace",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/necklace/off.png",
+          "on_layer": "a/outfits/casual/necklace/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/necklace/off.png",
+          "on_layer": "b/outfits/casual/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/necklace/off.png",
+            "on_layer": "a/outfits/casual/necklace/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual/necklace/off.png",
+            "on_layer": "b/outfits/casual/necklace/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "formal/arms_up/hairdown",
+      "label": "arms up",
+      "order": 0,
+      "outfit_scope": "formal",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/formal/arms_up/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "formal": {
+          "b": {
+            "off_layer": "b/outfits/formal/arms_up/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "formal/arms_up/hairup",
+      "label": "arms up",
+      "order": 0,
+      "outfit_scope": "formal",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/formal/arms_up/off.png",
+          "on_layer": "b/outfits/formal/arms_up/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "formal": {
+          "b": {
+            "on_layer": "b/outfits/formal/arms_up/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "loungewear/arms_up",
+      "label": "loungewear / arms up",
+      "order": 0,
+      "outfit_scope": "loungewear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/loungewear/arms_up/off.png",
+          "on_layer": "b/outfits/loungewear/arms_up/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "loungewear": {
+          "b": {
+            "off_layer": "b/outfits/loungewear/arms_up/off.png",
+            "on_layer": "b/outfits/loungewear/arms_up/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "loungewear/necklace",
+      "label": "loungewear / necklace",
+      "order": 0,
+      "outfit_scope": "loungewear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/loungewear/necklace/off.png",
+          "on_layer": "a/outfits/loungewear/necklace/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/loungewear/necklace/off.png",
+          "on_layer": "b/outfits/loungewear/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "loungewear": {
+          "a": {
+            "off_layer": "a/outfits/loungewear/necklace/off.png",
+            "on_layer": "a/outfits/loungewear/necklace/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/loungewear/necklace/off.png",
+            "on_layer": "b/outfits/loungewear/necklace/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/arms_up",
+      "label": "nude / arms up",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/nude/arms_up/off.png",
+          "on_layer": "b/outfits/nude/arms_up/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "b": {
+            "off_layer": "b/outfits/nude/arms_up/off.png",
+            "on_layer": "b/outfits/nude/arms_up/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "nude/necklace",
+      "label": "nude / necklace",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/necklace/off.png",
+          "on_layer": "a/outfits/nude/necklace/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/necklace/off.png",
+          "on_layer": "b/outfits/nude/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/necklace/off.png",
+            "on_layer": "a/outfits/nude/necklace/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/necklace/off.png",
+            "on_layer": "b/outfits/nude/necklace/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "suit/arms_up",
+      "label": "suit / arms up",
+      "order": 0,
+      "outfit_scope": "suit",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/suit/arms_up/off.png",
+          "on_layer": "b/outfits/suit/arms_up/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "suit": {
+          "b": {
+            "off_layer": "b/outfits/suit/arms_up/off.png",
+            "on_layer": "b/outfits/suit/arms_up/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "suit/necklace",
+      "label": "suit / necklace",
+      "order": 0,
+      "outfit_scope": "suit",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/suit/necklace/off.png",
+          "on_layer": "a/outfits/suit/necklace/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/suit/necklace/off.png",
+          "on_layer": "b/outfits/suit/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "suit": {
+          "a": {
+            "off_layer": "a/outfits/suit/necklace/off.png",
+            "on_layer": "a/outfits/suit/necklace/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/suit/necklace/off.png",
+            "on_layer": "b/outfits/suit/necklace/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "underwear/arms_up",
+      "label": "underwear / arms up",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/underwear/arms_up/off.png",
+          "on_layer": "b/outfits/underwear/arms_up/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "b": {
+            "off_layer": "b/outfits/underwear/arms_up/off.png",
+            "on_layer": "b/outfits/underwear/arms_up/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "underwear/necklace",
+      "label": "underwear / necklace",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/underwear/necklace/off.png",
+          "on_layer": "a/outfits/underwear/necklace/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/underwear/necklace/off.png",
+          "on_layer": "b/outfits/underwear/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a": {
+            "off_layer": "a/outfits/underwear/necklace/off.png",
+            "on_layer": "a/outfits/underwear/necklace/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/underwear/necklace/off.png",
+            "on_layer": "b/outfits/underwear/necklace/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
