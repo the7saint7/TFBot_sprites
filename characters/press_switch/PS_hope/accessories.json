@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T18:18:39.371584+00:00",
+  "scraped_at": "2026-05-31T19:11:15.042923+00:00",
   "character_folder": "PS_hope",
   "pack_relative": "press_switch/PS_hope",
   "poses_scanned": [
@@ -20,7 +20,7 @@
       "default_visible": false,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "body",
+      "region": "head",
       "poses": {
         "a": {
           "on_layer": "a/outfits/acc_eyes/on_mind.webp"
@@ -30,7 +30,7 @@
       "listable": true,
       "compose_role": "over_face",
       "mutex_slot": "face_detail",
-      "on_tier": "over_face",
+      "on_tier": "eyes_glow",
       "available_poses": [
         "a"
       ]
