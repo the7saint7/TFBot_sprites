@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T18:19:43.503855+00:00",
+  "scraped_at": "2026-05-31T23:06:39.234975+00:00",
   "character_folder": "katrina",
   "pack_relative": "st_characters/katrina",
   "poses_scanned": [
@@ -49,7 +49,7 @@
       "default_visible": true,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/acc_ponytail/off.png"
@@ -59,6 +59,33 @@
         }
       },
       "paths_by_outfit": {},
+      "excluded_outfits_by_pose": {
+        "a": [
+          "uniform",
+          "uniform_b",
+          "casual_b",
+          "casual_b_flat",
+          "gym",
+          "hoodie",
+          "maid",
+          "maid_b",
+          "cosplay",
+          "sexy",
+          "magical_girl"
+        ],
+        "b": [
+          "uniform",
+          "uniform_b",
+          "casual_b",
+          "casual_b_flat",
+          "gym",
+          "hoodie",
+          "maid",
+          "maid_b",
+          "cheer",
+          "cheer_inverted"
+        ]
+      },
       "compose_role": "hair_behind",
       "mutex_slot": "hair",
       "off_tier": "under_face",
@@ -77,7 +104,7 @@
       "default_visible": false,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/acc_ponytail/off.png",
@@ -89,6 +116,33 @@
         }
       },
       "paths_by_outfit": {},
+      "excluded_outfits_by_pose": {
+        "a": [
+          "uniform",
+          "uniform_b",
+          "casual_b",
+          "casual_b_flat",
+          "gym",
+          "hoodie",
+          "maid",
+          "maid_b",
+          "cosplay",
+          "sexy",
+          "magical_girl"
+        ],
+        "b": [
+          "uniform",
+          "uniform_b",
+          "casual_b",
+          "casual_b_flat",
+          "gym",
+          "hoodie",
+          "maid",
+          "maid_b",
+          "cheer",
+          "cheer_inverted"
+        ]
+      },
       "compose_role": "body",
       "mutex_slot": "none",
       "off_tier": "body",
@@ -107,7 +161,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/casual/collar/off.webp"
@@ -126,10 +180,9 @@
           }
         }
       },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
       "available_poses": [
         "a",
         "b"
@@ -144,7 +197,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/casual/collar/off.webp",
@@ -183,7 +236,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/casual_b/collar/off.webp"
@@ -202,10 +255,9 @@
           }
         }
       },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
       "available_poses": [
         "a",
         "b"
@@ -220,7 +272,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/casual_b/collar/off.webp",
@@ -259,7 +311,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/dress/ponytail/off.png"
@@ -296,7 +348,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/dress/ponytail/off.png",
@@ -335,7 +387,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/nude/collar/off.webp",
@@ -377,7 +429,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "body",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/nude/dick/off.webp",
@@ -418,7 +470,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/nude/ponytail/off.png",
@@ -460,7 +512,7 @@
       "default_visible": true,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "b": {
           "off_layer": "b/outfits/nude_shaved/ponytail/off.png"
@@ -484,7 +536,7 @@
       "default_visible": false,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "b": {
           "off_layer": "b/outfits/nude_shaved/ponytail/off.png",
@@ -509,7 +561,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/nude_shaved/ponytail/off.png"
@@ -546,7 +598,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/nude_shaved/ponytail/off.png",
@@ -585,7 +637,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/panties/collar/off.webp"
@@ -604,10 +656,9 @@
           }
         }
       },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
       "available_poses": [
         "a",
         "b"
@@ -622,7 +673,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/panties/collar/off.webp",
@@ -661,7 +712,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "body",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy/doubledildo/off.webp",
@@ -693,7 +744,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "head",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy/pussyface/off.webp",
@@ -725,7 +776,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "head",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy/pussyface2/off.webp",
@@ -757,7 +808,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "body",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy2/doubledildo/off.webp",
@@ -789,7 +840,7 @@
       "default_visible": true,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "body",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy2/doubledildo/off.webp"
@@ -812,7 +863,7 @@
       "default_visible": false,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "body",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy2/doubledildo/off.webp",
@@ -836,7 +887,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "head",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy2/pussyface/off.webp",
@@ -868,7 +919,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "head",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/sextoy2/pussyface2/off.webp",
@@ -900,7 +951,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/shirtless/collar/off.webp"
@@ -913,10 +964,9 @@
           }
         }
       },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
       "available_poses": [
         "a"
       ]
@@ -930,7 +980,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/shirtless/collar/off.webp",
@@ -961,7 +1011,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/swimsuit/ponytail/off.png"
@@ -991,7 +1041,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/swimsuit/ponytail/off.png",
@@ -1022,7 +1072,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "off_layer": "a/outfits/underwear/collar/off.webp"
@@ -1035,10 +1085,9 @@
           }
         }
       },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
       "available_poses": [
         "a"
       ]
@@ -1052,7 +1101,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": null,
       "poses": {
         "a": {
           "off_layer": "a/outfits/underwear/collar/off.webp",
