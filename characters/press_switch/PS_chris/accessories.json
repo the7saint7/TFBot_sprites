@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T18:18:30.696297+00:00",
+  "scraped_at": "2026-05-31T19:11:13.260068+00:00",
   "character_folder": "PS_chris",
   "pack_relative": "press_switch/PS_chris",
   "poses_scanned": [
@@ -60,8 +60,8 @@
       "listable": false,
       "compose_role": "hair_behind",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
+      "off_tier": "behind_outfit",
+      "on_tier": "behind_outfit",
       "available_poses": [
         "a",
         "b",
@@ -105,8 +105,8 @@
       "listable": false,
       "compose_role": "hair_behind",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
+      "off_tier": "behind_outfit",
+      "on_tier": "behind_outfit",
       "available_poses": [
         "a",
         "b",
@@ -150,8 +150,8 @@
       "listable": false,
       "compose_role": "hair_behind",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
+      "off_tier": "behind_outfit",
+      "on_tier": "behind_outfit",
       "available_poses": [
         "a",
         "b",
@@ -195,8 +195,8 @@
       "listable": false,
       "compose_role": "hair_behind",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
+      "off_tier": "behind_outfit",
+      "on_tier": "behind_outfit",
       "available_poses": [
         "a",
         "b",
