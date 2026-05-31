@@ -1,0 +1,375 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T15:24:33.194809+00:00",
+  "character_folder": "rita",
+  "pack_relative": "st_characters/rita",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c"
+  ],
+  "disk_manifest": [
+    "b/outfits/acc_hairdown|off.png:66340|on.png:52924",
+    "b/outfits/casual/hairdown|off.png:66340|on.png:52924",
+    "b/outfits/dress/hairdown|off.png:66452|on.png:51435",
+    "b/outfits/gym/hairdown|off.png:66312|on.png:51343",
+    "b/outfits/nude/hairdown|off.png:65909|on.png:52837",
+    "b/outfits/uniform/hairdown|off.png:67339|on.png:50885"
+  ],
+  "found": [
+    {
+      "key": "acc_hairdown/hairdown",
+      "label": "twintails",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/acc_hairdown/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hairdown/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/acc_hairdown/on.png",
+          "on_layer": "b/outfits/acc_hairdown/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "casual/hairdown/hairdown",
+      "label": "hair down",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/casual/hairdown/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "b": {
+            "off_layer": "b/outfits/casual/hairdown/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "casual/hairdown/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/casual/hairdown/on.png",
+          "on_layer": "b/outfits/casual/hairdown/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "b": {
+            "on_layer": "b/outfits/casual/hairdown/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "dress/hairdown/hairdown",
+      "label": "hair down",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/dress/hairdown/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "b": {
+            "off_layer": "b/outfits/dress/hairdown/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "dress/hairdown/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/dress/hairdown/on.png",
+          "on_layer": "b/outfits/dress/hairdown/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "b": {
+            "on_layer": "b/outfits/dress/hairdown/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "gym/hairdown/hairdown",
+      "label": "hair down",
+      "order": 0,
+      "outfit_scope": "gym",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/gym/hairdown/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "gym": {
+          "b": {
+            "off_layer": "b/outfits/gym/hairdown/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "gym/hairdown/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": "gym",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/gym/hairdown/on.png",
+          "on_layer": "b/outfits/gym/hairdown/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "gym": {
+          "b": {
+            "on_layer": "b/outfits/gym/hairdown/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "nude/hairdown/hairdown",
+      "label": "hair down",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/nude/hairdown/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "b": {
+            "off_layer": "b/outfits/nude/hairdown/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "nude/hairdown/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/nude/hairdown/on.png",
+          "on_layer": "b/outfits/nude/hairdown/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "b": {
+            "on_layer": "b/outfits/nude/hairdown/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "uniform/hairdown/hairdown",
+      "label": "hair down",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/uniform/hairdown/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "b": {
+            "off_layer": "b/outfits/uniform/hairdown/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "uniform/hairdown/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/uniform/hairdown/on.png",
+          "on_layer": "b/outfits/uniform/hairdown/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "b": {
+            "on_layer": "b/outfits/uniform/hairdown/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    }
+  ]
+}
