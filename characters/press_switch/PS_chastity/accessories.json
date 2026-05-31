@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T17:01:42.985252+00:00",
+  "scraped_at": "2026-05-31T18:18:29.492518+00:00",
   "character_folder": "PS_chastity",
   "pack_relative": "press_switch/PS_chastity",
   "poses_scanned": [
@@ -97,7 +97,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/casual/be/on_1.webp"
@@ -116,9 +116,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -135,7 +135,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/milfcasual/be/on_1.webp"
@@ -154,9 +154,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -173,7 +173,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/milfnaked/be/on_1.webp"
@@ -192,9 +192,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -230,7 +230,7 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
       "mutex_slot": "body",
       "off_tier": "body",
@@ -249,7 +249,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/milfunder/be/on_1.webp"
@@ -268,9 +268,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -306,7 +306,7 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
       "mutex_slot": "body",
       "off_tier": "body",
@@ -325,7 +325,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/naked/be/on_1.webp"
@@ -344,9 +344,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -382,7 +382,7 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
       "mutex_slot": "body",
       "off_tier": "body",
@@ -401,7 +401,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/under/be/on_1.webp"
@@ -420,9 +420,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -458,7 +458,7 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
       "mutex_slot": "body",
       "off_tier": "body",
@@ -480,15 +480,17 @@
       "region": "head",
       "poses": {
         "a": {
-          "on_layer": "a/outfits/acc_hair-1/on_hairdown.webp"
+          "on_layer": "a/outfits/acc_hair-1/on_hairdown.webp",
+          "off_layer": "a/outfits/acc_hair/off.webp"
         },
         "b": {
-          "on_layer": "b/outfits/acc_hair-1/on_hairdown.webp"
+          "on_layer": "b/outfits/acc_hair-1/on_hairdown.webp",
+          "off_layer": "b/outfits/acc_hair/off.webp"
         }
       },
       "paths_by_outfit": {},
       "listable": true,
-      "compose_role": "hair_replace",
+      "compose_role": "hair_dual",
       "mutex_slot": "hair",
       "off_tier": "under_face",
       "on_tier": "under_face",
