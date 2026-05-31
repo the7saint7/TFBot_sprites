@@ -1,0 +1,348 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:32.667320+00:00",
+  "character_folder": "yuuna",
+  "pack_relative": "st_characters/yuuna",
+  "poses_scanned": [
+    "a"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_hat|on.png:43743",
+    "a/outfits/business/necklace|off.png:664|on.png:2391|on.webp:1132",
+    "a/outfits/casual/necklace|off.png:664|on.png:2391|on.webp:1100",
+    "a/outfits/nude/necklace|off.png:664|on.png:2391|on.webp:1108",
+    "a/outfits/topless/necklace|off.png:664|on.png:2391",
+    "a/outfits/underwear/necklace|off.png:664|on.png:2391"
+  ],
+  "found": [
+    {
+      "key": "acc_hat",
+      "label": "hat",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_hat/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hat",
+      "mutex_slot": "hat",
+      "on_tier": "hat",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "business/necklace/hairdown",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "business",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/business/necklace/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "business": {
+          "a": {
+            "off_layer": "a/outfits/business/necklace/off.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "business/necklace/hairup",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "business",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/business/necklace/off.png",
+          "on_layer": "a/outfits/business/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "business": {
+          "a": {
+            "on_layer": "a/outfits/business/necklace/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "casual/necklace/hairdown",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/necklace/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/necklace/off.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "casual/necklace/hairup",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/necklace/off.png",
+          "on_layer": "a/outfits/casual/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "on_layer": "a/outfits/casual/necklace/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "nude/necklace/hairdown",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/necklace/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/necklace/off.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "nude/necklace/hairup",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/necklace/off.png",
+          "on_layer": "a/outfits/nude/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "on_layer": "a/outfits/nude/necklace/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "topless/necklace/hairdown",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "topless",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/topless/necklace/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "topless": {
+          "a": {
+            "off_layer": "a/outfits/topless/necklace/off.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "topless/necklace/hairup",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "topless",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/topless/necklace/off.png",
+          "on_layer": "a/outfits/topless/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "topless": {
+          "a": {
+            "on_layer": "a/outfits/topless/necklace/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "underwear/necklace/hairdown",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/underwear/necklace/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a": {
+            "off_layer": "a/outfits/underwear/necklace/off.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "underwear/necklace/hairup",
+      "label": "necklace",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/underwear/necklace/off.png",
+          "on_layer": "a/outfits/underwear/necklace/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a": {
+            "on_layer": "a/outfits/underwear/necklace/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
