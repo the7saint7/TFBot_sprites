@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T17:01:53.722615+00:00",
+  "scraped_at": "2026-05-31T18:19:25.854104+00:00",
   "character_folder": "connie",
   "pack_relative": "st_characters/connie",
   "poses_scanned": [
@@ -83,31 +83,24 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "body",
+      "region": "full",
       "poses": {
-        "a": {
-          "off_layer": "a/outfits/suit/watch/off.png"
-        },
         "b": {
           "off_layer": "b/outfits/suit/watch/off.png"
         }
       },
       "paths_by_outfit": {
         "suit": {
-          "a": {
-            "off_layer": "a/outfits/suit/watch/off.png"
-          },
           "b": {
             "off_layer": "b/outfits/suit/watch/off.png"
           }
         }
       },
-      "compose_role": "body",
-      "mutex_slot": "body",
-      "off_tier": "body",
-      "on_tier": "body",
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
       "available_poses": [
-        "a",
         "b"
       ]
     },
@@ -120,12 +113,8 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "body",
+      "region": "full",
       "poses": {
-        "a": {
-          "off_layer": "a/outfits/suit/watch/off.png",
-          "on_layer": "a/outfits/suit/watch/on.png"
-        },
         "b": {
           "off_layer": "b/outfits/suit/watch/off.png",
           "on_layer": "b/outfits/suit/watch/on.png"
@@ -133,20 +122,16 @@
       },
       "paths_by_outfit": {
         "suit": {
-          "a": {
-            "on_layer": "a/outfits/suit/watch/on.png"
-          },
           "b": {
             "on_layer": "b/outfits/suit/watch/on.png"
           }
         }
       },
       "compose_role": "body",
-      "mutex_slot": "body",
+      "mutex_slot": "none",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
-        "a",
         "b"
       ]
     }
