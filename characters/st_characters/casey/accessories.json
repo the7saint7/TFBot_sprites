@@ -1,0 +1,76 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:53.384941+00:00",
+  "character_folder": "casey",
+  "pack_relative": "st_characters/casey",
+  "poses_scanned": [
+    "a",
+    "b",
+    "am"
+  ],
+  "disk_manifest": [
+    "b/outfits/casual/hat|off.png:7852|on.png:8854"
+  ],
+  "found": [
+    {
+      "key": "casual/hat/hairdown",
+      "label": "hat",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/casual/hat/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "b": {
+            "off_layer": "b/outfits/casual/hat/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "casual/hat/hairup",
+      "label": "hat",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/casual/hat/off.png",
+          "on_layer": "b/outfits/casual/hat/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "b": {
+            "on_layer": "b/outfits/casual/hat/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    }
+  ]
+}
