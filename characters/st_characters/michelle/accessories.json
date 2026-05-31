@@ -1,0 +1,200 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:54.075515+00:00",
+  "character_folder": "michelle",
+  "pack_relative": "st_characters/michelle",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/casual/book|off.png:6747|on.png:10191",
+    "a/outfits/uniform/book|off.png:7602|on.png:10220",
+    "a/outfits/uniform_b/book|off.png:6639|on.png:10112"
+  ],
+  "found": [
+    {
+      "key": "casual/book/hairdown",
+      "label": "book",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/book/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/book/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "casual/book/hairup",
+      "label": "book",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/book/off.png",
+          "on_layer": "a/outfits/casual/book/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "on_layer": "a/outfits/casual/book/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "uniform/book/hairdown",
+      "label": "book",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform/book/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a": {
+            "off_layer": "a/outfits/uniform/book/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "uniform/book/hairup",
+      "label": "book",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform/book/off.png",
+          "on_layer": "a/outfits/uniform/book/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a": {
+            "on_layer": "a/outfits/uniform/book/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "uniform_b/book/hairdown",
+      "label": "book",
+      "order": 0,
+      "outfit_scope": "uniform_b",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform_b/book/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform_b": {
+          "a": {
+            "off_layer": "a/outfits/uniform_b/book/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "uniform_b/book/hairup",
+      "label": "book",
+      "order": 0,
+      "outfit_scope": "uniform_b",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform_b/book/off.png",
+          "on_layer": "a/outfits/uniform_b/book/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform_b": {
+          "a": {
+            "on_layer": "a/outfits/uniform_b/book/on.png"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
