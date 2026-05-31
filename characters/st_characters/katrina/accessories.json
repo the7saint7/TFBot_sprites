@@ -1,0 +1,1078 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T15:24:36.476353+00:00",
+  "character_folder": "katrina",
+  "pack_relative": "st_characters/katrina",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_ponytail|off.png:27216|on.png:28081",
+    "a/outfits/casual/collar|off.webp:56|on.webp:4208",
+    "a/outfits/casual_b/collar|off.webp:56|on.webp:4208",
+    "a/outfits/dress/ponytail|off.png:27216|on.png:28081",
+    "a/outfits/nude/collar|off.webp:56|on.webp:4208",
+    "a/outfits/nude/dick|off.webp:56|on.webp:10646",
+    "a/outfits/nude/ponytail|off.png:24569|on.png:28081",
+    "a/outfits/nude_shaved/ponytail|off.png:24569|on.png:28081",
+    "a/outfits/panties/collar|off.webp:56|on.webp:4208",
+    "a/outfits/sextoy/doubledildo|off.webp:56|on.webp:11960",
+    "a/outfits/sextoy/pussyface2|off.webp:28|on.webp:1986",
+    "a/outfits/sextoy/pussyface|off.webp:28|on.webp:1840",
+    "a/outfits/sextoy2/doubledildo|off.webp:56|on.webp:11960",
+    "a/outfits/sextoy2/pussyface2|off.webp:28|on.webp:1986",
+    "a/outfits/sextoy2/pussyface|off.webp:28|on.webp:1840",
+    "a/outfits/sextoy2|off.webp:56|on.webp:11960|on.webp:1840|on.webp:1986",
+    "a/outfits/shirtless/collar|off.webp:56|on.webp:4208",
+    "a/outfits/swimsuit/ponytail|off.png:24486|on.png:25839",
+    "a/outfits/underwear/collar|off.webp:56|on.webp:4208",
+    "b/outfits/acc_ponytail|off.png:30877|on.png:33802",
+    "b/outfits/casual/collar|off.webp:58|on.webp:4730",
+    "b/outfits/casual_b/collar|off.webp:58|on.webp:4730",
+    "b/outfits/dress/ponytail|off.png:33401|on.png:33852",
+    "b/outfits/nude/collar|off.webp:58|on.webp:4730",
+    "b/outfits/nude/dick|off.webp:58|on.webp:10386",
+    "b/outfits/nude/ponytail|off.png:30877|on.png:33802",
+    "b/outfits/nude_shaved/ponytail|off.png:30877|on.png:33802",
+    "b/outfits/nude_shaved|off.png:30877|on.png:33802",
+    "b/outfits/panties/collar|off.webp:58|on.webp:4730"
+  ],
+  "found": [
+    {
+      "key": "acc_ponytail/hairdown",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_ponytail/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_ponytail/hairup",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_ponytail/off.png",
+          "on_layer": "a/outfits/acc_ponytail/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_ponytail/off.png",
+          "on_layer": "b/outfits/acc_ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual/collar/hairdown",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/collar/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/collar/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/collar/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual/collar/off.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual/collar/hairup",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/collar/off.webp",
+          "on_layer": "a/outfits/casual/collar/on.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/collar/off.webp",
+          "on_layer": "b/outfits/casual/collar/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "on_layer": "a/outfits/casual/collar/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/casual/collar/on.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual_b/collar/hairdown",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "casual_b",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual_b/collar/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual_b/collar/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "casual_b": {
+          "a": {
+            "off_layer": "a/outfits/casual_b/collar/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual_b/collar/off.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual_b/collar/hairup",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "casual_b",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual_b/collar/off.webp",
+          "on_layer": "a/outfits/casual_b/collar/on.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual_b/collar/off.webp",
+          "on_layer": "b/outfits/casual_b/collar/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "casual_b": {
+          "a": {
+            "on_layer": "a/outfits/casual_b/collar/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/casual_b/collar/on.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "dress/ponytail/hairdown",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/dress/ponytail/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/dress/ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "a": {
+            "off_layer": "a/outfits/dress/ponytail/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/dress/ponytail/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "dress/ponytail/hairup",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/dress/ponytail/off.png",
+          "on_layer": "a/outfits/dress/ponytail/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/dress/ponytail/off.png",
+          "on_layer": "b/outfits/dress/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "a": {
+            "on_layer": "a/outfits/dress/ponytail/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/dress/ponytail/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/collar",
+      "label": "nude / collar",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/collar/off.webp",
+          "on_layer": "a/outfits/nude/collar/on.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/collar/off.webp",
+          "on_layer": "b/outfits/nude/collar/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/collar/off.webp",
+            "on_layer": "a/outfits/nude/collar/on.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/collar/off.webp",
+            "on_layer": "b/outfits/nude/collar/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/dick",
+      "label": "nude / dick",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/dick/off.webp",
+          "on_layer": "a/outfits/nude/dick/on.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/dick/off.webp",
+          "on_layer": "b/outfits/nude/dick/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/dick/off.webp",
+            "on_layer": "a/outfits/nude/dick/on.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/dick/off.webp",
+            "on_layer": "b/outfits/nude/dick/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/ponytail",
+      "label": "nude / ponytail",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/ponytail/off.png",
+          "on_layer": "a/outfits/nude/ponytail/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/ponytail/off.png",
+          "on_layer": "b/outfits/nude/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/ponytail/off.png",
+            "on_layer": "a/outfits/nude/ponytail/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/ponytail/off.png",
+            "on_layer": "b/outfits/nude/ponytail/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude_shaved/hairdown",
+      "label": "nude shaved",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/nude_shaved/ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "nude_shaved/hairup",
+      "label": "nude shaved",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/nude_shaved/ponytail/off.png",
+          "on_layer": "b/outfits/nude_shaved/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "nude_shaved/ponytail/hairdown",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "nude_shaved",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude_shaved/ponytail/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude_shaved/ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude_shaved": {
+          "a": {
+            "off_layer": "a/outfits/nude_shaved/ponytail/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude_shaved/ponytail/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude_shaved/ponytail/hairup",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "nude_shaved",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude_shaved/ponytail/off.png",
+          "on_layer": "a/outfits/nude_shaved/ponytail/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude_shaved/ponytail/off.png",
+          "on_layer": "b/outfits/nude_shaved/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude_shaved": {
+          "a": {
+            "on_layer": "a/outfits/nude_shaved/ponytail/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/nude_shaved/ponytail/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "panties/collar/hairdown",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "panties",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/panties/collar/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/panties/collar/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "panties": {
+          "a": {
+            "off_layer": "a/outfits/panties/collar/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/panties/collar/off.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "panties/collar/hairup",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "panties",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/panties/collar/off.webp",
+          "on_layer": "a/outfits/panties/collar/on.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/panties/collar/off.webp",
+          "on_layer": "b/outfits/panties/collar/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "panties": {
+          "a": {
+            "on_layer": "a/outfits/panties/collar/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/panties/collar/on.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "sextoy/doubledildo",
+      "label": "sextoy / doubledildo",
+      "order": 0,
+      "outfit_scope": "sextoy",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy/doubledildo/off.webp",
+          "on_layer": "a/outfits/sextoy/doubledildo/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy": {
+          "a": {
+            "off_layer": "a/outfits/sextoy/doubledildo/off.webp",
+            "on_layer": "a/outfits/sextoy/doubledildo/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy/pussyface",
+      "label": "sextoy / pussyface",
+      "order": 0,
+      "outfit_scope": "sextoy",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy/pussyface/off.webp",
+          "on_layer": "a/outfits/sextoy/pussyface/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy": {
+          "a": {
+            "off_layer": "a/outfits/sextoy/pussyface/off.webp",
+            "on_layer": "a/outfits/sextoy/pussyface/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy/pussyface2",
+      "label": "sextoy / pussyface2",
+      "order": 0,
+      "outfit_scope": "sextoy",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy/pussyface2/off.webp",
+          "on_layer": "a/outfits/sextoy/pussyface2/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy": {
+          "a": {
+            "off_layer": "a/outfits/sextoy/pussyface2/off.webp",
+            "on_layer": "a/outfits/sextoy/pussyface2/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy2/doubledildo",
+      "label": "sextoy2 / doubledildo",
+      "order": 0,
+      "outfit_scope": "sextoy2",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy2/doubledildo/off.webp",
+          "on_layer": "a/outfits/sextoy2/doubledildo/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy2": {
+          "a": {
+            "off_layer": "a/outfits/sextoy2/doubledildo/off.webp",
+            "on_layer": "a/outfits/sextoy2/doubledildo/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy2/hairdown",
+      "label": "sextoy2",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy2/doubledildo/off.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy2/hairup",
+      "label": "sextoy2",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy2/doubledildo/off.webp",
+          "on_layer": "a/outfits/sextoy2/doubledildo/on.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy2/pussyface",
+      "label": "sextoy2 / pussyface",
+      "order": 0,
+      "outfit_scope": "sextoy2",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy2/pussyface/off.webp",
+          "on_layer": "a/outfits/sextoy2/pussyface/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy2": {
+          "a": {
+            "off_layer": "a/outfits/sextoy2/pussyface/off.webp",
+            "on_layer": "a/outfits/sextoy2/pussyface/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "sextoy2/pussyface2",
+      "label": "sextoy2 / pussyface2",
+      "order": 0,
+      "outfit_scope": "sextoy2",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/sextoy2/pussyface2/off.webp",
+          "on_layer": "a/outfits/sextoy2/pussyface2/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "sextoy2": {
+          "a": {
+            "off_layer": "a/outfits/sextoy2/pussyface2/off.webp",
+            "on_layer": "a/outfits/sextoy2/pussyface2/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "shirtless/collar/hairdown",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "shirtless",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/shirtless/collar/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "shirtless": {
+          "a": {
+            "off_layer": "a/outfits/shirtless/collar/off.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "shirtless/collar/hairup",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "shirtless",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/shirtless/collar/off.webp",
+          "on_layer": "a/outfits/shirtless/collar/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "shirtless": {
+          "a": {
+            "on_layer": "a/outfits/shirtless/collar/on.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "swimsuit/ponytail/hairdown",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "swimsuit",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/swimsuit/ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "swimsuit": {
+          "a": {
+            "off_layer": "a/outfits/swimsuit/ponytail/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "swimsuit/ponytail/hairup",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "swimsuit",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/swimsuit/ponytail/off.png",
+          "on_layer": "a/outfits/swimsuit/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "swimsuit": {
+          "a": {
+            "on_layer": "a/outfits/swimsuit/ponytail/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "underwear/collar/hairdown",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/underwear/collar/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a": {
+            "off_layer": "a/outfits/underwear/collar/off.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "underwear/collar/hairup",
+      "label": "collar",
+      "order": 0,
+      "outfit_scope": "underwear",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/underwear/collar/off.webp",
+          "on_layer": "a/outfits/underwear/collar/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "underwear": {
+          "a": {
+            "on_layer": "a/outfits/underwear/collar/on.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
