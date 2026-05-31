@@ -1,0 +1,102 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:53.978528+00:00",
+  "character_folder": "kyoko",
+  "pack_relative": "st_characters/kyoko",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/lingerie/bra|off.png:15009|on.png:33359",
+    "a/outfits/lingerie/garter|off.png:16682|on.png:46081",
+    "b/outfits/lingerie/bra|off.png:15358|on.png:31127",
+    "b/outfits/lingerie/garter|off.png:14340|on.png:42290"
+  ],
+  "found": [
+    {
+      "key": "lingerie/bra",
+      "label": "lingerie / bra",
+      "order": 0,
+      "outfit_scope": "lingerie",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/lingerie/bra/off.png",
+          "on_layer": "a/outfits/lingerie/bra/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/lingerie/bra/off.png",
+          "on_layer": "b/outfits/lingerie/bra/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "lingerie": {
+          "a": {
+            "off_layer": "a/outfits/lingerie/bra/off.png",
+            "on_layer": "a/outfits/lingerie/bra/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/lingerie/bra/off.png",
+            "on_layer": "b/outfits/lingerie/bra/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "bra",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "lingerie/garter",
+      "label": "lingerie / garter",
+      "order": 0,
+      "outfit_scope": "lingerie",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/lingerie/garter/off.png",
+          "on_layer": "a/outfits/lingerie/garter/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/lingerie/garter/off.png",
+          "on_layer": "b/outfits/lingerie/garter/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "lingerie": {
+          "a": {
+            "off_layer": "a/outfits/lingerie/garter/off.png",
+            "on_layer": "a/outfits/lingerie/garter/on.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/lingerie/garter/off.png",
+            "on_layer": "b/outfits/lingerie/garter/on.png"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "garter",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
