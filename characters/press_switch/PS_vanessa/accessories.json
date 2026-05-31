@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T17:01:52.936141+00:00",
+  "scraped_at": "2026-05-31T18:19:11.618934+00:00",
   "character_folder": "PS_vanessa",
   "pack_relative": "press_switch/PS_vanessa",
   "poses_scanned": [
@@ -35,16 +35,17 @@
       "order": 0,
       "outfit_scope": "cas",
       "universal": false,
-      "default_visible": true,
+      "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/cas/be/on_1.webp"
         },
         "b": {
-          "off_layer": "b/outfits/cas/be/off.webp"
+          "off_layer": "b/outfits/cas/be/off.webp",
+          "on_layer": "b/outfits/cas/be/on_1.webp"
         },
         "c": {
           "on_layer": "c/outfits/cas/be/on_1.webp"
@@ -56,83 +57,23 @@
             "on_layer": "a/outfits/cas/be/on_1.webp"
           },
           "b": {
-            "off_layer": "b/outfits/cas/be/off.webp"
+            "off_layer": "b/outfits/cas/be/off.webp",
+            "on_layer": "b/outfits/cas/be/on_1.webp"
           },
           "c": {
             "on_layer": "c/outfits/cas/be/on_1.webp"
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
         "a",
         "b",
         "c"
-      ]
-    },
-    {
-      "key": "cas/be/1/1",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "cas",
-      "universal": false,
-      "default_visible": false,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "b": {
-          "off_layer": "b/outfits/cas/be/off.webp",
-          "on_layer": "b/outfits/cas/be/on_1.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "cas": {
-          "b": {
-            "on_layer": "b/outfits/cas/be/on_1.webp"
-          }
-        }
-      },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
-      "available_poses": [
-        "b"
-      ]
-    },
-    {
-      "key": "cas/be/1/hairdown",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "cas",
-      "universal": false,
-      "default_visible": true,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "b": {
-          "off_layer": "b/outfits/cas/be/off.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "cas": {
-          "b": {
-            "off_layer": "b/outfits/cas/be/off.webp"
-          }
-        }
-      },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
-      "available_poses": [
-        "b"
       ]
     },
     {
@@ -144,7 +85,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/gym/be/on_1.webp"
@@ -169,9 +110,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -189,7 +130,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/naked/be/on_1.webp"
@@ -198,7 +139,8 @@
           "on_layer": "b/outfits/naked/be/on_1.webp"
         },
         "c": {
-          "off_layer": "c/outfits/naked/be/off.webp"
+          "off_layer": "c/outfits/naked/be/off.webp",
+          "on_layer": "c/outfits/naked/be/on_1.webp"
         }
       },
       "paths_by_outfit": {
@@ -210,79 +152,19 @@
             "on_layer": "b/outfits/naked/be/on_1.webp"
           },
           "c": {
-            "off_layer": "c/outfits/naked/be/off.webp"
+            "off_layer": "c/outfits/naked/be/off.webp",
+            "on_layer": "c/outfits/naked/be/on_1.webp"
           }
         }
       },
       "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
         "a",
         "b",
-        "c"
-      ]
-    },
-    {
-      "key": "naked/be/1/1",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "naked",
-      "universal": false,
-      "default_visible": false,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "c": {
-          "off_layer": "c/outfits/naked/be/off.webp",
-          "on_layer": "c/outfits/naked/be/on_1.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "naked": {
-          "c": {
-            "on_layer": "c/outfits/naked/be/on_1.webp"
-          }
-        }
-      },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
-      "available_poses": [
-        "c"
-      ]
-    },
-    {
-      "key": "naked/be/1/hairdown",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "naked",
-      "universal": false,
-      "default_visible": true,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "c": {
-          "off_layer": "c/outfits/naked/be/off.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "naked": {
-          "c": {
-            "off_layer": "c/outfits/naked/be/off.webp"
-          }
-        }
-      },
-      "compose_role": "hair_behind",
-      "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
-      "available_poses": [
         "c"
       ]
     },
@@ -295,7 +177,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/night/be/on_1.webp"
@@ -320,9 +202,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -340,7 +222,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/under/be/on_1.webp"
@@ -349,7 +231,8 @@
           "on_layer": "b/outfits/under/be/on_1.webp"
         },
         "c": {
-          "off_layer": "c/outfits/under/be/off.webp"
+          "off_layer": "c/outfits/under/be/off.webp",
+          "on_layer": "c/outfits/under/be/on_1.webp"
         }
       },
       "paths_by_outfit": {
@@ -361,79 +244,19 @@
             "on_layer": "b/outfits/under/be/on_1.webp"
           },
           "c": {
-            "off_layer": "c/outfits/under/be/off.webp"
+            "off_layer": "c/outfits/under/be/off.webp",
+            "on_layer": "c/outfits/under/be/on_1.webp"
           }
         }
       },
       "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
         "a",
         "b",
-        "c"
-      ]
-    },
-    {
-      "key": "under/be/1/1",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "under",
-      "universal": false,
-      "default_visible": false,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "c": {
-          "off_layer": "c/outfits/under/be/off.webp",
-          "on_layer": "c/outfits/under/be/on_1.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "under": {
-          "c": {
-            "on_layer": "c/outfits/under/be/on_1.webp"
-          }
-        }
-      },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
-      "available_poses": [
-        "c"
-      ]
-    },
-    {
-      "key": "under/be/1/hairdown",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "under",
-      "universal": false,
-      "default_visible": true,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "c": {
-          "off_layer": "c/outfits/under/be/off.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "under": {
-          "c": {
-            "off_layer": "c/outfits/under/be/off.webp"
-          }
-        }
-      },
-      "compose_role": "hair_behind",
-      "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
-      "available_poses": [
         "c"
       ]
     },
@@ -446,7 +269,7 @@
       "default_visible": true,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/uniform/be/on_1.webp"
@@ -455,7 +278,8 @@
           "on_layer": "b/outfits/uniform/be/on_1.webp"
         },
         "c": {
-          "off_layer": "c/outfits/uniform/be/off.webp"
+          "off_layer": "c/outfits/uniform/be/off.webp",
+          "on_layer": "c/outfits/uniform/be/on_1.webp"
         }
       },
       "paths_by_outfit": {
@@ -467,79 +291,19 @@
             "on_layer": "b/outfits/uniform/be/on_1.webp"
           },
           "c": {
-            "off_layer": "c/outfits/uniform/be/off.webp"
+            "off_layer": "c/outfits/uniform/be/off.webp",
+            "on_layer": "c/outfits/uniform/be/on_1.webp"
           }
         }
       },
       "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
         "a",
         "b",
-        "c"
-      ]
-    },
-    {
-      "key": "uniform/be/1/1",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "uniform",
-      "universal": false,
-      "default_visible": false,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "c": {
-          "off_layer": "c/outfits/uniform/be/off.webp",
-          "on_layer": "c/outfits/uniform/be/on_1.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "uniform": {
-          "c": {
-            "on_layer": "c/outfits/uniform/be/on_1.webp"
-          }
-        }
-      },
-      "compose_role": "body",
-      "mutex_slot": "none",
-      "off_tier": "body",
-      "on_tier": "body",
-      "available_poses": [
-        "c"
-      ]
-    },
-    {
-      "key": "uniform/be/1/hairdown",
-      "label": "1",
-      "order": 0,
-      "outfit_scope": "uniform",
-      "universal": false,
-      "default_visible": true,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "full",
-      "poses": {
-        "c": {
-          "off_layer": "c/outfits/uniform/be/off.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "uniform": {
-          "c": {
-            "off_layer": "c/outfits/uniform/be/off.webp"
-          }
-        }
-      },
-      "compose_role": "hair_behind",
-      "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
-      "available_poses": [
         "c"
       ]
     }
