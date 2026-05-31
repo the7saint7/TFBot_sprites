@@ -1,0 +1,38 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:44.389341+00:00",
+  "character_folder": "PS_ermach",
+  "pack_relative": "press_switch/PS_ermach",
+  "poses_scanned": [
+    "a"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_ermachhair|on.webp:18794"
+  ],
+  "found": [
+    {
+      "key": "acc_ermachhair",
+      "label": "ermachhair",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_ermachhair/on.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
