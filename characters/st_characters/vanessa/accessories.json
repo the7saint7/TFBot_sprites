@@ -1,0 +1,76 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:54.260308+00:00",
+  "character_folder": "vanessa",
+  "pack_relative": "st_characters/vanessa",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/dress/hairdown|off.png:46982|on.png:36060"
+  ],
+  "found": [
+    {
+      "key": "dress/hairdown/hairdown",
+      "label": "hair down",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/dress/hairdown/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "a": {
+            "off_layer": "a/outfits/dress/hairdown/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "dress/hairdown/off",
+      "label": "off",
+      "order": 0,
+      "outfit_scope": "dress",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/dress/hairdown/on.png",
+          "on_layer": "a/outfits/dress/hairdown/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "dress": {
+          "a": {
+            "on_layer": "a/outfits/dress/hairdown/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
