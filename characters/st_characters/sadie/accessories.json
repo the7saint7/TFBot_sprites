@@ -1,0 +1,115 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:32.138993+00:00",
+  "character_folder": "sadie",
+  "pack_relative": "st_characters/sadie",
+  "poses_scanned": [
+    "a"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_hair-1|off.png:36858|on_ponytail.png:58897|on_twintail.png:93876"
+  ],
+  "found": [
+    {
+      "key": "acc_hair-1",
+      "label": "hair-1",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_hair-1/hairdown",
+      "label": "hair down",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_hair-1/ponytail",
+      "label": "ponytail",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.png",
+          "on_layer": "a/outfits/acc_hair-1/on_ponytail.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_hair-1/twintail",
+      "label": "twintail",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.png",
+          "on_layer": "a/outfits/acc_hair-1/on_twintail.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}

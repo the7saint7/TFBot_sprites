@@ -1,0 +1,110 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:32.506878+00:00",
+  "character_folder": "kiyoshigb",
+  "pack_relative": "st_characters/kiyoshiGB",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_choker|off.png:1535|on.png:2214",
+    "a/outfits/acc_glasses|on.png:3269",
+    "b/outfits/acc_choker|off.png:1896|on.png:2223",
+    "b/outfits/acc_glasses|on.png:2937",
+    "c/outfits/acc_glasses|on.png:2837"
+  ],
+  "found": [
+    {
+      "key": "acc_choker/hairdown",
+      "label": "choker",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_choker/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_choker/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_choker/hairup",
+      "label": "choker",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_choker/off.png",
+          "on_layer": "a/outfits/acc_choker/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_choker/off.png",
+          "on_layer": "b/outfits/acc_choker/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_glasses",
+      "label": "glasses",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_glasses/on.png"
+        },
+        "b": {
+          "on_layer": "b/outfits/acc_glasses/on.png"
+        },
+        "c": {
+          "on_layer": "c/outfits/acc_glasses/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "glasses",
+      "mutex_slot": "glasses",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ]
+}
