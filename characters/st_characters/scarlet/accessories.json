@@ -1,0 +1,135 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T15:24:38.904431+00:00",
+  "character_folder": "scarlet",
+  "pack_relative": "st_characters/scarlet",
+  "poses_scanned": [
+    "a"
+  ],
+  "disk_manifest": [
+    "a/outfits/casual/ribbon|off.png:42286|on.png:47729",
+    "a/outfits/nude/ribbon|off.png:41873|on.png:46016"
+  ],
+  "found": [
+    {
+      "key": "casual/ribbon/hairdown",
+      "label": "ribbon",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/ribbon/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/ribbon/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "casual/ribbon/hairup",
+      "label": "ribbon",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/ribbon/off.png",
+          "on_layer": "a/outfits/casual/ribbon/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "on_layer": "a/outfits/casual/ribbon/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "nude/ribbon/hairdown",
+      "label": "ribbon",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/ribbon/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/ribbon/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "nude/ribbon/hairup",
+      "label": "ribbon",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/ribbon/off.png",
+          "on_layer": "a/outfits/nude/ribbon/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "on_layer": "a/outfits/nude/ribbon/on.png"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
