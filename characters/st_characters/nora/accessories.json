@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:54.112515+00:00",
+  "character_folder": "nora",
+  "pack_relative": "st_characters/nora",
+  "poses_scanned": [
+    "a"
+  ],
+  "disk_manifest": [
+    "a/outfits/nude/braid|off.png:80283|on.png:56484"
+  ],
+  "found": [
+    {
+      "key": "nude/braid/hairdown",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/braid/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/braid/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "nude/braid/hairup",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/braid/off.png",
+          "on_layer": "a/outfits/nude/braid/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "on_layer": "a/outfits/nude/braid/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
