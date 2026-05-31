@@ -1,0 +1,571 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:43.297907+00:00",
+  "character_folder": "PS_chris",
+  "pack_relative": "press_switch/PS_chris",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c"
+  ],
+  "disk_manifest": [
+    "a/outfits/naked/hair|off.webp:14058|on_red.png:67",
+    "a/outfits/punk/hair|off.webp:13288|on_red.png:67",
+    "a/outfits/school/hair|off.webp:13752|on_red.png:67",
+    "a/outfits/under/hair|off.webp:14058|on_red.png:67",
+    "b/outfits/naked/hair|off.webp:12786|on_red.png:67",
+    "b/outfits/punk/hair|off.webp:12446|on_red.png:67",
+    "b/outfits/school/hair|off.webp:12602|on_red.png:67",
+    "b/outfits/under/hair|off.webp:12786|on_red.png:67",
+    "c/outfits/naked/hair|off.webp:13406|on_red.png:67",
+    "c/outfits/punk/hair|off.webp:13224|on_red.png:67",
+    "c/outfits/school/hair|off.webp:13278|on_red.png:67",
+    "c/outfits/under/hair|off.webp:13406|on_red.png:67"
+  ],
+  "found": [
+    {
+      "key": "naked/hair",
+      "label": "naked / hair",
+      "order": 0,
+      "outfit_scope": "naked",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/naked/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/naked/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/naked/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "naked": {
+          "a": {
+            "off_layer": "a/outfits/naked/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/naked/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/naked/hair/off.webp"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "naked/hair/red/hairdown",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "naked",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/naked/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/naked/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/naked/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "naked": {
+          "a": {
+            "off_layer": "a/outfits/naked/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/naked/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/naked/hair/off.webp"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "naked/hair/red/red",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "naked",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/naked/hair/off.webp",
+          "on_layer": "a/outfits/naked/hair/on_red.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/naked/hair/off.webp",
+          "on_layer": "b/outfits/naked/hair/on_red.png"
+        },
+        "c": {
+          "off_layer": "c/outfits/naked/hair/off.webp",
+          "on_layer": "c/outfits/naked/hair/on_red.png"
+        }
+      },
+      "paths_by_outfit": {
+        "naked": {
+          "a": {
+            "on_layer": "a/outfits/naked/hair/on_red.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/naked/hair/on_red.png"
+          },
+          "c": {
+            "on_layer": "c/outfits/naked/hair/on_red.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "punk/hair",
+      "label": "punk / hair",
+      "order": 0,
+      "outfit_scope": "punk",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/punk/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/punk/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/punk/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "punk": {
+          "a": {
+            "off_layer": "a/outfits/punk/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/punk/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/punk/hair/off.webp"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "punk/hair/red/hairdown",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "punk",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/punk/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/punk/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/punk/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "punk": {
+          "a": {
+            "off_layer": "a/outfits/punk/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/punk/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/punk/hair/off.webp"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "punk/hair/red/red",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "punk",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/punk/hair/off.webp",
+          "on_layer": "a/outfits/punk/hair/on_red.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/punk/hair/off.webp",
+          "on_layer": "b/outfits/punk/hair/on_red.png"
+        },
+        "c": {
+          "off_layer": "c/outfits/punk/hair/off.webp",
+          "on_layer": "c/outfits/punk/hair/on_red.png"
+        }
+      },
+      "paths_by_outfit": {
+        "punk": {
+          "a": {
+            "on_layer": "a/outfits/punk/hair/on_red.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/punk/hair/on_red.png"
+          },
+          "c": {
+            "on_layer": "c/outfits/punk/hair/on_red.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "school/hair",
+      "label": "school / hair",
+      "order": 0,
+      "outfit_scope": "school",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/school/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/school/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/school/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "school": {
+          "a": {
+            "off_layer": "a/outfits/school/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/school/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/school/hair/off.webp"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "school/hair/red/hairdown",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "school",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/school/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/school/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/school/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "school": {
+          "a": {
+            "off_layer": "a/outfits/school/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/school/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/school/hair/off.webp"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "school/hair/red/red",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "school",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/school/hair/off.webp",
+          "on_layer": "a/outfits/school/hair/on_red.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/school/hair/off.webp",
+          "on_layer": "b/outfits/school/hair/on_red.png"
+        },
+        "c": {
+          "off_layer": "c/outfits/school/hair/off.webp",
+          "on_layer": "c/outfits/school/hair/on_red.png"
+        }
+      },
+      "paths_by_outfit": {
+        "school": {
+          "a": {
+            "on_layer": "a/outfits/school/hair/on_red.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/school/hair/on_red.png"
+          },
+          "c": {
+            "on_layer": "c/outfits/school/hair/on_red.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "under/hair",
+      "label": "under / hair",
+      "order": 0,
+      "outfit_scope": "under",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/under/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/under/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/under/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "under": {
+          "a": {
+            "off_layer": "a/outfits/under/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/under/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/under/hair/off.webp"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "under/hair/red/hairdown",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "under",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/under/hair/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/under/hair/off.webp"
+        },
+        "c": {
+          "off_layer": "c/outfits/under/hair/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "under": {
+          "a": {
+            "off_layer": "a/outfits/under/hair/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/under/hair/off.webp"
+          },
+          "c": {
+            "off_layer": "c/outfits/under/hair/off.webp"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "under/hair/red/red",
+      "label": "red",
+      "order": 0,
+      "outfit_scope": "under",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/under/hair/off.webp",
+          "on_layer": "a/outfits/under/hair/on_red.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/under/hair/off.webp",
+          "on_layer": "b/outfits/under/hair/on_red.png"
+        },
+        "c": {
+          "off_layer": "c/outfits/under/hair/off.webp",
+          "on_layer": "c/outfits/under/hair/on_red.png"
+        }
+      },
+      "paths_by_outfit": {
+        "under": {
+          "a": {
+            "on_layer": "a/outfits/under/hair/on_red.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/under/hair/on_red.png"
+          },
+          "c": {
+            "on_layer": "c/outfits/under/hair/on_red.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ]
+}
