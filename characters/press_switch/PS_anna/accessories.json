@@ -1,0 +1,39 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:37.780478+00:00",
+  "character_folder": "PS_anna",
+  "pack_relative": "press_switch/PS_anna",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_eyes|on_mind.webp:3312"
+  ],
+  "found": [
+    {
+      "key": "acc_eyes",
+      "label": "eyes",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_eyes/on_mind.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
