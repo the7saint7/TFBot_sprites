@@ -1,0 +1,232 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T16:23:38.103848+00:00",
+  "character_folder": "carla",
+  "pack_relative": "st_characters/carla",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/casual/ponytail|off.png:40375|on.png:26967",
+    "a/outfits/nude/ponytail|off.png:42524|on.png:26286",
+    "b/outfits/casual/ponytail|off.png:49803|on.png:45971",
+    "b/outfits/nude/ponytail|off.png:50045|on.png:42066",
+    "b/outfits/swimsuit/ponytail|off.png:52610|on.png:52610"
+  ],
+  "found": [
+    {
+      "key": "casual/ponytail/hairdown",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/ponytail/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/ponytail/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual/ponytail/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual/ponytail/hairup",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/ponytail/off.png",
+          "on_layer": "a/outfits/casual/ponytail/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/ponytail/off.png",
+          "on_layer": "b/outfits/casual/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "on_layer": "a/outfits/casual/ponytail/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/casual/ponytail/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/ponytail/hairdown",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/ponytail/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/ponytail/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/ponytail/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/ponytail/hairup",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/ponytail/off.png",
+          "on_layer": "a/outfits/nude/ponytail/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/ponytail/off.png",
+          "on_layer": "b/outfits/nude/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "on_layer": "a/outfits/nude/ponytail/on.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/nude/ponytail/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "swimsuit/ponytail/hairdown",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "swimsuit",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/swimsuit/ponytail/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "swimsuit": {
+          "b": {
+            "off_layer": "b/outfits/swimsuit/ponytail/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "b"
+      ]
+    },
+    {
+      "key": "swimsuit/ponytail/hairup",
+      "label": "ponytail",
+      "order": 0,
+      "outfit_scope": "swimsuit",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "b": {
+          "off_layer": "b/outfits/swimsuit/ponytail/off.png",
+          "on_layer": "b/outfits/swimsuit/ponytail/on.png"
+        }
+      },
+      "paths_by_outfit": {
+        "swimsuit": {
+          "b": {
+            "on_layer": "b/outfits/swimsuit/ponytail/on.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "b"
+      ]
+    }
+  ]
+}
