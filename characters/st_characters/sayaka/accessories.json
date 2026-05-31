@@ -1,0 +1,362 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:33.091446+00:00",
+  "character_folder": "sayaka",
+  "pack_relative": "st_characters/sayaka",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/casual/hair|off.png:138048|on_braid.png:74248",
+    "a/outfits/nude/hair|off.png:136610|on_braid.png:68772",
+    "a/outfits/uniform/hair|off.png:137577|on_braid.png:74876",
+    "b/outfits/casual/hair|off.png:141345|on_braid.png:75880",
+    "b/outfits/nude/hair|off.png:138767|on_braid.png:67294",
+    "b/outfits/uniform/hair|off.png:143385|on_braid.png:78447"
+  ],
+  "found": [
+    {
+      "key": "casual/hair",
+      "label": "casual / hair",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/hair/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/hair/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/hair/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual/hair/off.png"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual/hair/braid/braid",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/hair/off.png",
+          "on_layer": "a/outfits/casual/hair/on_braid.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/hair/off.png",
+          "on_layer": "b/outfits/casual/hair/on_braid.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "on_layer": "a/outfits/casual/hair/on_braid.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/casual/hair/on_braid.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual/hair/braid/hairdown",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/hair/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/hair/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/hair/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual/hair/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/hair",
+      "label": "nude / hair",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/hair/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/hair/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/hair/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/hair/off.png"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/hair/braid/braid",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/hair/off.png",
+          "on_layer": "a/outfits/nude/hair/on_braid.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/hair/off.png",
+          "on_layer": "b/outfits/nude/hair/on_braid.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "on_layer": "a/outfits/nude/hair/on_braid.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/nude/hair/on_braid.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "nude/hair/braid/hairdown",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "nude",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/nude/hair/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/nude/hair/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "nude": {
+          "a": {
+            "off_layer": "a/outfits/nude/hair/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/nude/hair/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "uniform/hair",
+      "label": "uniform / hair",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform/hair/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/uniform/hair/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a": {
+            "off_layer": "a/outfits/uniform/hair/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/uniform/hair/off.png"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "uniform/hair/braid/braid",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform/hair/off.png",
+          "on_layer": "a/outfits/uniform/hair/on_braid.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/uniform/hair/off.png",
+          "on_layer": "b/outfits/uniform/hair/on_braid.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a": {
+            "on_layer": "a/outfits/uniform/hair/on_braid.png"
+          },
+          "b": {
+            "on_layer": "b/outfits/uniform/hair/on_braid.png"
+          }
+        }
+      },
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "uniform/hair/braid/hairdown",
+      "label": "braid",
+      "order": 0,
+      "outfit_scope": "uniform",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/uniform/hair/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/uniform/hair/off.png"
+        }
+      },
+      "paths_by_outfit": {
+        "uniform": {
+          "a": {
+            "off_layer": "a/outfits/uniform/hair/off.png"
+          },
+          "b": {
+            "off_layer": "b/outfits/uniform/hair/off.png"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
