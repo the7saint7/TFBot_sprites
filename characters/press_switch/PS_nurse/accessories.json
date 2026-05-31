@@ -1,0 +1,207 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:51.176953+00:00",
+  "character_folder": "PS_nurse",
+  "pack_relative": "press_switch/PS_nurse",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c"
+  ],
+  "disk_manifest": [
+    "a/outfits/labcoat/be|on_1.webp:9382",
+    "a/outfits/naked/be|on_1.webp:7198",
+    "a/outfits/skimp/be|on_1.webp:10922",
+    "a/outfits/under/be|on_1.webp:9076",
+    "b/outfits/labcoat/be|on_1.webp:10858",
+    "b/outfits/naked/be|on_1.webp:8888",
+    "b/outfits/skimp/be|on_1.webp:13636",
+    "b/outfits/under/be|on_1.webp:11062",
+    "c/outfits/labcoat/be|on_1.webp:4722",
+    "c/outfits/naked/be|on_1.webp:5016",
+    "c/outfits/skimp/be|on_1.webp:6654",
+    "c/outfits/under/be|on_1.webp:4862"
+  ],
+  "found": [
+    {
+      "key": "labcoat/be",
+      "label": "BE",
+      "order": 0,
+      "outfit_scope": "labcoat",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/labcoat/be/on_1.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/labcoat/be/on_1.webp"
+        },
+        "c": {
+          "on_layer": "c/outfits/labcoat/be/on_1.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "labcoat": {
+          "a": {
+            "on_layer": "a/outfits/labcoat/be/on_1.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/labcoat/be/on_1.webp"
+          },
+          "c": {
+            "on_layer": "c/outfits/labcoat/be/on_1.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "naked/be",
+      "label": "BE",
+      "order": 0,
+      "outfit_scope": "naked",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/naked/be/on_1.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/naked/be/on_1.webp"
+        },
+        "c": {
+          "on_layer": "c/outfits/naked/be/on_1.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "naked": {
+          "a": {
+            "on_layer": "a/outfits/naked/be/on_1.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/naked/be/on_1.webp"
+          },
+          "c": {
+            "on_layer": "c/outfits/naked/be/on_1.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "skimp/be",
+      "label": "BE",
+      "order": 0,
+      "outfit_scope": "skimp",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/skimp/be/on_1.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/skimp/be/on_1.webp"
+        },
+        "c": {
+          "on_layer": "c/outfits/skimp/be/on_1.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "skimp": {
+          "a": {
+            "on_layer": "a/outfits/skimp/be/on_1.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/skimp/be/on_1.webp"
+          },
+          "c": {
+            "on_layer": "c/outfits/skimp/be/on_1.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "key": "under/be",
+      "label": "BE",
+      "order": 0,
+      "outfit_scope": "under",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/under/be/on_1.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/under/be/on_1.webp"
+        },
+        "c": {
+          "on_layer": "c/outfits/under/be/on_1.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "under": {
+          "a": {
+            "on_layer": "a/outfits/under/be/on_1.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/under/be/on_1.webp"
+          },
+          "c": {
+            "on_layer": "c/outfits/under/be/on_1.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ]
+}
