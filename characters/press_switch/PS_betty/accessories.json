@@ -1,0 +1,44 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:41.630500+00:00",
+  "character_folder": "PS_betty",
+  "pack_relative": "press_switch/PS_betty",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_face|on_acne.webp:2618|on_macne.webp:2382",
+    "b/outfits/acc_face|on_acne.webp:3048|on_macne.webp:2766"
+  ],
+  "found": [
+    {
+      "key": "acc_face",
+      "label": "face",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_face/on_acne.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/acc_face/on_acne.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
