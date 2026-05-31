@@ -1,0 +1,73 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:53.426244+00:00",
+  "character_folder": "cassie",
+  "pack_relative": "st_characters/cassie",
+  "poses_scanned": [
+    "a",
+    "b",
+    "c"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_hat|off.png:11614|on.png:13945",
+    "b/outfits/acc_hat|off.png:8209|on.png:13306"
+  ],
+  "found": [
+    {
+      "key": "acc_hat/hairdown",
+      "label": "hat",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hat/off.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hat/off.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hat",
+      "mutex_slot": "hat",
+      "on_tier": "hat",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hat/hairup",
+      "label": "hat",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hat/off.png",
+          "on_layer": "a/outfits/acc_hat/on.png"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hat/off.png",
+          "on_layer": "b/outfits/acc_hat/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "compose_role": "hat",
+      "mutex_slot": "hat",
+      "on_tier": "hat",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
