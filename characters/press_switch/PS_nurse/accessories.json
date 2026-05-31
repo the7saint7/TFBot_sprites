@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T17:01:51.176953+00:00",
+  "scraped_at": "2026-05-31T18:18:59.563340+00:00",
   "character_folder": "PS_nurse",
   "pack_relative": "press_switch/PS_nurse",
   "poses_scanned": [
@@ -32,7 +32,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/labcoat/be/on_1.webp"
@@ -57,9 +57,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -77,7 +77,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/naked/be/on_1.webp"
@@ -102,9 +102,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -122,7 +122,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/skimp/be/on_1.webp"
@@ -147,9 +147,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
@@ -167,7 +167,7 @@
       "default_visible": false,
       "outfit_relative": true,
       "layer_target": null,
-      "region": "full",
+      "region": "body",
       "poses": {
         "a": {
           "on_layer": "a/outfits/under/be/on_1.webp"
@@ -192,9 +192,9 @@
           }
         }
       },
-      "listable": true,
+      "listable": false,
       "compose_role": "body",
-      "mutex_slot": "none",
+      "mutex_slot": "body",
       "off_tier": "body",
       "on_tier": "body",
       "available_poses": [
