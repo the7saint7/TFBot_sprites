@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T18:18:42.026007+00:00",
+  "scraped_at": "2026-05-31T19:11:15.512057+00:00",
   "character_folder": "PS_jenna",
   "pack_relative": "press_switch/PS_jenna",
   "poses_scanned": [
@@ -24,7 +24,7 @@
       "default_visible": false,
       "outfit_relative": false,
       "layer_target": null,
-      "region": "full",
+      "region": "head",
       "poses": {
         "a": {
           "on_layer": "a/outfits/acc_eyes/on_empty.webp"
@@ -34,7 +34,7 @@
       "listable": true,
       "compose_role": "over_face",
       "mutex_slot": "face_detail",
-      "on_tier": "over_face",
+      "on_tier": "eyes_glow",
       "available_poses": [
         "a"
       ]
@@ -89,8 +89,8 @@
       "listable": false,
       "compose_role": "hair_behind",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
+      "off_tier": "behind_outfit",
+      "on_tier": "behind_outfit",
       "available_poses": [
         "a",
         "b"
@@ -120,7 +120,7 @@
       "listable": true,
       "compose_role": "hair_dual",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
+      "off_tier": "behind_outfit",
       "on_tier": "over_face",
       "available_poses": [
         "a",
@@ -151,8 +151,8 @@
       "listable": true,
       "compose_role": "hair_dual",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
+      "off_tier": "behind_outfit",
+      "on_tier": "behind_outfit",
       "available_poses": [
         "a",
         "b"
@@ -182,8 +182,8 @@
       "listable": true,
       "compose_role": "hair_dual",
       "mutex_slot": "hair",
-      "off_tier": "under_face",
-      "on_tier": "under_face",
+      "off_tier": "behind_outfit",
+      "on_tier": "behind_outfit",
       "available_poses": [
         "a",
         "b"
