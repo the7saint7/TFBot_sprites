@@ -1,0 +1,138 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:33.198351+00:00",
+  "character_folder": "john",
+  "pack_relative": "st_characters/john",
+  "poses_scanned": [
+    "a",
+    "b",
+    "meika"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_glasses|on.png:3287",
+    "a/outfits/acc_hat|on.png:35148",
+    "a/outfits/meika_legs/hair3|off.webp:58|on.webp:67146",
+    "b/outfits/acc_glasses|on.png:3244",
+    "b/outfits/acc_hat|on.png:35044"
+  ],
+  "found": [
+    {
+      "key": "acc_glasses",
+      "label": "glasses",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_glasses/on.png"
+        },
+        "b": {
+          "on_layer": "b/outfits/acc_glasses/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "glasses",
+      "mutex_slot": "glasses",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hat",
+      "label": "hat",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_hat/on.png"
+        },
+        "b": {
+          "on_layer": "b/outfits/acc_hat/on.png"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hat",
+      "mutex_slot": "hat",
+      "on_tier": "hat",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "meika_legs/hair3/hairdown",
+      "label": "hair3",
+      "order": 0,
+      "outfit_scope": "meika_legs",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/meika_legs/hair3/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "meika_legs": {
+          "a": {
+            "off_layer": "a/outfits/meika_legs/hair3/off.webp"
+          }
+        }
+      },
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "meika_legs/hair3/hairup",
+      "label": "hair3",
+      "order": 0,
+      "outfit_scope": "meika_legs",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/meika_legs/hair3/off.webp",
+          "on_layer": "a/outfits/meika_legs/hair3/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "meika_legs": {
+          "a": {
+            "on_layer": "a/outfits/meika_legs/hair3/on.webp"
+          }
+        }
+      },
+      "compose_role": "hair_replace",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "paste_offset_x": 6,
+      "paste_offset_y": 13,
+      "available_poses": [
+        "a"
+      ]
+    }
+  ]
+}
