@@ -1,0 +1,170 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:39.498630+00:00",
+  "character_folder": "PS_annaAR",
+  "pack_relative": "press_switch/PS_annaAR",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/casual/be|off.webp:1680|on_1.webp:11580",
+    "a/outfits/naked/be|on_1.webp:4038",
+    "b/outfits/casual/be|off.webp:2884|on_1.webp:13114",
+    "b/outfits/naked/be|on_1.webp:4214"
+  ],
+  "found": [
+    {
+      "key": "casual/be",
+      "label": "BE",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/be/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/be/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/be/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual/be/off.webp"
+          }
+        }
+      },
+      "listable": false,
+      "compose_role": "body",
+      "mutex_slot": "body",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual/be/1/1",
+      "label": "1",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/be/off.webp",
+          "on_layer": "a/outfits/casual/be/on_1.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/be/off.webp",
+          "on_layer": "b/outfits/casual/be/on_1.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "on_layer": "a/outfits/casual/be/on_1.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/casual/be/on_1.webp"
+          }
+        }
+      },
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "casual/be/1/hairdown",
+      "label": "1",
+      "order": 0,
+      "outfit_scope": "casual",
+      "universal": false,
+      "default_visible": true,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/casual/be/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/casual/be/off.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "casual": {
+          "a": {
+            "off_layer": "a/outfits/casual/be/off.webp"
+          },
+          "b": {
+            "off_layer": "b/outfits/casual/be/off.webp"
+          }
+        }
+      },
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "naked/be",
+      "label": "BE",
+      "order": 0,
+      "outfit_scope": "naked",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/naked/be/on_1.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/naked/be/on_1.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "naked": {
+          "a": {
+            "on_layer": "a/outfits/naked/be/on_1.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/naked/be/on_1.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
