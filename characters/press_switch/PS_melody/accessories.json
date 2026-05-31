@@ -1,0 +1,244 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:48.500014+00:00",
+  "character_folder": "PS_melody",
+  "pack_relative": "press_switch/PS_melody",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_freckface|on.webp:1922",
+    "a/outfits/fit/freckbody|on.webp:1144",
+    "a/outfits/naked/freckbody|on.webp:4018",
+    "a/outfits/swim/freckbody|on.webp:2008",
+    "a/outfits/under/freckbody|on.webp:4018",
+    "a/outfits/wait/freckbody|on.webp:3192",
+    "b/outfits/acc_freckface|on.webp:1674",
+    "b/outfits/fit/freckbody|on.webp:708",
+    "b/outfits/naked/freckbody|on.webp:1706",
+    "b/outfits/swim/freckbody|on.webp:984",
+    "b/outfits/under/freckbody|on.webp:1706",
+    "b/outfits/wait/freckbody|on.webp:1328"
+  ],
+  "found": [
+    {
+      "key": "acc_freckface",
+      "label": "freckface",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_freckface/on.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/acc_freckface/on.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "fit/freckbody",
+      "label": "fit / freckbody",
+      "order": 0,
+      "outfit_scope": "fit",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/fit/freckbody/on.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/fit/freckbody/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "fit": {
+          "a": {
+            "on_layer": "a/outfits/fit/freckbody/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/fit/freckbody/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "naked/freckbody",
+      "label": "naked / freckbody",
+      "order": 0,
+      "outfit_scope": "naked",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/naked/freckbody/on.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/naked/freckbody/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "naked": {
+          "a": {
+            "on_layer": "a/outfits/naked/freckbody/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/naked/freckbody/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "swim/freckbody",
+      "label": "swim / freckbody",
+      "order": 0,
+      "outfit_scope": "swim",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/swim/freckbody/on.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/swim/freckbody/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "swim": {
+          "a": {
+            "on_layer": "a/outfits/swim/freckbody/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/swim/freckbody/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "under/freckbody",
+      "label": "under / freckbody",
+      "order": 0,
+      "outfit_scope": "under",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/under/freckbody/on.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/under/freckbody/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "under": {
+          "a": {
+            "on_layer": "a/outfits/under/freckbody/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/under/freckbody/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "wait/freckbody",
+      "label": "wait / freckbody",
+      "order": 0,
+      "outfit_scope": "wait",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "full",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/wait/freckbody/on.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/wait/freckbody/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "wait": {
+          "a": {
+            "on_layer": "a/outfits/wait/freckbody/on.webp"
+          },
+          "b": {
+            "on_layer": "b/outfits/wait/freckbody/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "body",
+      "mutex_slot": "none",
+      "off_tier": "body",
+      "on_tier": "body",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
