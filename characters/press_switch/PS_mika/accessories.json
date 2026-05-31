@@ -1,0 +1,245 @@
+{
+  "version": 4,
+  "scraped_at": "2026-05-31T17:01:50.198346+00:00",
+  "character_folder": "PS_mika",
+  "pack_relative": "press_switch/PS_mika",
+  "poses_scanned": [
+    "a",
+    "b"
+  ],
+  "disk_manifest": [
+    "a/outfits/acc_eyes|on_empty.webp:3894|on_mind.webp:3702",
+    "a/outfits/acc_hair-1|off.webp:11038|on_backtail.webp:9718|on_down.webp:13202|on_lowtail.webp:11356|on_twintail.webp:15420",
+    "a/outfits/acc_oil|on.webp:3638",
+    "a/outfits/robe/robefront+2|on.webp:2066",
+    "b/outfits/acc_hair-1|off.webp:13944|on_down.webp:9726|on_twintail.webp:17922",
+    "b/outfits/acc_oil|on.webp:3282"
+  ],
+  "found": [
+    {
+      "key": "acc_eyes",
+      "label": "eyes",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "body",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_eyes/on_empty.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_oil",
+      "label": "oil",
+      "order": 0,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/acc_oil/on.webp"
+        },
+        "b": {
+          "on_layer": "b/outfits/acc_oil/on.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "robe/robefront+2",
+      "label": "robe / robefront+2",
+      "order": 0,
+      "outfit_scope": "robe",
+      "universal": false,
+      "default_visible": false,
+      "outfit_relative": true,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "on_layer": "a/outfits/robe/robefront+2/on.webp"
+        }
+      },
+      "paths_by_outfit": {
+        "robe": {
+          "a": {
+            "on_layer": "a/outfits/robe/robefront+2/on.webp"
+          }
+        }
+      },
+      "listable": true,
+      "compose_role": "over_face",
+      "mutex_slot": "face_detail",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_hair-1",
+      "label": "hair-1",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": true,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hair-1/off.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": false,
+      "compose_role": "hair_behind",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "under_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hair-1/backtail",
+      "label": "backtail",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp",
+          "on_layer": "a/outfits/acc_hair-1/on_backtail.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_hair-1/down",
+      "label": "down",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp",
+          "on_layer": "a/outfits/acc_hair-1/on_down.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hair-1/off.webp",
+          "on_layer": "b/outfits/acc_hair-1/on_down.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "key": "acc_hair-1/lowtail",
+      "label": "lowtail",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp",
+          "on_layer": "a/outfits/acc_hair-1/on_lowtail.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a"
+      ]
+    },
+    {
+      "key": "acc_hair-1/twintail",
+      "label": "twintail",
+      "order": 1,
+      "outfit_scope": null,
+      "universal": true,
+      "default_visible": false,
+      "outfit_relative": false,
+      "layer_target": null,
+      "region": "head",
+      "poses": {
+        "a": {
+          "off_layer": "a/outfits/acc_hair-1/off.webp",
+          "on_layer": "a/outfits/acc_hair-1/on_twintail.webp"
+        },
+        "b": {
+          "off_layer": "b/outfits/acc_hair-1/off.webp",
+          "on_layer": "b/outfits/acc_hair-1/on_twintail.webp"
+        }
+      },
+      "paths_by_outfit": {},
+      "listable": true,
+      "compose_role": "hair_dual",
+      "mutex_slot": "hair",
+      "off_tier": "under_face",
+      "on_tier": "over_face",
+      "available_poses": [
+        "a",
+        "b"
+      ]
+    }
+  ]
+}
