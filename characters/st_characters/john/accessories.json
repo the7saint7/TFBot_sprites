@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "scraped_at": "2026-05-31T17:01:33.198351+00:00",
+  "scraped_at": "2026-05-31T18:19:39.080861+00:00",
   "character_folder": "john",
   "pack_relative": "st_characters/john",
   "poses_scanned": [
@@ -73,37 +73,8 @@
       ]
     },
     {
-      "key": "meika_legs/hair3/hairdown",
-      "label": "hair3",
-      "order": 0,
-      "outfit_scope": "meika_legs",
-      "universal": false,
-      "default_visible": true,
-      "outfit_relative": true,
-      "layer_target": null,
-      "region": "head",
-      "poses": {
-        "a": {
-          "off_layer": "a/outfits/meika_legs/hair3/off.webp"
-        }
-      },
-      "paths_by_outfit": {
-        "meika_legs": {
-          "a": {
-            "off_layer": "a/outfits/meika_legs/hair3/off.webp"
-          }
-        }
-      },
-      "compose_role": "over_face",
-      "mutex_slot": "face_detail",
-      "on_tier": "over_face",
-      "available_poses": [
-        "a"
-      ]
-    },
-    {
-      "key": "meika_legs/hair3/hairup",
-      "label": "hair3",
+      "key": "meika_legs/hair3",
+      "label": "meika legs / hair3",
       "order": 0,
       "outfit_scope": "meika_legs",
       "universal": false,
@@ -120,10 +91,12 @@
       "paths_by_outfit": {
         "meika_legs": {
           "a": {
+            "off_layer": "a/outfits/meika_legs/hair3/off.webp",
             "on_layer": "a/outfits/meika_legs/hair3/on.webp"
           }
         }
       },
+      "listable": false,
       "compose_role": "hair_replace",
       "mutex_slot": "hair",
       "off_tier": "under_face",
